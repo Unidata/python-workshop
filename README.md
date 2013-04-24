@@ -74,6 +74,7 @@ This private repository contains notes and ipython notebooks in preparation for 
 - http://nbviewer.ipython.org/4740419
 - http://nbviewer.ipython.org/5092905
 - https://ams.confex.com/ams/93Annual/flvgateway.cgi/id/23312?recordingid=23312
+- http://polar.ncep.noaa.gov/global/examples/usingpython.shtml
 
 ## Enthought
 enpkg ipython package manager
