@@ -79,3 +79,49 @@ This private repository contains notes and ipython notebooks in preparation for 
 ## Enthought
 enpkg ipython package manager
 
+
+
+## TODO
+
+keep it netcf and tds focused
+suggest users review basics
+pyngl and pynio
+talk to phillip at scipy
+
+
+## Sean
+
+Get your scripts on github
+figure out cartopy
+
+
+## Russ
+
+Talk to Dave Brown
+IS it better to use pynio or netcdf4-python
+
+## Longer Term
+
+investigate python-netcdf4 
+
+## Ward
+
+python notebook on the client
+
+## Marcos
+
+Helping Sean with Python with catalog parsing
+
+## Ben
+
+Evaluate workshop material
+In particular, getting your environment going and investigating client environments (android, etc.)
+
+
+
+
+
+
+
+
+
