@@ -3,62 +3,52 @@ tds-python-workshop
 
 This private repository contains notes and ipython notebooks in preparation for the TDS Python workshop.
 
-
 ## Workshop Outline
 
-### Unidata Technology with Python
+# Unidata Technology with Python
 - What is Python?
-- Why Python?
-- Enthought Python Distribution
-- Outline of Lectures
-- References
+- Why Unidata technology with Python?
+- Language popularity measured by search hits on AMS [web site](https://ams.confex.com/ams/93Annual/webprogram/start.html#srch=words%7Cjava%7Cmethod%7Cand%7Cpge%7C2)
+- Enthought Python Distribution (EPD)
+- Outline of lectures
+- Background reading material
 
-### ipython notebook
-- Starting ipython notebook
+# ipython notebook
+- Starting IPython Notebook
+- Notebook Cells
 - Hello world
 - Embedding Markdown
 - Nice Errors
 - Inline Documentation
 - Tab Completion
-- Help
 - Plotting
 - Interrupts
-- LaTeX
+- LaTeX 
+- Run Shell Commands with `!`
+- Local or Remote Images and Even Videos
+- Take Python Code and Display it in LaTeX (Wow!)
+- Load External Codes
+- Sharing
 
-### Python
-- Variables and Assignments
-- Keywords
-- Types
-- Comments
-- Operators and Comparisons
-- Core Data Structures
-- lists and indexing, slicing
-- tuples
-- dictionaries
-- Iterating 
-- List comprehension
-- Looping
-- References
-- Expressions
-- Functions
-- More on Functions
-- Default Values
-- lambda
-- Object Oriented Programming
-- Exception Handling
-- Modules
-- Python Programs
+# netCDF File Exploration with Python and NumPy
+- netcdf4-python
+- Interactively Exploring a netCDF File
+- NumPy
+- List variables
+- List the Dimensions
+- Let's find out more about temperature.
+- What is the sea surface temperature and salinity at 50N, 140W?
+- Finding the latitude and longitude indices of 50N, 140W
+- Now we have all the information we need to find our answer.
+- What is the sea surface temperature and salinity at 50N, 140W?
+- Closing your netCDF file
 
-### numpy
-- Array Attributes
-- More on Numpy Array Creation
-- More on indexing and slicing of multidimensional arrays.
-- Math, math and more math
-- Elementwise operations with scalars.
-- Elementwise operations with functions
-- Array multiplication is **not** matrix multiplication
-- Matrix Mulitplication with Numpy
-
+# Geoscience plotting with matplotlib
+- Some Examples
+- Plotting netCDF data
+- Basic Plot
+- Let's improve upon the plot into something that is more ready for publication.
+- Matplotlib Basemap
 
 ## TODO
 - Incorporate material from "AMS Short Course on Intermediate Python: Using NumPy, SciPy, and Matplotlib"
@@ -75,11 +65,14 @@ This private repository contains notes and ipython notebooks in preparation for 
 - http://nbviewer.ipython.org/5092905
 - https://ams.confex.com/ams/93Annual/flvgateway.cgi/id/23312?recordingid=23312
 - http://polar.ncep.noaa.gov/global/examples/usingpython.shtml
+-http://matplotlib.org/basemap/users/examples.html
+
+## Questions
+
+Do we want to cover more about netcdf. In particular, how to create a netcdf file via netcdf4-python api
 
 ## Enthought
 enpkg ipython package manager
-
-
 
 ## TODO
 
@@ -88,12 +81,10 @@ suggest users review basics
 pyngl and pynio
 talk to phillip at scipy
 
-
 ## Sean
 
 Get your scripts on github
 figure out cartopy
-
 
 ## Russ
 
