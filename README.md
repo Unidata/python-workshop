@@ -3,9 +3,9 @@ tds-python-workshop
 
 This private repository contains notes and ipython notebooks in preparation for the TDS Python workshop.
 
-## Workshop Outline
+# Workshop Outline
 
-# Unidata Technology with Python
+## Unidata Technology with Python
 - What is Python?
 - Why Unidata technology with Python?
 - Language popularity measured by search hits on AMS [web site](https://ams.confex.com/ams/93Annual/webprogram/start.html#srch=words%7Cjava%7Cmethod%7Cand%7Cpge%7C2)
@@ -13,7 +13,7 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Outline of lectures
 - Background reading material
 
-# ipython notebook
+## ipython notebook
 - Starting IPython Notebook
 - Notebook Cells
 - Hello world
@@ -30,7 +30,7 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Load External Codes
 - Sharing
 
-# netCDF File Exploration with Python and NumPy
+## netCDF File Exploration with Python and NumPy
 - netcdf4-python
 - Interactively Exploring a netCDF File
 - NumPy
@@ -43,7 +43,7 @@ This private repository contains notes and ipython notebooks in preparation for 
 - What is the sea surface temperature and salinity at 50N, 140W?
 - Closing your netCDF file
 
-# Geoscience plotting with matplotlib
+## Geoscience plotting with matplotlib
 - Some Examples
 - Plotting netCDF data
 - Basic Plot
@@ -107,12 +107,3 @@ Helping Sean with Python with catalog parsing
 
 Evaluate workshop material
 In particular, getting your environment going and investigating client environments (android, etc.)
-
-
-
-
-
-
-
-
-
