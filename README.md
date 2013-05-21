@@ -63,9 +63,12 @@ This private repository contains notes and ipython notebooks in preparation for 
 - http://nbviewer.ipython.org/4251308
 - http://nbviewer.ipython.org/4740419
 - http://nbviewer.ipython.org/5092905
+- http://nbviewer.ipython.org/4113653
+- http://nbviewer.ipython.org/5492513
 - https://ams.confex.com/ams/93Annual/flvgateway.cgi/id/23312?recordingid=23312
 - http://polar.ncep.noaa.gov/global/examples/usingpython.shtml
--http://matplotlib.org/basemap/users/examples.html
+- http://matplotlib.org/basemap/users/examples.html
+-  http://stackoverflow.com/questions/15432587/converting-netcdf-to-grib2
 
 ## Questions
 
