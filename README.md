@@ -107,3 +107,67 @@ Helping Sean with Python with catalog parsing
 
 Evaluate workshop material
 In particular, getting your environment going and investigating client environments (android, etc.)
+
+
+
+
+
+netcdf write
+sean xml
+python with tds and netcdf
+how to bring in non-enthought stuff
+no dave brown stuff
+touch base with phillip
+communicate scitools project
+
+further study Rich's examples for TDS example
+
+example: ncss grib subsetting where you can make the request in lat/lon space and get back a netcdf CF file. REST based API.
+
+student: play around with ipython notebook
+
+netcdf section: seamless transition remote access. By the way, these are grib files.
+
+using wms to find indices from lat lon
+
+WMS/TDS example See: https://pypi.python.org/pypi/OWSLib/
+
+write code for the workshop in modules and ipnb snippets for dealing with the tds
+- get latest dataset
+- 
+
+8-8:30 Breakfast
+8:30-9 Welcome/Logistics, staff introduction, overview
+9:00-9:45 ipython notebook intro
+
+
+Staff and student introduction / logistics
+
+
+TODO:
+
+Russ: Provide that Rich Signell link
+
+Sean: Show both pydap and netcdf4
+
+
+John's notes
+
+TDS access thru pyhon
+
+- rmote access thru opendap (Julian)
+- get latest dataset - pydap and netcf lib (sean)
+- ncss grid as point (sean)
+- ncss grid subset (ethan)
+- cdmrf point subset (lansing)
+- WMS server (marcos)
+- write netdf4 file (Russ ?)
+- Rich's examples (John)
+- Radar example (Sean)
+
+netcdf does not come automatically with free enthought
+
+Julien: enthought side wide license
+
+Next meeting June 11
+
