@@ -74,7 +74,7 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Study WMS/TDS example See: https://pypi.python.org/pypi/OWSLib/
 - Put greater emphasis on remote data access through opendap (Julien)
 - Render radar from a TDS (Sean)
-- Render ADDE satellite data from a TDS (Julien)
+- Render satellite data from ADDE (Julien)
 - Set up meeting for the week of June 10 (Julien)
 - Write a section on data analysis with Pandas
 
