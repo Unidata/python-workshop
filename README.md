@@ -50,13 +50,6 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Let's improve upon the plot into something that is more ready for publication.
 - Matplotlib Basemap
 
-### Geoscience plotting with matplotlib
-- Some Examples
-- Plotting netCDF data
-- Basic Plot
-- Let's improve upon the plot into something that is more ready for publication.
-- Matplotlib Basemap
-
 ### Accessing data via Pydap
 - Searching and retrieving NAM data from a THREDDS data server
 - Helper function to get latest NAM data
@@ -119,10 +112,10 @@ TDS access thru pyhon
 
 ## Schedule for with workshop 
 
-8-8:30 Breakfast
-8:30-9 Welcome/Logistics, staff introduction, overview
-9:00-9:45 ipython notebook intro
-Staff and student introduction / logistics
+- 8-8:30 Breakfast
+- 8:30-9 Welcome/Logistics, staff introduction, overview
+- 9:00-9:45 ipython notebook intro
+- Staff and student introduction / logistics
 
 ## Enthought
 enpkg ipython package manager
