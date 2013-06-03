@@ -5,15 +5,15 @@ This private repository contains notes and ipython notebooks in preparation for 
 
 # Workshop Outline
 
-## Unidata Technology with Python
+### Unidata Technology with Python
 - What is Python?
 - Why Unidata technology with Python?
 - Language popularity measured by search hits on AMS [web site](https://ams.confex.com/ams/93Annual/webprogram/start.html#srch=words%7Cjava%7Cmethod%7Cand%7Cpge%7C2)
 - Enthought Python Distribution (EPD)
 - Outline of lectures
-- Background reading material
+- Background material
 
-## ipython notebook
+### ipython notebook
 - Starting IPython Notebook
 - Notebook Cells
 - Hello world
@@ -30,7 +30,7 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Load External Codes
 - Sharing
 
-## netCDF File Exploration with Python and NumPy
+### netCDF File Exploration with Python and NumPy
 - netcdf4-python
 - Interactively Exploring a netCDF File
 - NumPy
@@ -43,16 +43,56 @@ This private repository contains notes and ipython notebooks in preparation for 
 - What is the sea surface temperature and salinity at 50N, 140W?
 - Closing your netCDF file
 
-## Geoscience plotting with matplotlib
+### Geoscience plotting with matplotlib
 - Some Examples
 - Plotting netCDF data
 - Basic Plot
 - Let's improve upon the plot into something that is more ready for publication.
 - Matplotlib Basemap
 
+### Geoscience plotting with matplotlib
+- Some Examples
+- Plotting netCDF data
+- Basic Plot
+- Let's improve upon the plot into something that is more ready for publication.
+- Matplotlib Basemap
+
+### Accessing data via Pydap
+- Searching and retrieving NAM data from a THREDDS data server
+- Helper function to get latest NAM data
+- Retrieving the data
+- Plotting with matplotlib and Basemap
+
+### Pandas
+
+
 ## TODO
-- Incorporate material from "AMS Short Course on Intermediate Python: Using NumPy, SciPy, and Matplotlib"
-- Incorporate material from CU Python HPC class: <https://github.com/ResearchComputing/python_hpc>
+
+- Send out a note pre-workshop and have users review https://github.com/jrjohansson/scientific-python-lectures and gain familiarity with ipynb
+- Section on writing netdf4 files (Russ)
+- Connect with Philip Elson at ScipPy (Julien)
+- Start writing a TDS catalog XML parser module (Sean and Marcos). Write a get latest dataset function.
+- Investigate ipython notebook client options (Ward?)
+- When the notebook are finished, post them on http://nbviewer.ipython.org/
+- Incorporate more material from the "Study" below
+- example with ncss grib subsetting where you can make the request in lat/lon space and get back a netcdf CF file. REST based API.
+- In the netcdf section, emphasize seamless access to remote access and different data sources (e.g., grib)
+- Investigate using wms to find indices from lat lon
+- Study WMS/TDS example See: https://pypi.python.org/pypi/OWSLib/
+- Put greater emphasis on remote data access through opendap (Julien)
+- Render radar from a TDS (Sean)
+- Render ADDE satellite data from a TDS (Julien)
+- Set up meeting for the week of June 10 (Julien)
+- Write a section on data analysis with Pandas
+
+John's TODOs
+
+TDS access thru pyhon
+
+- ncss grid as point (sean)
+- ncss grid subset (ethan)
+- cdmrf point subset (lansing)
+- WMS server (marcos)
 
 ## Study
 
@@ -69,108 +109,21 @@ This private repository contains notes and ipython notebooks in preparation for 
 - http://polar.ncep.noaa.gov/global/examples/usingpython.shtml
 - http://matplotlib.org/basemap/users/examples.html
 -  http://stackoverflow.com/questions/15432587/converting-netcdf-to-grib2
+- "AMS Short Course on Intermediate Python: Using NumPy, SciPy, and Matplotlib" (see Julien or PPTs)
+- https://github.com/ResearchComputing/python_hpc
+- Lectures on scientific computing with python, as IPython notebooks: https://github.com/jrjohansson/scientific-python-lectures
 
 ## Questions
 
-Do we want to cover more about netcdf. In particular, how to create a netcdf file via netcdf4-python api
+- How to bring non-Enthought stuff into this environment?
 
-## Enthought
-enpkg ipython package manager
-
-## TODO
-
-keep it netcf and tds focused
-suggest users review basics
-pyngl and pynio
-talk to phillip at scipy
-
-## Sean
-
-Get your scripts on github
-figure out cartopy
-
-## Russ
-
-Talk to Dave Brown
-IS it better to use pynio or netcdf4-python
-
-## Longer Term
-
-investigate python-netcdf4 
-
-## Ward
-
-python notebook on the client
-
-## Marcos
-
-Helping Sean with Python with catalog parsing
-
-## Ben
-
-Evaluate workshop material
-In particular, getting your environment going and investigating client environments (android, etc.)
-
-
-
-
-
-netcdf write
-sean xml
-python with tds and netcdf
-how to bring in non-enthought stuff
-no dave brown stuff
-touch base with phillip
-communicate scitools project
-
-further study Rich's examples for TDS example
-
-example: ncss grib subsetting where you can make the request in lat/lon space and get back a netcdf CF file. REST based API.
-
-student: play around with ipython notebook
-
-netcdf section: seamless transition remote access. By the way, these are grib files.
-
-using wms to find indices from lat lon
-
-WMS/TDS example See: https://pypi.python.org/pypi/OWSLib/
-
-write code for the workshop in modules and ipnb snippets for dealing with the tds
-- get latest dataset
-- 
+## Schedule for with workshop 
 
 8-8:30 Breakfast
 8:30-9 Welcome/Logistics, staff introduction, overview
 9:00-9:45 ipython notebook intro
-
-
 Staff and student introduction / logistics
 
-
-TODO:
-
-Russ: Provide that Rich Signell link
-
-Sean: Show both pydap and netcdf4
-
-
-John's notes
-
-TDS access thru pyhon
-
-- rmote access thru opendap (Julian)
-- get latest dataset - pydap and netcf lib (sean)
-- ncss grid as point (sean)
-- ncss grid subset (ethan)
-- cdmrf point subset (lansing)
-- WMS server (marcos)
-- write netdf4 file (Russ ?)
-- Rich's examples (John)
-- Radar example (Sean)
-
-netcdf does not come automatically with free enthought
-
-Julien: enthought side wide license
-
-Next meeting June 11
+## Enthought
+enpkg ipython package manager
 
