@@ -101,10 +101,12 @@ TDS access thru pyhon
 - https://ams.confex.com/ams/93Annual/flvgateway.cgi/id/23312?recordingid=23312
 - http://polar.ncep.noaa.gov/global/examples/usingpython.shtml
 - http://matplotlib.org/basemap/users/examples.html
--  http://stackoverflow.com/questions/15432587/converting-netcdf-to-grib2
+- http://stackoverflow.com/questions/15432587/converting-netcdf-to-grib2
 - "AMS Short Course on Intermediate Python: Using NumPy, SciPy, and Matplotlib" (see Julien or PPTs)
 - https://github.com/ResearchComputing/python_hpc
 - Lectures on scientific computing with python, as IPython notebooks: https://github.com/jrjohansson/scientific-python-lectures
+- Why Python is the next Wave in earth sciences computing: http://journals.ametsoc.org/doi/pdf/10.1175/BAMS-D-12-00148.1
+
 
 ## Questions
 
