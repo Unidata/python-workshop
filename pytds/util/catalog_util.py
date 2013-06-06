@@ -2,7 +2,14 @@ import xml.etree.ElementTree as ET
 import urllib2
 from urlparse import urlparse
 
-__all__ = ["get_latest_dods_url", "get_service_endpoint", "get_resolver_xml_url", "find_dataset", "get_element_root_from_url", "get_url_path"]
+# add function names to __all__ in order to expose them in the
+# pytds.util namespace
+__all__ = ["get_latest_dods_url",
+           "get_service_endpoint",
+           "get_resolver_xml_url",
+           "find_dataset",
+           "get_element_root_from_url",
+           "get_url_path"]
 
 # TODO: make more robust, check for nulls
 
@@ -21,12 +28,13 @@ def get_element_root_from_url(url):
 
 def find_dataset(root, service_name):
     for ds in root.findall(xmlns_prefix + 'dataset'):
-	sn = ds.find(xmlns_prefix + "serviceName")
-	if ((sn is not None) and (service_name == sn.text)):
-	    return ds
-	else:
-	    if find_dataset(ds, service_name) is not None:
-		return find_dataset(ds, service_name)
+        sn = ds.find(xmlns_prefix + "serviceName")
+        if ((sn is not None) and (service_name == sn.text)):
+            return ds
+        else:
+            if find_dataset(ds, service_name) is not None:
+                return find_dataset(ds, service_name)
+        return None
 
 def get_resolver_xml_url(dataset_url):
     root = get_element_root_from_url(dataset_url)
@@ -34,11 +42,11 @@ def get_resolver_xml_url(dataset_url):
     latest_base = ''
     latest_url = ''
     for s in root.findall(xmlns_prefix + 'service'):
-    	if (s.get("serviceType") == "Resolver"):
-	   latest = s.get("name")
-    	   latest_base = s.get("base")
-    ds = find_dataset(root,latest)
-    # TODO: generalize this to handle relatives paths starting with a '/'	   
+        if (s.get("serviceType") == "Resolver"):
+            latest = s.get("name")
+            latest_base = s.get("base")
+            ds = find_dataset(root,latest)
+    # TODO: generalize this to handle relatives paths starting with a '/'
     latest_url = get_url_path(dataset_url) + latest_base + '/' + ds.get('urlPath')
     return latest_url
 
@@ -46,9 +54,9 @@ def get_service_endpoint(root, service):
     #TODO: Deal with suffix
     service_dict = {}
     for s in root.findall(xmlns_prefix + 'service'):
-    	if (s.get("serviceType") == "Compound"):
-	   for child in s:
-	       service_dict[child.get("serviceType")] = child.get("base")
+        if (s.get("serviceType") == "Compound"):
+            for child in s:
+                service_dict[child.get("serviceType")] = child.get("base")
     return service_dict[service]
 
 
