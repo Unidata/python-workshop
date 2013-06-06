@@ -2,6 +2,8 @@ import xml.etree.ElementTree as ET
 import urllib2
 from urlparse import urlparse
 
+__all__ = ["get_latest_dods_url", "get_service_endpoint", "get_resolver_xml_url", "find_dataset", "get_element_root_from_url", "get_url_path"]
+
 # TODO: make more robust, check for nulls
 
 xmlns_prefix = "{http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0}"
