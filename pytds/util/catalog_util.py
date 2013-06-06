@@ -74,7 +74,7 @@ def get_latest_dods_url(dataset_url):
     resolver = get_resolver_xml_url(dataset_url)
     latest = None
     if (resolver is not None):
-	root = get_element_root_from_url()
+	root = get_element_root_from_url(resolver)
 	ds = root.find(xmlns_prefix + 'dataset')
 	latest = o.scheme + "://" + o.netloc + get_service_endpoint(root,'OPENDAP') + ds.get('urlPath')
     return latest
