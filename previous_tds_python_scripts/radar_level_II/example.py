@@ -3,7 +3,10 @@ import numpy as np
 import matplotlib as mpl
 from pydap.client import open_url
 from xml.dom import minidom as md
+from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
+import datetime as dt
+
 def radar_colormap():
     nws_reflectivity_colors = [
     "#646464", # ND
@@ -90,13 +93,13 @@ def get_latest_data_url(site,date):
     return latest_data_url
 
 # basic input
-site = "KBRO"
-date = "20130611"
+site = "KFTG"
 variable = "Reflectivity"
 scan = 0
 #
 # get latest data url
 #
+date = dt.date.today().strftime("%Y%m%d")
 latest_data_url = get_latest_data_url(site,date)
 
 # open url using pydap
@@ -104,15 +107,16 @@ dataset = open_url(latest_data_url)
 
 # get some basic info from the global metadata
 global_attrs = dataset.attributes['NC_GLOBAL']
-lat = global_attrs["StationLatitude"]
-lon = global_attrs["StationLongitude"]
+station_lat = global_attrs["StationLatitude"]
+station_lon = global_attrs["StationLongitude"]
 station_id = global_attrs["StationName"]
 
 # get data array and metadata
-data = dataset["Reflectivity"][scan,::].squeeze()
+data = dataset[variable][scan,::].squeeze()
 theta = dataset["azimuthR"][scan,::].squeeze()
+tilt = dataset["elevationR"][scan,0]
 r = dataset["distanceR"][:]
-data_attrs = dataset["Reflectivity"].attributes
+data_attrs = dataset[variable].attributes
 
 # check for scale and offset
 if data_attrs.has_key("scale_factor"):
@@ -123,23 +127,32 @@ if data_attrs.has_key("add_offset"):
 
 data = np.ma.masked_array(data, data < 5)
 
-print("number of radials: {}".format(r.shape[0],))
-print("number of azimuth angles: {}".format(theta.shape[0],))
-print("dimensions of data: ({}, {})".format(data.shape[0],data.shape[1]))
-
 theta = theta * np.pi / 180.
-r = r / 1000.
-x = np.array((np.matrix(np.cos(theta)).transpose() * np.matrix(r)))
-y = np.array((np.matrix(np.sin(theta)).transpose() * np.matrix(r)))
+d = r * np.cos(tilt * np.pi / 180.)
+x = np.array((np.matrix(np.cos(theta)).transpose() * np.matrix(d)))
+y = np.array((np.matrix(np.sin(theta)).transpose() * np.matrix(d)))
+height = np.abs(x.min()) + np.abs(x.max())
+width = np.abs(y.min()) + np.abs(y.max())
+x = x + height / 2.
+y = y + width / 2.
+
+fig = plt.figure()
+ax = fig.add_subplot(1,1,1)
+
+m=Basemap(lat_0=station_lat,lon_0=station_lon,resolution='l',projection='laea',height=height,width=width,ax=ax)
+
+station_x, station_y = m(station_lon, station_lat)
 
 cmap = radar_colormap()
 norm = mpl.colors.Normalize(vmin=-35, vmax=80)
 
-fig = plt.figure()
-ax = fig.add_subplot(1,1,1)
-ax.plot(0, 0, '+')
-cax = ax.pcolormesh(y,x,data, cmap=cmap, norm=norm)
-ax.set_xlim(-200,200)
-ax.set_ylim(-200,200)
-cbar = fig.colorbar(cax)
+ax.text(station_x, station_y, "+{}".format(site))
+
+cax = m.pcolormesh(y, x, data, cmap=cmap, norm=norm)
+m.drawcoastlines()
+m.drawstates()
+m.drawcountries()
+cbar = m.colorbar(cax)
+cbar.set_label(data_attrs["units"])
+ax.set_title(station_id)
 plt.show()
