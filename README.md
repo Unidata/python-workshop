@@ -45,7 +45,8 @@ This private repository contains notes and ipython notebooks in preparation for 
 #### Remote data access via the TDS
 - When accessing via TDS many data formats are supported
 
-### Geoscience plotting with matplotlib
+## Geoscience visualization with matplotlib ##
+
 - Some Examples
 - Plotting netCDF data
 - Basic Plot
@@ -68,7 +69,6 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Retrieving the data
 - Plotting with matplotlib and Basemap
 
-
 ## TODO
 
 - Send out a note pre-workshop and have users review https://github.com/jrjohansson/scientific-python-lectures and gain familiarity with ipynb
@@ -90,6 +90,7 @@ This private repository contains notes and ipython notebooks in preparation for 
 - clean up pydap example
 - incorporate Rich Signell's wave example
 - Continue writing schedule below
+- At some point, start writing exercises for students
 
 John's TODOs
 
