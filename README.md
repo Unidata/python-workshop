@@ -42,6 +42,8 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Now we have all the information we need to find our answer.
 - What is the sea surface temperature and salinity at 50N, 140W?
 - Closing your netCDF file
+#### Remote data access via the TDS
+- When accessing via TDS many data formats are supported
 
 ### Geoscience plotting with matplotlib
 - Some Examples
@@ -50,20 +52,27 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Let's improve upon the plot into something that is more ready for publication.
 - Matplotlib Basemap
 
+### Exploring THREDDS netCDF Subset Service (NCSS) with Pandas
+- Let's explore some Short Range Ensemble Forecast (SREF) data from the TDS
+- Let's make the columns nicer.
+- Let's prepare the data for plotting
+- Let's resample the data to one hourly data
+- Now let's plot
+- Pandas has powerful data slicing and dicing capability.
+- I prefer to exercise when the temperature is less than 80 F during "daylight hours". 
+- What are the minimun and maximum temperatures in the forthcoming days
+
 ### Accessing data via Pydap
 - Searching and retrieving NAM data from a THREDDS data server
 - Helper function to get latest NAM data
 - Retrieving the data
 - Plotting with matplotlib and Basemap
 
-### Pandas
-
 
 ## TODO
 
 - Send out a note pre-workshop and have users review https://github.com/jrjohansson/scientific-python-lectures and gain familiarity with ipynb
 - Section on writing netdf4 files (Russ)
-- Connect with Philip Elson at ScipPy (Julien)
 - Start writing a TDS catalog XML parser module (Sean and Marcos). Write a get latest dataset function.
 - Investigate ipython notebook client options (Ward?)
 - When the notebook are finished, post them on http://nbviewer.ipython.org/
@@ -77,6 +86,10 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Render satellite data from ADDE (Julien)
 - Set up meeting for the week of June 10 (Julien)
 - Write a section on data analysis with Pandas
+- Another NCSS example with gridded data?
+- clean up pydap example
+- incorporate Rich Signell's wave example
+- Continue writing schedule below
 
 John's TODOs
 
@@ -106,7 +119,7 @@ TDS access thru pyhon
 - https://github.com/ResearchComputing/python_hpc
 - Lectures on scientific computing with python, as IPython notebooks: https://github.com/jrjohansson/scientific-python-lectures
 - Why Python is the next Wave in earth sciences computing: http://journals.ametsoc.org/doi/pdf/10.1175/BAMS-D-12-00148.1
-
+- Spell check notebooks
 
 ## Questions
 
