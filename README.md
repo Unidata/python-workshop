@@ -75,6 +75,8 @@ This private repository contains notes and ipython notebooks in preparation for 
 - Section on writing netdf4 files (Russ)
 - Start writing a TDS catalog XML parser module (Sean and Marcos). Write a get latest dataset function.
 - Investigate ipython notebook client options (Ward?)
+- Get proof of concept working for mobile devices. (e.g. ipad) (Ward)
+- Make recommendation on Python IDE in intro (Julien)
 - When the notebook are finished, post them on http://nbviewer.ipython.org/
 - Incorporate more material from the "Study" below
 - example with ncss grib subsetting where you can make the request in lat/lon space and get back a netcdf CF file. REST based API.
@@ -91,6 +93,9 @@ This private repository contains notes and ipython notebooks in preparation for 
 - incorporate Rich Signell's wave example
 - Continue writing schedule below
 - At some point, start writing exercises for students
+- Satellite from TDS (Julien)
+
+- June 20 th meeting, first draft
 
 John's TODOs
 
@@ -112,6 +117,7 @@ TDS access thru pyhon
 - http://nbviewer.ipython.org/5092905
 - http://nbviewer.ipython.org/4113653
 - http://nbviewer.ipython.org/5492513
+- http://nbviewer.ipython.org/4113653/
 - https://ams.confex.com/ams/93Annual/flvgateway.cgi/id/23312?recordingid=23312
 - http://polar.ncep.noaa.gov/global/examples/usingpython.shtml
 - http://matplotlib.org/basemap/users/examples.html
