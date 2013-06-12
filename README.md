@@ -108,16 +108,15 @@ TDS access thru pyhon
 
 ## Study
 
-- Checkout <http://sea.ucar.edu/event/arm-ncar-collaboration-lrose-and-py-art>
+- Checkout ARM & NCAR Collaboration on LROSE and Py-ART <http://sea.ucar.edu/event/arm-ncar-collaboration-lrose-and-py-art>
 - Huge number of good examples: <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>
 - numpy tutorial: <http://www.meetup.com/University-of-Colorado-Computational-Science-and-Engineering/files/>
 - SciTools <http://www.scitools.org.uk/> <https://github.com/SciTools>
-- http://nbviewer.ipython.org/4251308
-- http://nbviewer.ipython.org/4740419
-- http://nbviewer.ipython.org/5092905
-- http://nbviewer.ipython.org/4113653
-- http://nbviewer.ipython.org/5492513
-- http://nbviewer.ipython.org/4113653/
+- Exploring Climate Data: Past and Future: http://nbviewer.ipython.org/4251308
+- Extract NECOFS water levels using NetCDF4-Python and analyze/visualize with Pandas http://nbviewer.ipython.org/4740419
+- Access data from the NECOFS (New England Coastal Ocean Forecast System) via OPeNDAP http://nbviewer.ipython.org/5092905
+- Extract time series from 3D [time,lat,lon] dataset http://nbviewer.ipython.org/4113653
+- Using Iris to access NCEP CFSR 30-year Wave Hindcast http://nbviewer.ipython.org/5492513
 - https://ams.confex.com/ams/93Annual/flvgateway.cgi/id/23312?recordingid=23312
 - http://polar.ncep.noaa.gov/global/examples/usingpython.shtml
 - http://matplotlib.org/basemap/users/examples.html
