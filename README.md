@@ -1,9 +1,21 @@
 tds-python-workshop
 ===================
 
-This private repository contains notes and ipython notebooks in preparation for the TDS Python workshop.
+A series of ipython notebooks on exploring Unidata technology with Python.
 
-# Workshop Outline
+# Workshop Notebooks
+
+Introduction
+ipython-notebook
+Reading netCDF
+Writing netCDF
+Geoscience visualization with matplotlib
+Accessing data through the TDS netCDF subset service (NCSS)
+Accessing data via Pydap
+Accessing radar level 2 via the TDS
+Exploring WMS TDS capabilities 
+
+## Workshop Outline
 
 ### Unidata Technology with Python
 - What is Python?
@@ -46,7 +58,6 @@ This private repository contains notes and ipython notebooks in preparation for 
 - When accessing via TDS many data formats are supported
 
 ## Geoscience visualization with matplotlib ##
-
 - Some Examples
 - Plotting netCDF data
 - Basic Plot
@@ -72,22 +83,12 @@ This private repository contains notes and ipython notebooks in preparation for 
 ## TODO
 
 - Send out a note pre-workshop and have users review https://github.com/jrjohansson/scientific-python-lectures and gain familiarity with ipynb
-- Section on writing netdf4 files (Russ)
-- Start writing a TDS catalog XML parser module (Sean and Marcos). Write a get latest dataset function.
-- Investigate ipython notebook client options (Ward?)
-- Get proof of concept working for mobile devices. (e.g. ipad) (Ward)
-- Make recommendation on Python IDE in intro (Julien)
 - When the notebook are finished, post them on http://nbviewer.ipython.org/
 - Incorporate more material from the "Study" below
 - example with ncss grib subsetting where you can make the request in lat/lon space and get back a netcdf CF file. REST based API.
-- In the netcdf section, emphasize seamless access to remote access and different data sources (e.g., grib)
 - Investigate using wms to find indices from lat lon
 - Study WMS/TDS example See: https://pypi.python.org/pypi/OWSLib/
-- Put greater emphasis on remote data access through opendap (Julien)
-- Render radar from a TDS (Sean)
 - Render satellite data from ADDE (Julien)
-- Set up meeting for the week of June 10 (Julien)
-- Write a section on data analysis with Pandas
 - Another NCSS example with gridded data?
 - clean up pydap example
 - incorporate Rich Signell's wave example
@@ -95,11 +96,9 @@ This private repository contains notes and ipython notebooks in preparation for 
 - At some point, start writing exercises for students
 - Satellite from TDS (Julien)
 
-- June 20 th meeting, first draft
-
 John's TODOs
 
-TDS access thru pyhon
+TDS access thru python
 
 - ncss grid as point (sean)
 - ncss grid subset (ethan)
@@ -127,10 +126,6 @@ TDS access thru pyhon
 - Why Python is the next Wave in earth sciences computing: http://journals.ametsoc.org/doi/pdf/10.1175/BAMS-D-12-00148.1
 - Spell check notebooks
 
-## Questions
-
-- How to bring non-Enthought stuff into this environment?
-
 ## Schedule for with workshop 
 
 - 8-8:30 Breakfast
@@ -138,13 +133,7 @@ TDS access thru pyhon
 - 9:00-9:45 ipython notebook intro
 - Staff and student introduction / logistics
 
-## Enthought
-enpkg ipython package manager
-
-
 ## More Todos
-
-I set up a meeting for July 2 (though some of you may be on PTO that week).  The main thing at this point is to come up with a schedule for the day of the workshop. Also here are a few notes from the meeting:
 
 - Have your notebooks at https://github.com/Unidata/tds-python-workshop, if they are not there already.
 - Lansing: Possibly have the metar example working with either a map or pandas for data analysis. Ideally, a station plot would be nice (Sean may have some hints).
