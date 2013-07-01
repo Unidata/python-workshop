@@ -141,3 +141,17 @@ TDS access thru pyhon
 ## Enthought
 enpkg ipython package manager
 
+
+## More Todos
+
+I set up a meeting for July 2 (though some of you may be on PTO that week).  The main thing at this point is to come up with a schedule for the day of the workshop. Also here are a few notes from the meeting:
+
+- Have your notebooks at https://github.com/Unidata/tds-python-workshop, if they are not there already.
+- Lansing: Possibly have the metar example working with either a map or pandas for data analysis. Ideally, a station plot would be nice (Sean may have some hints).
+- Plan exercises for the students (that probably mostly involve modifying a notebook example).
+- get_latest_data not working in all cases (Julien/Sean).
+- Talk about the modules you will need for your notebook at the top of the notebook.
+- Comment code
+- Make notebook formatting consistent
+- Satellite data example (may or may not be doable by the workshop)? (Julien/Sean) 
+
