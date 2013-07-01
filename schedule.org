@@ -1,0 +1,20 @@
+|------------------------------------------+-------------+--------+----------+-------------------------------|
+| Section                                  | Presenter   | Length |     Time | Notes                         |
+|------------------------------------------+-------------+--------+----------+-------------------------------|
+| Overview                                 | Ethan       |   0:15 | 08:30:00 |                               |
+| Introduction                             | Julien      |   0:20 | 08:45:00 |                               |
+| ipython-notebook                         | Julien      |   0:40 | 09:05:00 |                               |
+| Reading netCDF                           | Russ        |   0:45 | 09:45:00 | matplotlib is introduced here |
+| Break                                    |             |   0:15 | 10:30:00 |                               |
+| Writing netCDF                           | Russ        |   0:45 | 10:45:00 |                               |
+| Lunch on your own                        |             |   1:15 | 11:30:00 |                               |
+| Geoscience visualization with matplotlib | Julien/Sean |   1:00 | 12:45:00 |                               |
+| NCSS Data access                         | Julien      |   0:45 | 13:45:00 |                               |
+| NCSS Station Observations                | Lansing     |   0:15 | 14:30:00 |                               |
+| Break                                    |             |   0:15 | 14:45:00 |                               |
+| Accessing data via PyDap                 | Sean        |   0:30 | 15:00:00 |                               |
+| Accessing radar level 2                  | Sean        |   0:45 | 15:30:00 |                               |
+| Exploring WMS                            | Marcos      |   1:00 | 16:15:00 |                               |
+| Remote ipython server with client        | Ward        |   0:15 | 17:15:00 |                               |
+|------------------------------------------+-------------+--------+----------+-------------------------------|
+#+TBLFM: @3$4..@16$4=@-1$3+@-1$4;T
