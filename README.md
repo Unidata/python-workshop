@@ -5,15 +5,18 @@ A series of ipython notebooks on exploring Unidata technology with Python.
 
 # Workshop Notebooks
 
+Overview
 Introduction
 ipython-notebook
 Reading netCDF
 Writing netCDF
 Geoscience visualization with matplotlib
-Accessing data through the TDS netCDF subset service (NCSS)
-Accessing data via Pydap
-Accessing radar level 2 via the TDS
-Exploring WMS TDS capabilities 
+NCSS Data access
+NCSS Station Observations
+Accessing data via PyDap
+Accessing radar level 2
+Exploring WMS
+Remote ipython server with client
 
 ## Workshop Outline
 
