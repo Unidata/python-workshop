@@ -146,4 +146,15 @@ TDS access thru python
 - Comment code
 - Make notebook formatting consistent
 - Satellite data example (may or may not be doable by the workshop)? (Julien/Sean) 
-
+- Ward: Look into wakari
+- Julien: Maybe mention it in the intro
+- Break up long examples
+- Do not use keyboard short cuts
+- idempotent
+- Sean/Julien matplotlib
+- John/Russ netcdf
+- Lansing/Julien NCSS
+- Make a scratch notebook
+- 
+- send out background email
+- Get microphone
