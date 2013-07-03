@@ -127,14 +127,6 @@ TDS access thru python
 - https://github.com/ResearchComputing/python_hpc
 - Lectures on scientific computing with python, as IPython notebooks: https://github.com/jrjohansson/scientific-python-lectures
 - Why Python is the next Wave in earth sciences computing: http://journals.ametsoc.org/doi/pdf/10.1175/BAMS-D-12-00148.1
-- Spell check notebooks
-
-## Schedule for with workshop 
-
-- 8-8:30 Breakfast
-- 8:30-9 Welcome/Logistics, staff introduction, overview
-- 9:00-9:45 ipython notebook intro
-- Staff and student introduction / logistics
 
 ## More Todos
 
@@ -146,7 +138,6 @@ TDS access thru python
 - Make notebook formatting consistent
 - Satellite data example (may or may not be doable by the workshop)? (Julien/Sean) 
 - Ward: Look into wakari
-- Julien: Maybe mention Wakari in the intro
 - Break up long examples
 - Do not use keyboard short cuts
 - idempotent
@@ -156,3 +147,4 @@ TDS access thru python
 - Make a scratch notebook
 - send out background email
 - Get microphone
+- Spell check notebooks
