@@ -138,7 +138,6 @@ TDS access thru python
 
 ## More Todos
 
-- Have your notebooks at https://github.com/Unidata/tds-python-workshop, if they are not there already.
 - Lansing: Possibly have the metar example working with either a map or pandas for data analysis. Ideally, a station plot would be nice (Sean may have some hints).
 - Plan exercises for the students (that probably mostly involve modifying a notebook example).
 - get_latest_data not working in all cases (Julien/Sean).
@@ -147,7 +146,7 @@ TDS access thru python
 - Make notebook formatting consistent
 - Satellite data example (may or may not be doable by the workshop)? (Julien/Sean) 
 - Ward: Look into wakari
-- Julien: Maybe mention it in the intro
+- Julien: Maybe mention Wakari in the intro
 - Break up long examples
 - Do not use keyboard short cuts
 - idempotent
@@ -155,6 +154,5 @@ TDS access thru python
 - John/Russ netcdf
 - Lansing/Julien NCSS
 - Make a scratch notebook
-- 
 - send out background email
 - Get microphone
