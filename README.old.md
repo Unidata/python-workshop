@@ -148,3 +148,7 @@ TDS access thru python
 - send out background email
 - Get microphone
 - Spell check notebooks
+- Start putting together final readme.org for workshop.
+- Run notebook exercises by Ben
+- Get enthought to fix pydap library ASAP
+- Consider making the project public at this point
