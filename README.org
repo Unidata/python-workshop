@@ -6,7 +6,7 @@
 |    | Section                                  | Presenter      | Length |     Time |
 |----+------------------------------------------+----------------+--------+----------|
 |  1 | Overview                                 | Ethan          |   0:15 | 08:30:00 |
-|  2 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/introduction.ipyn][Introduction]]                             | Julien         |   0:15 | 08:45:00 |
+|  2 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/introduction.ipynb][Introduction]]                             | Julien         |   0:15 | 08:45:00 |
 |  3 | ipython-notebook                         | Julien         |   0:25 | 09:00:00 |
 |  4 | Reading netCDF                           | John/Russ      |   0:45 | 09:25:00 |
 |  5 | Break                                    |                |   0:15 | 10:10:00 |
