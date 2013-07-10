@@ -1,6 +1,6 @@
 * THREDDS Data Server (TDS) - Using Python to Access Data
 
-A series of ipython notebooks on exploring Unidata technology with Python.
+** A series of ipython notebooks on exploring Unidata technology with Python.
 
 |----+------------------------------------------+----------------+--------+----------|
 |    | Section                                  | Presenter      | Length |     Time |
