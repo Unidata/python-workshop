@@ -35,11 +35,11 @@ def find_dataset(root, service_name):
     """
     for ds in root.findall(xmlns_prefix + 'dataset'):
         sn = ds.find(xmlns_prefix + "serviceName")
-    if ((sn is not None) and (service_name == sn.text)):
-        return ds
-    else:
-        if find_dataset(ds, service_name) is not None:
-            return find_dataset(ds, service_name)
+        if ((sn is not None) and (service_name == sn.text)):
+            return ds
+        else:
+            if find_dataset(ds, service_name) is not None:
+                return find_dataset(ds, service_name)
 
 
 def get_resolver_xml_url(dataset_url):
