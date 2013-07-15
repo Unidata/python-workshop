@@ -38,7 +38,7 @@ ipython notebook --pylab inline
 | 13 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/pydap.ipynb][Accessing data via PyDap]]                 | pydap                   | Sean        |   0:30 | 14:40:00 |
 | 14 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/radar_level2.ipynb][Accessing radar level 2]]                  | radar_level2            | Sean        |   0:25 | 15:10:00 |
 | 15 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/wms_sample.ipynb][Exploring WMS]]                            | wms_sample              | Marcos      |   0:45 | 15:35:00 |
-| 16 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ipython-notebook-server.ipynb][Remote ipython server with client]]        | ipython-notebook-server | Ward        |   0:30 | 16:20:00 |
+| 16 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ipython-notebook-server.ipynb][Remote ipython server with client]]        | ipython-notebook-server | Ward/Ben    |   0:30 | 16:20:00 |
 | 17 | Wrap up                                  |                         |             |        | 16:50:00 |
 |----+------------------------------------------+-------------------------+-------------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
