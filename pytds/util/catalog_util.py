@@ -73,7 +73,7 @@ def get_service_endpoint(root, service):
 
 
 def get_latest_dods_url(dataset_url):
-    """Given a top level dataset URL, return the latest dataset."""
+    """Given a top level THREDDS dataset URI, return the latest dataset."""
     o = urlparse(dataset_url)
     resolver = get_resolver_xml_url(dataset_url)
     latest = None
