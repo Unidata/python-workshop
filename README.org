@@ -12,6 +12,8 @@ For these IPython Notebooks you will need a Python environment with the followin
 - [[http://matplotlib.org/basemap/][BaseMap]]
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
 
+[[https://www.enthought.com/][Enthought]] offers a package manager, [[https://www.enthought.com/products/canopy/academic/][free]] for students and staff at degree-granting institutions, that can install the libraries listed above.
+
 **** Quick Start
 
 #+BEGIN_SRC shell
