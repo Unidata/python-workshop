@@ -1,7 +1,7 @@
 ** THREDDS Data Server (TDS) - Using Python to Access Data
 
 - *What*: A series of IPython Notebooks on exploring Unidata technology with Python for the 2013 Unidata Training Workshop.
-- *When*: Wednesday, July 24 2013 from 830AM to 500PM
+- *When*: Wednesday, July 24, 2013 from 830AM to 500PM
 - *Where*: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
 
 ****  Required Python libraries
