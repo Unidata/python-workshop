@@ -1,10 +1,12 @@
 ** THREDDS Data Server (TDS) - Using Python to Access Data
 
-**** A series of IPython Notebooks on exploring Unidata technology with Python.
+What: A series of IPython Notebooks on exploring Unidata technology with Python for the 2013 Unidata Training Workshop.
+When: Wednesday, July 24 2013 from 830AM to 500PM
+Where: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
 
-****  Required libraries
+****  Required Python libraries
 
-For these IPython Notebooks you will need a Python environment with the following libraries installed:
+For these IPython Notebooks we will be using a Python environment with the following libraries installed:
 
 - [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
 - [[http://matplotlib.org/][matplotlib]]
@@ -21,6 +23,8 @@ git clone git@github.com:Unidata/tds-python-workshop.git
 cd tds-python-workshop
 ipython notebook --pylab inline
 #+END_SRC
+
+**** Workshop Schedule
 
 |----+------------------------------------------+-------------------------+-------------+--------+----------|
 |    | Section                                  | IPython Notebook        | Presenter   | Length |     Time |
