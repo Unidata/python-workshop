@@ -41,6 +41,7 @@ ipython notebook --pylab inline
 
 For these IPython Notebooks we will be using a Python environment with the following libraries installed:
 
+- [[http://www.numpy.org/][numpy]]
 - [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
 - [[http://matplotlib.org/][matplotlib]]
 - [[http://www.pydap.org/][pydap]]
