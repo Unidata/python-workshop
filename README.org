@@ -27,7 +27,7 @@ ipython notebook --pylab inline
 |  8 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib]] | matplotlib              | Sean/Julien |   1:00 | 10:35:00 |
 |  9 | Lunch on your own                        |                         |             |   1:15 | 11:35:00 |
 | 10 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                           | writing_netCDF          | Russ        |   0:30 | 12:50:00 |
-| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ncss.ipynb][NCSS data access]]                         | ncss                    | Julien      |   0:45 | 13:20:00 |
+| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ncss.ipynb][NCSS data access with pandas]]             | ncss                    | Julien      |   0:45 | 13:20:00 |
 | 12 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/Geocoded_METAR.ipynb][NCSS station observations]]                | Geocoded_METAR          | Lansing     |   0:30 | 14:05:00 |
 | 13 | Break                                    |                         |             |   0:15 | 14:35:00 |
 | 14 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/pydap.ipynb][Accessing data via PyDap]]                 | pydap                   | Sean        |   0:30 | 14:50:00 |
