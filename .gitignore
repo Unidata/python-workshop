@@ -13,3 +13,6 @@ Thumbs.db
 # python bytecode #
 ###################
 *.pyc
+
+# Other stuff
+.idea/
