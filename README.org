@@ -37,6 +37,16 @@ ipython notebook --pylab inline
 |----+------------------------------------------+-------------------------+-------------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
+**** Please give us your feedback
+
+From the Unidata [[http://www.unidata.ucar.edu/][page]], go to the "2013 Training
+Workshop" [[http://www.unidata.ucar.edu/events/2013TrainingWorkshop/][page]] by selecting "Events" -> "2013 Training
+Workshop" from the menu. Click on the "Give us your Feedback" link to
+get to the [[http://www.unidata.ucar.edu/community/surveys/2013training/survey.html][survey]].
+
+Note: Please feel free to use the survey at any time during the class
+(and as often as you like) as comments come to mind.
+
 ****  Required Python libraries
 
 For these IPython Notebooks we will be using a Python environment with the following libraries installed:
