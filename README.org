@@ -20,20 +20,20 @@ ipython notebook --pylab inline
 |  1 | Continental breakfast                    |                         |             |   0:30 | 08:00:00 |
 |  2 | [[http://www.slideshare.net/julienchastang/overview-24555262][Introductions and overview]]               |                         | Ethan       |   0:25 | 08:30:00 |
 |  3 | Setup                                    |                         |             |   0:10 | 08:55:00 |
-|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ipython-notebook.ipynb][IPython notebook introduction]]            | ipython-notebook        | Julien      |   0:25 | 09:05:00 |
-|  5 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                           | reading_netCDF          | Russ        |   0:45 | 09:30:00 |
-|  6 | Break                                    |                         |             |   0:15 | 10:15:00 |
-|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib]] | matplotlib              | Julien/Sean |   1:00 | 10:30:00 |
-|  8 | Lunch on your own                        |                         |             |   1:15 | 11:30:00 |
-|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                           | writing_netCDF          | Russ        |   0:30 | 12:45:00 |
-| 10 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ncss.ipynb][NCSS data access with pandas]]             | ncss                    | Julien      |   0:45 | 13:15:00 |
-| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/Geocoded_METAR.ipynb][NCSS station observations]]                | Geocoded_METAR          | Lansing     |   0:30 | 14:00:00 |
-| 12 | Break                                    |                         |             |   0:15 | 14:30:00 |
-| 13 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/pydap.ipynb][Accessing data via PyDap]]                 | pydap                   | Sean        |   0:30 | 14:45:00 |
-| 14 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/radar_level2.ipynb][Accessing radar level 2]]                  | radar_level2            | Sean        |   0:25 | 15:15:00 |
-| 15 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/wms_sample.ipynb][Exploring WMS]]                            | wms_sample              | Marcos      |   0:45 | 15:40:00 |
-| 16 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ipython-notebook-server.ipynb][Remote ipython server with client]]        | ipython-notebook-server | Ward/Ben    |   0:30 | 16:25:00 |
-| 17 | Wrap up                                  |                         |             |        | 16:55:00 |
+|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ipython-notebook.ipynb][IPython notebook introduction]]            | ipython-notebook        | Julien      |   0:20 | 09:05:00 |
+|  5 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                           | reading_netCDF          | Russ        |   0:45 | 09:25:00 |
+|  6 | Break                                    |                         |             |   0:15 | 10:10:00 |
+|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib]] | matplotlib              | Julien/Sean |   1:00 | 10:25:00 |
+|  8 | Lunch on your own                        |                         |             |   1:15 | 11:25:00 |
+|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                           | writing_netCDF          | Russ        |   0:30 | 12:40:00 |
+| 10 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ncss.ipynb][NCSS data access with pandas]]             | ncss                    | Julien      |   0:45 | 13:10:00 |
+| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/Geocoded_METAR.ipynb][NCSS station observations]]                | Geocoded_METAR          | Lansing     |   0:30 | 13:55:00 |
+| 12 | Break                                    |                         |             |   0:15 | 14:25:00 |
+| 13 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/pydap.ipynb][Accessing data via PyDap]]                 | pydap                   | Sean        |   0:30 | 14:40:00 |
+| 14 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/radar_level2.ipynb][Accessing radar level 2]]                  | radar_level2            | Sean        |   0:25 | 15:10:00 |
+| 15 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/wms_sample.ipynb][Exploring WMS]]                            | wms_sample              | Marcos      |   0:45 | 15:35:00 |
+| 16 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ipython-notebook-server.ipynb][Remote ipython server with client]]        | ipython-notebook-server | Ward/Ben    |   0:30 | 16:20:00 |
+| 17 | Wrap up                                  |                         |             |        | 16:50:00 |
 |----+------------------------------------------+-------------------------+-------------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
