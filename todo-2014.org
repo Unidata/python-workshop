@@ -1,0 +1,79 @@
+* 2013 Python TDS comments
+
+** User Comments 
+
+Comments from THREDDS Data Server - Using Python
+
+====
+
+You guys always give an excellent workshop. Keep the good work!
+
+====
+
+This workshop was a kind of tour de force through the capabilities of
+Python. It was clear that the instructors themselves were also learning
+and are still working out which are the optimal ways for accessing the
+data. The occasional back and forth among the instructors was useful.
+
+I expect that future offerings will be more focused as Unidata software
+engineers figure out the optimal methods. Perhaps the next Unidata
+community survey could inquire about what is being used in the community
+or topics on which they desire more instruction.
+
+Suggest more interactive, hands-on activities for the afternoon sessions
+(understand that more complex topics had to, naturally, be presented in
+these later sessions so you may not be able to adjust).
+
+====
+
+Thanks very much for putting this class together with all of the examples.
+
+====
+
+Some of the lecturers dived head-first into code without really
+explaining what was going on. I really struggled following Julien's talk
+on Pandas. Pandas seems extremely powerful and very simple commands seem
+to do very complicated tasks. The ipython notebooks are very powerful,
+but it seems easy to go too fast by pressing shift+enter for each cell
+without allowing time for the commands to sink in for the students.
+Lansing did a fantastic job with his lecture. I really liked his style
+of walking through iterative development to help explain what's going
+on. For example, walking through the Google Location API docs to
+demonstrate how one might write code to automate address to lat/lon
+transformation. Sean also did a great job of providing motivation to the
+tasks in his lectures, but seemed to go a bit over time.
+
+Overall, the class was great and I would recommend it to my colleagues.
+
+====
+
+Provide final versions of IPython notebooks, with any fixes, in addition
+to the versions used in class.
+
+====
+
+Nice shoes.
+
+====
+
+It would be better if the course was done on a virtual machine running
+on a VM box (e.g. Oracle VM Virtualbox). Participants can then take the
+image of the virtual machine away with them afterwards so that they can
+work on it and/or also remind themselves on what was taught.
+
+Python is becoming more popular but I find it a bit rubbish as some of
+the python modules being imported are depend on native languages that
+require compilation which is a pain in the neck if you don't install on
+the right OS.
+
+
+** Staff Comments
+
+- Section on github
+- Lengthen workshop to 2 days
+- Invite a scientist to talk
+- Give more time to exercises
+- Satellite/ADDE data section from Tom
+- Change the name of the workshop to "Unidata Technology with Python"
+- Have a virtual machine for users to take home and play with.
+- Figure out how to display station plots.
