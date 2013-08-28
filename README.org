@@ -7,7 +7,7 @@
 **** Quick Start
 
 #+BEGIN_SRC shell
-git clone git@github.com:Unidata/tds-python-workshop.git 
+git clone https://github.com/Unidata/tds-python-workshop.git
 cd tds-python-workshop
 ipython notebook --pylab inline
 #+END_SRC
