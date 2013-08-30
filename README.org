@@ -57,6 +57,7 @@ For these IPython Notebooks we will be using a Python environment with the follo
 - [[http://www.pydap.org/][pydap]]
 - [[http://matplotlib.org/basemap/][BaseMap]]
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
+- [[https://github.com/Unidata/pyudl][pyudl]]
 
 [[https://www.enthought.com/][Enthought]] offers a package manager, [[https://www.enthought.com/products/canopy/academic/][free]] for students and staff at degree-granting institutions, that can install the libraries listed above.
 
