@@ -44,6 +44,7 @@ nosetests.xml
 # Translations
 *.mo
 
+.ipynb_checkpoints/
 
 ###################
 # IDE #
