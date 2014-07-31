@@ -1,55 +1,70 @@
-** THREDDS Data Server (TDS) - Using Python to Access Data
+** Unidata Technology with Python
 
-- *What*: A series of IPython Notebooks on exploring Unidata technology with Python for the 2013 Unidata Training Workshop.
-- *When*: Wednesday, July 24, 2013 from 800AM to 500PM
+- *What*: A series of IPython Notebooks on exploring Unidata technology with Python for the 2014 Unidata Training Workshop.
+- *When*: <2014-10-21 Tue>--<2014-10-22 Wed>
 - *Where*: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
 
 **** Quick Start
 
 #+BEGIN_SRC shell
-git clone https://github.com/Unidata/tds-python-workshop.git
-cd tds-python-workshop
-ipython notebook --pylab inline
+git clone https://github.com/Unidata/unidata-python-workshop.git
+cd unidata-python-workshop
+ipython notebook
 #+END_SRC
 
-**** Workshop Schedule
+**** Workshop Schedule for <2014-10-21 Tue>
 
-|----+------------------------------------------+-------------------------+-------------+--------+----------|
-|    | Section                                  | IPython Notebook        | Presenter   | Length |     Time |
-|----+------------------------------------------+-------------------------+-------------+--------+----------|
-|  1 | Continental breakfast                    |                         |             |   0:30 | 08:00:00 |
-|  2 | [[http://www.slideshare.net/julienchastang/overview-24555262][Introductions and overview]]               |                         | Ethan       |   0:25 | 08:30:00 |
-|  3 | Setup                                    |                         |             |   0:10 | 08:55:00 |
-|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ipython-notebook.ipynb][IPython notebook introduction]]            | ipython-notebook        | Julien      |   0:20 | 09:05:00 |
-|  5 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                           | reading_netCDF          | Russ        |   0:55 | 09:25:00 |
-|  6 | Break                                    |                         |             |   0:15 | 10:20:00 |
-|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib]] | matplotlib              | Julien/Sean |   1:10 | 10:35:00 |
-|  8 | Lunch on your own                        |                         |             |   1:15 | 11:45:00 |
-|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                           | writing_netCDF          | Russ        |   0:30 | 13:00:00 |
-| 10 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ncss.ipynb][NCSS data access with pandas]]             | ncss                    | Julien      |   0:45 | 13:30:00 |
-| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/Geocoded_METAR.ipynb][NCSS station observations]]                | Geocoded_METAR          | Lansing     |   0:35 | 14:15:00 |
-| 12 | Break                                    |                         |             |   0:15 | 14:50:00 |
-| 13 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/wms_sample.ipynb][Exploring WMS]]                            | wms_sample              | Marcos      |   0:50 | 15:05:00 |
-| 14 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/pydap.ipynb][Accessing data via PyDap]]                 | pydap                   | Sean        |   0:35 | 15:55:00 |
-| 15 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/radar_level2.ipynb][Accessing radar level 2]]                  | radar_level2            | Sean        |   0:30 | 16:30:00 |
-| 16 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/tds-python-workshop/master/ipython-notebook-server.ipynb][Remote ipython server with client]]        | ipython-notebook-server | Ward/Ben    |   0:30 | 17:00:00 |
-| 17 | Wrap up                                  |                         |             |        | 17:30:00 |
-|----+------------------------------------------+-------------------------+-------------+--------+----------|
+|----+------------------------------------------+------------------+-----------+--------+----------|
+|    | Section                                  | IPython Notebook | Presenter | Length |     Time |
+|----+------------------------------------------+------------------+-----------+--------+----------|
+|  1 | Continental breakfast                    |                  |           |   0:30 | 08:00:00 |
+|  2 | [[http://www.slideshare.net/julienchastang/overview-24555262][Introductions and overview]]               |                  | Julien    |   0:25 | 08:30:00 |
+|  3 | Setup                                    |                  |           |   0:10 | 08:55:00 |
+|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook.ipynb][IPython notebook introduction]]            | ipython-notebook | Ward      |   0:30 | 09:05:00 |
+|  5 | Break                                    |                  |           |   0:15 | 09:35:00 |
+|  6 | Introduction to netCDF                   |                  | Ward      |   1:00 | 09:50:00 |
+|  7 | Numpy                                    |                  | Ryan      |   1:00 | 10:50:00 |
+|  8 | Lunch on your own                        |                  |           |   1:15 | 11:50:00 |
+|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                           | reading_netCDF   | Russ/Ward |   0:55 | 13:05:00 |
+| 10 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib]] | matplotlib       | Ryan      |   1:10 | 14:00:00 |
+| 11 | Conda/Binstar                            |                  | Julien    |   0:30 | 15:10:00 |
+| 12 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                           | writing_netCDF   | Russ/Ward |   0:30 | 15:40:00 |
+| 13 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ncss.ipynb][NCSS data access with pandas]]             | ncss             | Sean      |   0:45 | 16:10:00 |
+|----+------------------------------------------+------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
+
+**** Workshop Schedule for <2014-10-22 Wed>
+
+|---+----------------------------------------+------------------+-----------+--------+----------|
+|   | Section                                | IPython Notebook | Presenter | Length |     Time |
+|---+----------------------------------------+------------------+-----------+--------+----------|
+| 1 | Continental breakfast                  |                  |           |   0:30 | 08:00:00 |
+| 2 | Using git for scientific collaboration |                  | Julien    |   0:30 | 08:30:00 |
+| 3 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/Geocoded_METAR.ipynb][NCSS station observations]]              | Geocoded_METAR   | Julien    |   0:35 | 09:00:00 |
+| 4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS extensions)    | wms_sample       | Sean      |   0:50 | 09:35:00 |
+| 5 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/pydap.ipynb][Accessing data via PyDap]]               | pydap            | Sean      |   0:35 | 10:25:00 |
+| 6 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/radar_level2.ipynb][Accessing radar level 2]]                | radar_level2     | Ryan/Sean |   0:30 | 11:00:00 |
+| 7 | Wakari                                 |                  | Ward      |   0:30 | 11:30:00 |
+| 8 | Wrap up                                |                  |           |        | 12:00:00 |
+|---+----------------------------------------+------------------+-----------+--------+----------|
+#+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1     
 
 **** Please give us your feedback
 
-From the Unidata [[http://www.unidata.ucar.edu/][page]], go to the "2013 Training
-Workshop" [[http://www.unidata.ucar.edu/events/2013TrainingWorkshop/][page]] by selecting "Events" -> "2013 Training
-Workshop" from the menu. Click on the "Give us your Feedback" link to
-get to the [[http://www.unidata.ucar.edu/community/surveys/2013training/survey.html][survey]].
+From the Unidata [[http://www.unidata.ucar.edu/][page]], go to the "2014 Training Workshop" [[http://www.unidata.ucar.edu/events/2014TrainingWorkshop/][page]] by selecting
+"Events" -> "2013 Training Workshop" from the menu. Click on the "Give us your
+Feedback" link to get to the [[http://www.unidata.ucar.edu/community/surveys/2014training/survey.html][survey]].
 
-Note: Please feel free to use the survey at any time during the class
-(and as often as you like) as comments come to mind.
+Note: Please feel free to use the survey at any time during the class (and as
+often as you like) as comments come to mind.
 
 ****  Required Python libraries
 
-For these IPython Notebooks we will be using a Python environment with the following libraries installed:
+TODO: Redo this section with instructions using conda/binstar
+
+
+For these IPython Notebooks we will be using a Python environment with the
+following libraries installed:
 
 - [[http://www.numpy.org/][numpy]]
 - [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
@@ -59,6 +74,7 @@ For these IPython Notebooks we will be using a Python environment with the follo
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
 - [[https://github.com/Unidata/pyudl][pyudl]]
 
-[[https://www.enthought.com/][Enthought]] offers a package manager, [[https://www.enthought.com/products/canopy/academic/][free]] for students and staff at degree-granting institutions, that can install the libraries listed above.
+[[https://www.enthought.com/][Enthought]] offers a package manager, [[https://www.enthought.com/products/canopy/academic/][free]] for students and staff at
+degree-granting institutions, that can install the libraries listed above.
 
 
