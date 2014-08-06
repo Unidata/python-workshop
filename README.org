@@ -6,9 +6,32 @@
 
 **** Quick Start
 
+For these IPython Notebooks we will be using a Python environment with the
+following libraries installed:
+
+- [[http://www.numpy.org/][numpy]]
+- [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
+- [[http://matplotlib.org/][matplotlib]]
+- [[http://www.pydap.org/][pydap]]
+- [[http://matplotlib.org/basemap/][BaseMap]]
+- [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
+- [[https://github.com/Unidata/pyudl][pyudl]]
+
+
+The easiest way to install these libraries is with [[http://conda.pydata.org/][conda]]. First install the [[http://conda.pydata.org/][conda
+package manager]]. Then,
+
 #+BEGIN_SRC shell
+conda create -n workshop python numpy matplotlib netcdf4 basemap pandas ipython pyzmq jinja2 tornado OWSLib
+
+conda install --yes --quiet -n workshop -c https://conda.binstar.org/Unidata pyudl
+
+source activate workshop
+
 git clone https://github.com/Unidata/unidata-python-workshop.git
+
 cd unidata-python-workshop
+
 ipython notebook
 #+END_SRC
 
@@ -58,23 +81,5 @@ Feedback" link to get to the [[http://www.unidata.ucar.edu/community/surveys/201
 Note: Please feel free to use the survey at any time during the class (and as
 often as you like) as comments come to mind.
 
-****  Required Python libraries
-
-TODO: Redo this section with instructions using conda/binstar
-
-
-For these IPython Notebooks we will be using a Python environment with the
-following libraries installed:
-
-- [[http://www.numpy.org/][numpy]]
-- [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
-- [[http://matplotlib.org/][matplotlib]]
-- [[http://www.pydap.org/][pydap]]
-- [[http://matplotlib.org/basemap/][BaseMap]]
-- [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
-- [[https://github.com/Unidata/pyudl][pyudl]]
-
-[[https://www.enthought.com/][Enthought]] offers a package manager, [[https://www.enthought.com/products/canopy/academic/][free]] for students and staff at
-degree-granting institutions, that can install the libraries listed above.
 
 
