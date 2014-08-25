@@ -29,7 +29,7 @@ sudo -u vagrant /home/vagrant/anaconda/bin/conda create --yes -n workshop python
 
 sudo -u vagrant /home/vagrant/anaconda/bin/conda install --yes --quiet -n workshop -c https://conda.binstar.org/rsignell owslib
 
-sudo -u vagrant /home/vagrant/anaconda/bin/conda install --yes --quiet -n workshop -c https://conda.binstar.org/Unidata/pyudl
+sudo -u vagrant /home/vagrant/anaconda/bin/conda install --yes --quiet -n workshop -c https://conda.binstar.org/Unidata pyudl
 
 # Create a text file explaining how to activate the workshop.
 OFILE="/home/vagrant/WORKSHOP_README.txt"
