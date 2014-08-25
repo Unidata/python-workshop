@@ -9,8 +9,19 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
+  config.ssh.forward_x11 = "true"
+
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 1024
+    v.cpus = 2
+  end
+
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.define "shop", primary: true do |v|
+    v.vm.provision :shell, :path => "bootstrap_vm.sh"
+    v.vm.hostname = "workshop"
+    v.vm.box = "ubuntu/trusty64"
+  end
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs

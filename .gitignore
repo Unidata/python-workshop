@@ -50,3 +50,5 @@ nosetests.xml
 # IDE #
 ###################
 .idea/
+.vagrant/
+Anaconda-2.0.1-Linux-x86_64.sh
