@@ -22,7 +22,9 @@ The easiest way to install these libraries is with [[http://conda.pydata.org/][c
 package manager]]. Then,
 
 #+BEGIN_SRC shell
-conda create -n workshop python numpy matplotlib netcdf4 basemap pandas ipython pyzmq jinja2 tornado OWSLib sympy
+conda create -n workshop python numpy matplotlib netcdf4 basemap pandas ipython pyzmq jinja2 tornado sympy
+
+conda install --yes --quiet -n workshop -c https://conda.binstar.org/rsignell owslib
 
 conda install --yes --quiet -n workshop -c https://conda.binstar.org/Unidata pyudl
 
