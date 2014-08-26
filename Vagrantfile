@@ -17,10 +17,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.define "shop", primary: true do |v|
-    v.vm.provision :shell, :path => "bootstrap_vm.sh"
-    v.vm.hostname = "workshop"
+  config.vm.define "workshop64", primary: true do |v|
+    v.vm.provision :shell, :path => "bootstrap_vm.sh", :args => "64"
+    v.vm.hostname = "workshop64"
     v.vm.box = "ubuntu/trusty64"
+  end
+
+  config.vm.define "workshop32" do |v|
+    v.vm.provision :shell, :path => "bootstrap_vm.sh", :args => "32"
+    v.vm.hostname = "workshop32"
+    v.vm.box = "ubuntu/trusty32"
   end
 
   # Disable automatic box update checking. If you disable this, then
