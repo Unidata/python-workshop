@@ -5,7 +5,7 @@
 #apt-get -y upgrade
 
 # Install some packages
-sudo apt-get install -y git emacs24 firefox
+sudo apt-get install -y git emacs24 firefox gedit
 
 # Add the anaconda path to the vagrant users path.
 sudo -u vagrant echo 'PATH=/home/vagrant/anaconda/bin:$PATH' >> /home/vagrant/.bashrc
