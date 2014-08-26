@@ -63,30 +63,30 @@ sudo -u vagrant /home/vagrant/anaconda/bin/conda install --yes --quiet -n worksh
 #
 
 OFILE="/home/vagrant/WORKSHOP_README.txt"
-echo -e "Unidata Python Workshop\n\n" > $OFILE
+echo -e "\nUnidata Python Workshop\n" > $OFILE
 echo -e "This Virtual Machine provides a complete environment" >> $OFILE
 echo -e "for the Unidata Python workshop.\n" >> $OFILE
 echo -e "Usage:\n" >> $OFILE
-echo -e '$ cd /vagrant' >> $OFILE
-echo -e '$ ipython notebook' >> $OFILE
+echo -e '    $ cd /vagrant' >> $OFILE
+echo -e '    $ ipython notebook' >> $OFILE
 echo -e ""
 echo -e "This will launch ipython notebook in firefox over x11." >> $OFILE
 echo -e "Alternatively, you may open a browser on your" >> $OFILE
-echo -e "host machine and navigate to:" >> $OFILE
+echo -e "host machine and navigate to:\n" >> $OFILE
 if [ "$1" == "64" ]; then
-    echo -e "\thttp://127.0.0.1:8864" >> $OFILE
+    echo -e "    http://127.0.0.1:8864" >> $OFILE
 else
-    echo -e "\thttp://127.0.0.1:8832" >> $OFILE
+    echo -e "    http://127.0.0.1:8832" >> $OFILE
 fi
 echo -e "\nIf you want to use an external browser from" >> $OFILE
 echo -e "your host machine, you must start ipython notebook" >> $OFILE
-echo -e "as follows:" >> $OFILE
-echo -e "$ ipython notebook --ip=* --no-browser" >> $OFILE
+echo -e "as follows:\n" >> $OFILE
+echo -e "    $ ipython notebook --ip=* --no-browser" >> $OFILE
 
 echo -e "\nNote: the /vagrant/ directory is mapped to" >> $OFILE
 echo -e "the unidata-python-workshop/ directory on your" >> $OFILE
 echo -e "host machine.  This way any changes made to the" >> $OFILE
-echo -e "notebooks will not dissapear if the VM is destroyed!" >> $OFILE
+echo -e "notebooks will not dissapear if the VM is destroyed!\n" >> $OFILE
 
 #
 # End workshop readme.
