@@ -20,12 +20,14 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "workshop64", primary: true do |v|
     v.vm.provision :shell, :path => "bootstrap_vm.sh", :args => "64"
     v.vm.hostname = "workshop64"
+    v.vm.network "forwarded_port", guest: 8888, host: 8864, protocol: 'tcp'
     v.vm.box = "ubuntu/trusty64"
   end
 
   config.vm.define "workshop32" do |v|
     v.vm.provision :shell, :path => "bootstrap_vm.sh", :args => "32"
     v.vm.hostname = "workshop32"
+    v.vm.network "forwarded_port", guest: 8888, host: 8832, protocol: 'tcp'
     v.vm.box = "ubuntu/trusty32"
   end
 
