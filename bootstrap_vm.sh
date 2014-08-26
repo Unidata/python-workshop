@@ -81,7 +81,7 @@ fi
 echo -e "\nIf you want to use an external browser from" >> $OFILE
 echo -e "your host machine, you must start ipython notebook" >> $OFILE
 echo -e "as follows:" >> $OFILE
-echo -e "$ ipython notebook --ip=*" >> $OFILE
+echo -e "$ ipython notebook --ip=* --no-browser" >> $OFILE
 
 echo -e "\nNote: the /vagrant/ directory is mapped to" >> $OFILE
 echo -e "the unidata-python-workshop/ directory on your" >> $OFILE
