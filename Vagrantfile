@@ -24,22 +24,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.vm.box = "ubuntu/trusty64"
   end
 
-  # A smaller instance used for debugging.
-  config.vm.define "w64_small", primary: true do |v|
-    v.vm.provision :shell, :path => "bootstrap_vm.sh", :args => "64"
-    v.vm.hostname = "w64small"
-    v.vm.network "forwarded_port", guest: 8888, host: 8864, protocol: 'tcp'
-    v.vm.box = "ubuntu/trusty64"
-
-    v.vm.provider "virtualbox" do |vb|
-      vb.customize [
-                    "modifyvm", :id,
-                    "--memory", "512",
-                    "--cpus", "1"
-                   ]
-    end
-  end
-
   config.vm.define "workshop32" do |v|
     v.vm.provision :shell, :path => "bootstrap_vm.sh", :args => "32"
     v.vm.hostname = "workshop32"
