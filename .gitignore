@@ -9,9 +9,9 @@ Thumbs.db
 *.*~
 ._*
 
-###################
+##########
 # python #
-###################
+##########
 *.py[cod]
 
 # C extensions
@@ -46,9 +46,14 @@ nosetests.xml
 
 .ipynb_checkpoints/
 
-###################
+#######
 # IDE #
-###################
+#######
 .idea/
 .vagrant/
 Anaconda-2.0.1-Linux-*.sh
+
+################################
+# notebook generated temp dirs #
+################################
+tmp_img/
