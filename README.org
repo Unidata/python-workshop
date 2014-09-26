@@ -22,7 +22,7 @@ The easiest way to install these libraries is with [[http://conda.pydata.org/][c
 package manager]]. Then,
 
 #+BEGIN_SRC shell
-conda create -n workshop python numpy matplotlib netcdf4 basemap pandas ipython pyzmq jinja2 tornado sympy
+conda create -n workshop python numpy matplotlib netcdf4 basemap ipython pyzmq jinja2 tornado sympy
 
 conda install --yes --quiet -n workshop -c https://conda.binstar.org/rsignell owslib
 
@@ -49,7 +49,7 @@ ipython notebook
 |  5 | Break                                            |                  |             |   0:15 | 10:05:00 |
 |  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy]] with intro to matplotlib                   | numpy            | Ryan        |   1:30 | 10:20:00 |
 |  7 | Lunch on your own                                |                  |             |   1:15 | 11:50:00 |
-|  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/intro_netCDF.ipynb][Introduction to netCDF]] (TBD)                     | intro_netCDF     | Ward/Russ   |   0:45 | 13:05:00 |
+|  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/intro_netCDF.ipynb][Introduction to netCDF]]                           | intro_netCDF     | Russ/Ward   |   0:45 | 13:05:00 |
 |  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                                   | reading_netCDF   | Jeff W.     |   0:45 | 13:50:00 |
 | 10 | Break                                            |                  |             |   0:15 | 14:35:00 |
 | 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib/cartopy]] | matplotlib       | Ryan/Sean   |   1:10 | 14:50:00 |
@@ -64,14 +64,14 @@ ipython notebook
 |----+---------------------------------------+------------------+-----------+--------+----------|
 |  1 | Continental breakfast                 |                  |           |   0:30 | 08:00:00 |
 |  2 | Reproducible Science webex            |                  | Rich S.   |   0:40 | 08:30:00 |
-|  3 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/conda_binstar.ipynb][Conda/Binstar]]                         | conda_binstar    | Julien    |   0:30 | 09:10:00 |
-|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ncss.ipynb][NCSS data access (maybe pandas)]]       | ncss             | Sean      |   0:45 | 09:40:00 |
+|  3 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/conda_binstar.ipynb][Conda/Binstar]]                         |                  | Julien    |   0:30 | 09:10:00 |
+|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ncss.ipynb][NCSS data access]]                      | ncss             | Sean      |   0:45 | 09:40:00 |
 |  5 | Break                                 |                  |           |   0:15 | 10:25:00 |
 |  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/git.ipynb][git version control for science]]       | git              | Julien    |   0:40 | 10:40:00 |
 |  7 | Lunch on your own                     |                  |           |   1:15 | 11:20:00 |
 |  8 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS extensions)   | wms_sample       | Sean      |   0:50 | 12:35:00 |
 |  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/radar_level2.ipynb][Accessing radar level 2]]               | radar_level2     | Ryan/Sean |   0:30 | 13:25:00 |
-| 10 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/wakari.ipynb][Wakari]]  (TBD) / Collaboratory         |                  | Ward      |   0:30 | 13:55:00 |
+| 10 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/wakari.ipynb][Wakari]]/Collaboratory  Vagrant? (TBD)  |                  | Ward      |   0:30 | 13:55:00 |
 | 11 | Wrap up (and experiment w/ your data) |                  |           |        | 14:25:00 |
 |----+---------------------------------------+------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
@@ -79,7 +79,7 @@ ipython notebook
 **** Please give us your feedback
 
 From the Unidata [[http://www.unidata.ucar.edu/][page]], go to the "2014 Training Workshop" [[http://www.unidata.ucar.edu/events/2014TrainingWorkshop/][page]] by selecting
-"Events" -> "2013 Training Workshop" from the menu. Click on the "Give us your
+"Events" -> "2014 Training Workshop" from the menu. Click on the "Give us your
 Feedback" link to get to the [[http://www.unidata.ucar.edu/community/surveys/2014training/survey.html][survey]].
 
 Note: Please feel free to use the survey at any time during the class (and as
