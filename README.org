@@ -12,8 +12,6 @@ following libraries installed:
 - [[http://www.numpy.org/][numpy]]
 - [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
 - [[http://matplotlib.org/][matplotlib]]
-- [[http://www.pydap.org/][pydap]]
-- [[http://matplotlib.org/basemap/][BaseMap]]
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
 - [[https://github.com/Unidata/pyudl][pyudl]]
 
