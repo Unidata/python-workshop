@@ -45,10 +45,6 @@
 - easy to set up environments.
 - easy to invoke and switch between environments
 
-# Conda default environment
-
-- How to work with???
-
 # Conda channels
 
 - conda packages originate from "channels"
@@ -62,6 +58,11 @@
 # The `conda` command
 
 - primary interface for managing Python packages
+
+# Asking conda for help
+
+- `conda --help`
+- `conda [command] --help`
 
 # `conda info`
 
@@ -77,6 +78,14 @@
 - must supply at least one package (unfortunately)
 - Lots of optional arguments
 
+# Conda default "anaconda" environment
+
+- numpy
+- pandas
+- matplotlib
+- lots of stuff
+- `conda create -n <env> anaconda`
+
 # `conda install`
 
 - Install a list of packages into a specified conda environment.
@@ -87,12 +96,21 @@
 # `conda list`
 
 - List linked packages in a conda environment.
+- `conda list`
+
+# Reproducing science w/ `conda list --export`
+
+- `conda list --export > exported_packages.txt`
+- share your exported_packages.txt w/ colleague
+- `conda create -n newenv --file exported_packages.txt`
 
 # `conda update`
 
-# `conda search`
+- Update conda packages
+- Typically `conda update --all`
+- Lots of options
 
-# export capability (to share)
+# `conda search`
 
 # `source deactivate`
 
