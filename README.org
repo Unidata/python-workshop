@@ -12,9 +12,9 @@ following libraries installed:
 - [[http://www.numpy.org/][numpy]]
 - [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
 - [[http://matplotlib.org/][matplotlib]]
+- [[http://scitools.org.uk/cartopy/][cartopy]]
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
 - [[https://github.com/Unidata/pyudl][pyudl]]
-
 
 The easiest way to install these libraries is with [[http://conda.pydata.org/][conda]]. First install the [[http://conda.pydata.org/][conda
 package manager]]. Then,
@@ -42,7 +42,7 @@ ipython notebook
 |----+--------------------------------------------------+-------------------+-----------+--------+----------|
 |  1 | Continental breakfast                            |                   |           |   0:30 | 08:00:00 |
 |  2 | [[http://www.slideshare.net/julienchastang/overview-24555262][Introductions and overview]]                       |                   | Ethan     |   0:25 | 08:30:00 |
-|  3 | Setup w/ conda and github                        | setup.md          | All       |   0:40 | 08:55:00 |
+|  3 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/setup.md][Setup w/ conda and github]]                        | setup.md          | All       |   0:40 | 08:55:00 |
 |  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook.ipynb][IPython notebook introduction]] (including 2.0)    | ipython-notebook  | Ward      |   0:30 | 09:35:00 |
 |  5 | Break                                            |                   |           |   0:15 | 10:05:00 |
 |  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy]] with intro to matplotlib                   | numpy             | Ryan      |   1:30 | 10:20:00 |

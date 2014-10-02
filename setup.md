@@ -2,7 +2,7 @@
 
 ## Before the workshop
 
-If you do not have one already obtain [sign up for a github account](https://github.com/join). Please remember your login and password when workshop attending.
+If you do not have one already obtain [sign up for a github account](https://github.com/join). Please remember your login and password when attending workshop.
 
 **Desktop computers will be provided for workshop attendees. However, if you plan on working on your own laptop please download and install:**
 
