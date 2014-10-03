@@ -4,23 +4,39 @@
 
 If you do not have one already obtain [sign up for a github account](https://github.com/join). Please remember your login and password when attending workshop.
 
-**Desktop computers will be provided for workshop attendees. However, if you plan on working on your own laptop please download and install:**
+## For those bringing their own laptop computers
+
+**Desktop computers will be provided for workshop attendees. However, if you plan on working on your own laptop, you have two options:**
+
+
+### Option 1, download git and conda
+
+Download and install:
 
 - [git](http://git-scm.com/downloads)
 - [conda](http://continuum.io/downloads)
 
 If working in a Unix or Mac OS X environment, make sure `git` and `conda` are one your path.
 
-You will also need some sort of text editor you are comfortable working with. On Unix or OS X this can be vi, emacs, or pico. On Windows, you can use notepad.
+You will also need a text editor you are comfortable working with. On Unix or OS X this can be vi, emacs, gedit, or pico. On Windows, you can use notepad.
 
+### Option 2, Vagrant
+
+Vagrant is free, open-source software to create virtual environments. In practical terms, this means Vagrant is an alternative option to easily set up the workshop environment. [Instructions for working with Vagrant](https://github.com/Unidata/unidata-python-workshop/blob/master/VAGRANT_README.md).
 
 ## Setup at start of Workshop
 
 The workshop instructors will guide through the following.
 
-Fork the workshop repository: <https://github.com/Unidata/unidata-python-workshop>
+- Login to github.
 
-From the Unix command line:
+- Fork the workshop repository: <https://github.com/Unidata/unidata-python-workshop> by clicking the fork button.
+
+![Fork](https://github-images.s3.amazonaws.com/help/repository/fork_button.jpg)
+
+We will be using git and conda to set up the workshop. We will be covering git and conda in greater on depth on day 2 of the workshop.
+
+From the command line:
 
 ### git setup
 
@@ -38,11 +54,9 @@ cd unidata-python-workshop
 
 
 ```
-conda update conda
+[optional] conda update conda
 
-conda update anaconda
-
-conda config --add channels https://conda.binstar.org/rsignell
+[optional] conda update anaconda
 
 conda config --add channels https://conda.binstar.org/Unidata
 
