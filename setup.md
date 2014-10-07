@@ -58,6 +58,8 @@ cd unidata-python-workshop
 
 [optional] conda update anaconda
 
+conda config --add channels https://conda.binstar.org/rsignell
+
 conda config --add channels https://conda.binstar.org/Unidata
 
 conda create -n workshop python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl
