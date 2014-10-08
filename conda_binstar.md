@@ -2,7 +2,7 @@
 
 # Conda
 
-- Cross platform package manager
+- Cross platform package manager built by Continuum Analytics
 - Goes beyond pip (and friends) capability
 - Endorsed by Python Packaging Authority (PyPA)
 
@@ -29,6 +29,7 @@
 - No admin privileges required
 - Smart dependency management
 - Easy to work w/ different versions of packages (e.g., numpy 1.7 vs. 1.9)
+- Free and available at [Continuum Analytics](http://continuum.io/downloads)
 
 # Some conda definitions...
 
@@ -71,13 +72,6 @@
 - `conda info --envs`
 - `conda info --system`
 
-# `conda create` a new environment
-
-- Create a new conda environment from a list of specified packages
-- `conda create -n unidataws python`
-- must supply at least one package (unfortunately)
-- Lots of optional arguments
-
 # Conda default "anaconda" environment
 
 - numpy
@@ -85,6 +79,18 @@
 - matplotlib
 - lots of stuff
 - `conda create -n <env> anaconda`
+
+# `conda create` a new environment
+
+- Create a new conda environment from a list of specified packages
+- `conda create -n myenv python`
+- must supply at least one package (unfortunately)
+- Lots of optional arguments
+
+# conda environments continued...
+
+- More realistic example
+- `conda create -n myenv python=2 numpy matplotlib ipython ipython-notebook netcdf4`
 
 # `conda install`
 
@@ -107,13 +113,57 @@
 # `conda update`
 
 - Update conda packages
-- Typically `conda update --all`
+- Typically, `conda update --all`
 - Lots of options
 
-# `conda search`
+# `conda config`
+
+- Modify configuration values in .condarc.
+- `conda config --add channels rsignell`
+- `conda config --get channels --system`
 
 # `source deactivate`
 
 - To deactivate the environment
 
 # Binstar
+
+- https://binstar.org
+- Works with conda as a package hosting server
+- Has the notion of channels
+- channels can be added to conda that you can find packages of interest
+
+# `binstar` command utility
+
+- command line interface for binstar
+
+# `binstar search`
+
+- Search binstar for packages
+- `binstar search proj4`
+- `binstar show SciTools/proj4`
+
+# steps for uploading package to binstar
+
+- create recipe directory
+- create meta.yaml
+- create build.sh or bld.bat
+- `conda build` package
+- upload to binstar
+
+# meta.yaml
+
+- Human readable data format similar to XML
+- Metadata that simply describes the build recipe
+- Follow examples at https://github.com/conda/conda-recipes
+
+# `conda build`
+
+`conda build <package>`
+
+# `binstar upload`
+
+- `binstar upload -u unidata /Users/chastang/anaconda/conda-bld/osx-64/python-dateutil-2.2-py27_0.tar.bz2`
+
+
+
