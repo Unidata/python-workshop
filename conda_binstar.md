@@ -146,7 +146,8 @@
 # Binstar channels
 
 - Channels are tied to **users** or **organizations**
-- E.g., [https://binstar.org/unidata](https://binstar.org/unidata)
+- [`https://binstar.org/unidata`](https://binstar.org/unidata)
+- [`https://binstar.org/risgnell`](https://binstar.org/rsignell)
 - Channels can be added to conda configuration (.condarc) so you can find packages of interest
 
 # `binstar` command utility
@@ -167,6 +168,7 @@
 # Sharing your work/APIs/packages via binstar
 
 - Create an account at [binstar.org](http://binstar.org)
+- Create recipe
 - Create package
 - Upload to binstar
 
@@ -178,6 +180,10 @@
 - `conda build` package
 - Upload to binstar
 
+# Example recipes
+
+- Best is to follow examples at [https://github.com/conda/conda-recipes](https://github.com/conda/conda-recipes)
+
 # directory layout for conda recipe
 
     `-- pyudl
@@ -185,21 +191,56 @@
         |-- build.sh
         |-- meta.yaml
 
+
+# `build.sh` and `bld.bat`
+
+- Typically a very simple file
+- Contains build instructions
+
+
+# example `build.sh` and `bld.bat`
+
+- bld.bat `"%PYTHON%" setup.py install`
+- build.sh `$PYTHON setup.py install`
+- For something written in C could be a bit more complicated invoking `make`
+
 # meta.yaml in more detail
 
 - Human readable data format similar to XML
 - Metadata that simply describes the build recipe
 - Follow examples at https://github.com/conda/conda-recipes
 
+# example meta.yaml
+
+    package:
+      name: pyudl
+      version: 0.1
+    source:
+      git_url: https://github.com/Unidata/pyudl
+      git_tag: 0.1
+    build:
+      number: 0
+    requirements:
+      build:
+        - python
+        - setuptools
+      run:
+        - python
+    about:
+      home: https://github.com/Unidata/pyudl
+      license: MIT
+      summary: 'A collection of Python utilities for interacting with Unidata technologies'         
+
 # `conda build`
 
-- From the parent of the recipe directory
-`conda build <package>`
+- Build from the parent of the recipe directory
+- `conda build <package>`
+- If successful, will give instructions on how to upload to binstar
 
 # `binstar upload`
 
-- `binstar upload -u unidata /Users/chastang/anaconda/conda-bld/osx-64/python-dateutil-2.2-py27_0.tar.bz2`
-
-binstar private versus public
+- `binstar login
+- `binstar upload <package>`
+- Tell your colleagues about your channel so that they may use your work
 
 
