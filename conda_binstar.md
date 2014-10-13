@@ -68,7 +68,7 @@
 
 # `conda info`
 
-- Display information about current conda install.
+- Display information about current conda install
 - `conda info --all`
 - `conda info --envs`
 - `conda info --system`
@@ -85,7 +85,7 @@
 
 - Create a new conda environment from a list of specified packages
 - `conda create -n <env> python`
-- Must supply at least one package (unfortunately)
+- Must supply at least one package
 - Lots of optional arguments
 
 # conda environments continued...
@@ -100,7 +100,7 @@
 
 # `conda install` into an environment
 
-- Install a list of packages into a specified conda environment.
+- Install a list of packages into a specified conda environment
 - `conda install -n <env> matplotlib`
 - Dealing with specific package versions
 - `conda install -n <env> matplotlib=1.2`
@@ -237,10 +237,10 @@
 - `conda build <package>`
 - If successful, will give instructions on how to upload to binstar
 
-# `binstar upload`
+# `binstar upload` & share
 
-- `binstar login
+- `binstar login`
 - `binstar upload <package>`
-- Tell your colleagues about your channel so that they may use your work
+- Tell colleagues about your channel so that they may use your work
 
 
