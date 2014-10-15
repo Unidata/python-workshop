@@ -2,13 +2,23 @@
 
 The Unidata Python Workshop iPython Notebook environment has been configured to work with `Vagrant`, a tool for creating on-demand virtual machines.  This allows us to create a standardized linux VM, fully kitted out for the workshop with Anaconda and other dependent packages. The iPython notebooks are located on the host machine in the `unidata_python_workshop/` directory, so changes made in the VM will not be lost when the VM is removed.
 
-## Installing Vagrant
+## Requirements
 
-Vagrant works on Windows, OSX and Linux systems.
+You will need the following to work with Vagrant.  
 
-Vagrant install files may be downloaded from http://www.vagrantup.com/downloads.html.  Vagrant relies on `VirtualBox`, the free virtual machine engine provided by Oracle.  It may be downloaded from https://www.virtualbox.org/wiki/Downloads.  
+* `Vagrant`: http://vagrantup.com
+* `Virtualbox`: https://www.virtualbox.org/wiki/Downloads
+* `Virtualbox Extension Pack`: https://www.virtualbox.org/wiki/Downloads
 
-    You will need to install VirtualBox plus the VirtualBox extension pack, available from the same webpage.
+> NOTE: You must install the Virtualbox Extension Pack or else the VM won't work correctly.
+
+### **IMPORTANT NOTE FOR WINDOWS USERS**
+
+By default, Windows is not distributed with an ssh client.  There are many options, some of them very convoluted.  The path of least resistance is to download and install the `git shell for windows`, which installs a command-line ssh client.  
+
+
+* `Git SCM for Windows`: http://msysgit.github.io/
+
 
 # Using Vagrant
 
@@ -16,11 +26,13 @@ Vagrant install files may be downloaded from http://www.vagrantup.com/downloads.
 
     Two virtual environments are provided; workshop32 and workshop64.  These are 32-bit and64-bit environments, respectively.  For the purpose of the following examples, we'll assume we're using the 64-bit environment.
 
-From the `unidata_python_workshop/` directory, perform the following actions.  
+From the `unidata_python_workshop/` directory, perform the following actions from the system command line.  
 
 > $ vagrant up workshop64
 
 This step will take 5-10 minutes.  The VM will be instantiated and the required packages will be installed.
+
+    Note that if you are on an older 32-bit system, you will want to use workshop32 instead of workshop64.
 
 ## Connecting to the Workshop VM
 
@@ -28,7 +40,7 @@ Once the workshop environment has been provisioned, you can connect via `ssh` as
 
 > $ vagrant ssh workshop64
 
-This will log you in to the workshop VM over ssh.  
+This will log you in to the workshop VM via ssh.  
 
 ## Working in the VM Environment
 
@@ -36,15 +48,9 @@ Once logged into the VM, you are in a standard `Ubuntu` linux environment.  In t
 
 ### Launching iPython Notebook
 
-There are two ways to run iPython Notebooks from the VM.  Before doing either, you will want to change your active directory to `/vagrant/` as follows:
+You will launch IPython Notebook from inside the VM as follows.
 
 > $ cd /vagrant
-
-If your host machine is linux or OSX, it's likely you have an X11 server running.  If this is the case, you can run ipython notebooks within a browser from the VM.  In this case, you will launch ipython notebooks as follows:
-
-> $ ipython notebook
-
-If this does not work, or if you prefer to use the browser on your host machine, you will do the following:
 
 > $ ipython notebook --ip=* --no-browser
 
@@ -56,4 +62,4 @@ When you are done with the VM, you will exit with `exit` from the command line. 
 
 > $ vagrant destroy workshop64
 
-This will destroy the VM, but any changes made in the `/vagrant/` directory will remain.
+This will destroy the VM, but any changes made in the `/vagrant/` directory will remain.  Don't forget to commit any of your changes back into the git repository!
