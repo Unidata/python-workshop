@@ -28,11 +28,15 @@ Vagrant is free, open-source software to create virtual environments. In practic
 
 The workshop instructors will guide you through the following steps:
 
+- Login to your computer
+
 - Login to github.
 
 - Fork the workshop repository: <https://github.com/Unidata/unidata-python-workshop> by clicking the fork button.
 
 ![Fork](https://github-images.s3.amazonaws.com/help/repository/fork_button.jpg)
+
+- Find and start the "Terminal" application
 
 We will be using `git` and `conda` to set up the workshop. We will be covering `git` and `conda` in greater on depth on day 2 of the workshop.
 
@@ -45,7 +49,7 @@ git config --global user.name "YOUR NAME"
 
 git config --global user.email "YOUR EMAIL ADDRESS"
 
-git clone https://github.com/Unidata/unidata-python-workshop
+~~git clone https://github.com/Unidata/unidata-python-workshop~~
 
 cd unidata-python-workshop
 
@@ -53,20 +57,20 @@ cd unidata-python-workshop
 
 git remote add myfork https://github.com/YOUR-USERNAME/unidata-python-workshop.git
 
+# Later if you wish to save (i.e., push out) your commits
+
+git push myfork master
+
 ```
 
 ### conda setup
 
 ```
-[optional] conda update conda
+~~conda config --add channels https://conda.binstar.org/rsignell~~
 
-[optional] conda update anaconda
+~~conda config --add channels https://conda.binstar.org/Unidata~~
 
-conda config --add channels https://conda.binstar.org/rsignell
-
-conda config --add channels https://conda.binstar.org/Unidata
-
-conda create -n workshop python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl
+~~conda create -n workshop python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl~~
 
 source activate workshop
 
