@@ -45,13 +45,17 @@ git config --global user.name "YOUR NAME"
 
 git config --global user.email "YOUR EMAIL ADDRESS"
 
-git clone https://github.com/YOUR-USERNAME/unidata-python-workshop.git
+git clone https://github.com/Unidata/unidata-python-workshop
 
 cd unidata-python-workshop
+
+# Optional, but nice if you wish to save your work
+
+git remote add myfork https://github.com/YOUR-USERNAME/unidata-python-workshop.git
+
 ```
 
 ### conda setup
-
 
 ```
 [optional] conda update conda
