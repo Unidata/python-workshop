@@ -48,9 +48,11 @@ From the command line:
 git config --global user.name "YOUR NAME"
 
 git config --global user.email "YOUR EMAIL ADDRESS"
+```
 
 ~~git clone https://github.com/Unidata/unidata-python-workshop~~
 
+```
 cd unidata-python-workshop
 
 # Optional, but nice if you wish to save your work
@@ -65,13 +67,13 @@ git push myfork master
 
 ### conda setup
 
-```
 ~~conda config --add channels https://conda.binstar.org/rsignell~~
 
 ~~conda config --add channels https://conda.binstar.org/Unidata~~
 
 ~~conda create -n workshop python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl~~
 
+```
 source activate workshop
 
 ipython notebook
