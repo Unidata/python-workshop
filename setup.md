@@ -45,6 +45,9 @@ From the command line:
 ```
 cd unidata-python-workshop
 
+# in case there were last minute changes
+git pull
+
 source activate workshop
 
 ipython notebook
