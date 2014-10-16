@@ -10,10 +10,10 @@
 
 # Why use DVCS and git?
 
-- backup
-- collaboration (e.g., work w/ colleagues on Python APIs and Notebooks)
-- open access
-- reproducibility
+- Backup
+- Collaboration (e.g., work w/ colleagues on Python APIs and Notebooks)
+- Open access
+- Reproducibility
 
 # Getting started
 
@@ -36,8 +36,8 @@
 
 # What does a git repository contain?
 
-- a series of snapshots of a working directory
-- snapshots associated with a unique identifiers (e.g., 4f52d95)
+- A series of snapshots of a working directory
+- Snapshots associated with a unique identifiers (e.g., 4f52d95)
 
 # git repository
 
@@ -45,32 +45,32 @@
 
 source: http://nyuccl.org/pages/GitTutorial/
 
-# creating a git repository
+# Creating a git repository
 
 - `git init <repository>`
 - `cd` into repository
-- note the .git directory that contains the history of the repository
+- Note the .git directory that contains the history of the repository
 
 # git file states
 
 - **untracked**, git knows nothing of this file
 - **modified**, git sees the file has changed since previous commit
-- **commited**, the file is in the git version control
+- **committed**, the file is in the git version control
 
 # git staging area
 
-- assembly point en route to an eventual commit
-- **untracked** and **modified** files must go through staging area before they are commited
-- confusing for beginners but useful as you gain experience
+- Assembly point en route to an eventual commit
+- **untracked** and **modified** files must go through staging area before they are committed
+- Confusing for beginners but useful as you gain experience
 
 # `git status`
 
-- `git status` indicates state of **modfied** or **untracked** files in repository
+- `git status` indicates state of **modified** or **untracked** files in repository
 - As you interact with your repo, you will use `git status` a lot
 
 # git add
 
-- Add untracked and modified files to staging area
+- Add untracked and modified files to **staging** area
 - `git add <file>`
 - `git reset <file>` will remove a file from staging area
 
@@ -78,8 +78,9 @@ source: http://nyuccl.org/pages/GitTutorial/
 
 - Once staged, you are ready to commit
 - A commit snapshots the entire repo at that point
-- `git commit -m "my change" myfile`
+- `git commit -m "my change"`
 - Keep commit messages, concise and meaningful
+- "under the hood" git stores data efficiently and packs better than SVN
 
 # git history
 
@@ -93,23 +94,29 @@ source: http://nyuccl.org/pages/GitTutorial/
 # Why branch?
 
 - Gather a series of commits tied to an idea or theme (e.g., feature, bug fix, experiment)
-- Branching in git is lightweight (espcially compared to SVN) so you branch and merge all the time
+- Branching in git is lightweight (especially compared to SVN) so you branch and merge all the time
 
 # How to branch
 
-- git has a default branch called "master", but there is really nothing special about it. It is just another branch.
-- `git branch <branch>`
-- The `branch` command will root itself in the current branch, whatever that branch maybe (e.g., master, feature branch)
-- The `branch` command will create the branch, but will not switch to it.
+- git has a default branch called "**master**", but there is really nothing special about it. It is just another branch.
+- To create a branch: `git branch <branch>`
+
+# Branching continued
+
+- The `branch` command will root the new branch in the current working branch, whatever that branch maybe (e.g., master, feature branch)
+- The `branch` command will create the branch, but will not switch to it
 
 # Checking out a branch
 
 - `git checkout <branch>`
+- git will complain if checkout will stomp on one or more files in the new branch
+- In this situation, run `git status`, and resolve the problems by checking in or discarding the offending files
+- Then try to checkout the branch again
 
 # Working on the branch
 
-- Continue the add, commit lifecycle as you normally would
-- Once you are done, you will (sometimes) want to merge
+- Continue the **add**, **commit** life cycle as you normally would
+- Once you are done, you will (sometimes) want to **merge**
 
 # As you get comfortable w/ branching
 
@@ -119,96 +126,160 @@ source: http://www.rittmanmead.com/2013/07/mds-xml4/
 
 # git merging
 
-- checkout the branch you wish to merge back onto
-- merge branch
+- When you are ready to grab work from branch you will need to **merge**
+- Checkout the branch you wish to merge back onto
+- Merge branch
 
 `git checkout master`
 
-`git merge feature`
+`git merge <branch>`
 
 # dealing with merge conflicts
 
+- **Merge conflicts** happen when the same part of a file has been modified in different ways on two branches and you are trying to merge those branches together
+- Not very common, but not unusual either
+- Don't tear your hair out even though you will be tempted
+- Remain calm :-)
 
+# merge conflict workflow
 
-# git cloning and working with remote branches
+- `git merge <branch>`
+- Conflict reported by git
+- Edit file (or use merge tool) to resolve conflict
+- When editing deal with and remove `<<<<<<< ` `=======` `>>>>>>>` that describe the conflict
+- `git add <file>`
+- `git commit` or `git commit -m "my message"`
+- Done
 
-- why?
-- to collaborate
-- often cloning from github
+# git cloning, working with remote repositories, and collaboration
 
-
-# remote branches
-
-- really, just like any other branch
-
-
-# pushing out changes
-
-# what happens when a push get rejected
-
-- Don't pull you hair out
-- Must first sync up
-
-# pull request
-
-
-# pull request exercise
-
-# git tools
-
- talk about tools at some point
-
-# viewing git history
+- Why?
+- Collaborate
+- Experiment with and build code
+- Backup at remote location
+- Collaboration happens through **remote** repositories
+- Must know how to manage remote branches to collaborate
 
 # What is github?
 
 - It is a web-based hosting service for git repos
-- student tiers (free?)
+- Generally free, though repositories must be public
+- There are free student tiers
+- $ for private repos (though it never hurts to ask for free stuff)
 
-# commits
+# `git clone`
 
-- a login snaphot of entire repo
-- "under the hood" git store data efficiently and packs better than SVN
+- Clones a repository into a local working directory
+- Also automatically creates **remote** tracking branches
 
-# File states
+`git clone https://github.com/Unidata/conda-recipes`
 
-- untracked
-- tracked, unmodfied
-- track, modified
-- staged
+# git cloning continued and remote branches
 
-# create a repo or work out of an exinsting one
+- **Remote branches** are references to a remote repository
+- In this case, the repository you have cloned from
+- After we have cloned let's look at our "remotes" w/ the `git remote -v` command:
+
+# `git remote -v`
+
+```
+git clone https://github.com/unidata/conda-recipes
+cd conda-recipes
+git remote -v
+origin	https://github.com/unidata/conda-recipes (fetch)
+origin	https://github.com/unidata/conda-recipes (push)
+```
+
+Note that we have a **remote** named "origin"
+
+#  `git remote show <remote>`
+
+Will provide additional information on remote
+
+```
+remote origin
+Fetch URL: https://github.com/unidata/conda-recipes
+Push  URL: https://github.com/unidata/conda-recipes
+HEAD branch: master
+Remote branch:
+    master tracked
+Local branch configured for 'git pull':
+    master merges with remote master
+Local ref configured for 'git push':
+    master pushes to master (fast-forwardable)
+```
+
+# Remote branches
+
+- Note, _remotes are just branches_
+- To list all branches including remote branches:
+
+```
+git branch -a
+
+master
+remotes/origin/HEAD -> origin/master
+remotes/origin/master
+```
+
+# `git fetch`
+
+- When you want to get the work of a collaborator, you will `git fetch`
+- In order to sync up your remote branches, run `git fetch`
+- You can now **merge** your remotes your local branches (e.g., master), but there is an **easier** way
+
+# `git pull`
+
+- `git pull` is actually `git fetch` plus a `git merge`
+- Again, `git pull` will bring in the work of collaborators
+- You may encounter a **merge conflict** here. We have already discussed how to deal with merge conflicts.
+
+# `git push`
+
+- `git push` is how you share your contributions
+- Remote branches can be read only or read/write
+- If you have write access, you can push
+
+# What happens when a push get rejected
+
+- Sometimes you are beat to the punch
+- Don't pull you hair out
+- `git pull`
+- may have to deal w/ merge conflicts
+- `git push`
+
+# pull requests
+
+- for a variety of reasons including not having write permissions, it is best to issue a *pull request* to a collaborator
+
+# More on Remote repositories
+
+- Remote repos is how you **collaborate** via git
+- Remote repository must be somewhere on the network
+- Or even on the local file system
+- But is often a repository at github.com
+- git is by no means tied or limited to github
 
 
-# status
+# Adding additional upstream remotes to bring in other collaborators
 
-# git log
+#
 
-# Example
 
-# Branching
+# Common problems
 
-# Merging
+- merge conflicts (either for local or remote branches)
+- pushes that are rejected
 
-# Remotes
+# What we did not cover
 
-# What is the HEAD?
-
-# What is master?
-
-# Pull requests
-
-# Exercise Branch
-
-# Exercise Merge
-
-# Exercise send a pull request
-
+- stashing
+- rebasing
 
 # Resources
 
 http://nyuccl.org/pages/GitTutorial/
 http://www.sitepoint.com/git-for-beginners/
 http://rogerdudler.github.io/git-guide/
-# What is github?
+
 
