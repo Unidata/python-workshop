@@ -69,7 +69,7 @@ ipython notebook
 |  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/git.ipynb][git version control for science]]             | git.md            | Julien    |   0:50 | 10:40:00 |
 |  7 | Lunch on your own                           |                   |           |   1:15 | 11:20:00 |
 |  8 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS extensions)         | wms_sample        | Sean      |   0:50 | 12:35:00 |
-|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/radar_level2.ipynb][Accessing radar level 2]]                     | radar_level2      | Ryan/Sean |   0:30 | 13:25:00 |
+|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/CompositeRadar.ipynb][Accessing radar composites]]                     | CompositeRadar      | Ryan/Sean |   0:30 | 13:25:00 |
 | 10 | Open discussion. Play w/ your data. Wrap up |                   | All       |   2:00 | 13:55:00 |
 | 11 | End of day 2                                |                   |           |        | 15:55:00 |
 |----+---------------------------------------------+-------------------+-----------+--------+----------|
