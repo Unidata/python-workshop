@@ -25,7 +25,7 @@
 # Interacting with git
 
 - There are a variety of tools
-- Command line is what we will use for the workshop
+- **Command line** is what we will use for the workshop
 
 # Configuration
 
@@ -89,7 +89,13 @@ source: http://nyuccl.org/pages/GitTutorial/
 
 # git branching
 
-- Starts a new series of commits rooted from wherever you are branching from
+- Starts a **new series of commits** rooted from wherever you are branching from
+
+# git branch
+
+![git branch](./images/branch.png) 
+
+source: http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging
 
 # Why branch?
 
@@ -109,7 +115,7 @@ source: http://nyuccl.org/pages/GitTutorial/
 # Checking out a branch
 
 - `git checkout <branch>`
-- git will complain if checkout will stomp on one or more files in the new branch
+- **caveat:** git will complain if checkout will stomp on one or more files in the new branch
 - In this situation, run `git status`, and resolve the problems by checking in or discarding the offending files
 - Then try to checkout the branch again
 
@@ -120,7 +126,7 @@ source: http://nyuccl.org/pages/GitTutorial/
 
 # As you get comfortable w/ branching
 
-![git branches](./images/branch.png) 
+![git branches](./images/branches.png) 
 
 source: http://www.rittmanmead.com/2013/07/mds-xml4/
 
@@ -134,12 +140,25 @@ source: http://www.rittmanmead.com/2013/07/mds-xml4/
 
 `git merge <branch>`
 
+# git merge
+
+![git merge](./images/merge.png) 
+
+source: http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging
+
 # dealing with merge conflicts
 
 - **Merge conflicts** happen when the same part of a file has been modified in different ways on two branches and you are trying to merge those branches together
 - Not very common, but not unusual either
 - Don't tear your hair out even though you will be tempted
 - Remain calm :-)
+
+# git merge conflict
+
+![git merge conflict](./images/conflict.png) 
+
+source: http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging
+
 
 # merge conflict workflow
 
@@ -151,7 +170,7 @@ source: http://www.rittmanmead.com/2013/07/mds-xml4/
 - `git commit` or `git commit -m "my message"`
 - Done
 
-# git cloning, working with remote repositories, and collaboration
+# git cloning, remote repositories, and collaboration
 
 - Why?
 - Collaborate
@@ -173,6 +192,21 @@ source: http://www.rittmanmead.com/2013/07/mds-xml4/
 - Also automatically creates **remote** tracking branches
 
 `git clone https://github.com/Unidata/conda-recipes`
+
+# More on Remote repositories
+
+- Remote repos is how you **collaborate** via git
+- Remote repository must be somewhere on the network
+- Or even on the local file system
+- But is often a repository at github.com
+- git is by no means tied or limited to github
+
+# remote repositories
+
+![git remote repositories](./images/remotes.png) 
+
+source: http://illustrated-git.readthedocs.org/en/latest/
+
 
 # git cloning continued and remote branches
 
@@ -224,15 +258,15 @@ remotes/origin/master
 
 # `git fetch`
 
-- When you want to get the work of a collaborator, you will `git fetch`
-- In order to sync up your remote branches, run `git fetch`
-- You can now **merge** your remotes your local branches (e.g., master), but there is an **easier** way
+- To get work of a collaborator, `git fetch`
+- `git fetch`, will sync up your remote branches
+- Can now **merge** remotes with local branches (e.g., master), but there is an **easier** way
 
 # `git pull`
 
-- `git pull` is actually `git fetch` plus a `git merge`
+- `git pull` is actually `git fetch` and a  `git merge`
 - Again, `git pull` will bring in the work of collaborators
-- You may encounter a **merge conflict** here. We have already discussed how to deal with merge conflicts.
+- You may encounter a **merge conflict** here. Deal with merge conflict as before.
 
 # `git push`
 
@@ -248,23 +282,26 @@ remotes/origin/master
 - may have to deal w/ merge conflicts
 - `git push`
 
-# pull requests
+# github forking to enable collaboration via "pull request"
 
-- for a variety of reasons including not having write permissions, it is best to issue a *pull request* to a collaborator
-
-# More on Remote repositories
-
-- Remote repos is how you **collaborate** via git
-- Remote repository must be somewhere on the network
-- Or even on the local file system
-- But is often a repository at github.com
-- git is by no means tied or limited to github
-
+- github allows copying of repositories **at github** with the fork button
+- once you have a forked repo, add it as an "upstream" remote
 
 # Adding additional upstream remotes to bring in other collaborators
 
-#
+- For example, if forking https://github.com/unidata/unidata-python-workshop
+- `git clone https://github.com/USERNAME/unidata-python-workshop`
+- `git add remote upstream https://github.com/USERNAME/unidata-python-workshop`
+Then you can
+- `git push upstream master`
+- `git pull upstream master`
+- Once you have pushed your changes to an upstream master or better yet a feature branch, issue a pull request
 
+# pull requests
+
+- for a variety of reasons including not having write permissions, it is best to issue a *pull request* to a collaborator
+- **pull requests are a github not git concept**
+- There may be a period of discussion before the pull request is accepted
 
 # Common problems
 
@@ -281,5 +318,5 @@ remotes/origin/master
 http://nyuccl.org/pages/GitTutorial/
 http://www.sitepoint.com/git-for-beginners/
 http://rogerdudler.github.io/git-guide/
-
+http://illustrated-git.readthedocs.org
 
