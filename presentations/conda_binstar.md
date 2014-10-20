@@ -136,6 +136,10 @@
 
 - To deactivate the environment
 
+# Removing an environment
+
+- `conda remove --all -n <env>`
+
 # Binstar
 
 - [https://binstar.org](https://binstar.org)
