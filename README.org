@@ -41,13 +41,13 @@ ipython notebook
 |    | Section                                          | IPyNB or Markdown | Presenter | Length |     Time |
 |----+--------------------------------------------------+-------------------+-----------+--------+----------|
 |  1 | Continental breakfast                            |                   |           |   0:30 | 08:00:00 |
-|  2 | [[http://figshare.com/s/addf4b2c589e11e4bacc06ec4b8d1f61][Introductions and overview]]                       |                   | Ethan     |   0:25 | 08:30:00 |
+|  2 | [[http://figshare.com/s/613753ea58ae11e4a40206ec4b8d1f61][Introductions and overview]]                       |                   | Ethan     |   0:25 | 08:30:00 |
 |  3 | [[setup.md][Setup w/ conda and github]]                        | setup.md          | All       |   0:40 | 08:55:00 |
 |  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook-examples][IPython notebook introduction]] (including 2.0)    | ipython-notebook  | Ward      |   0:40 | 09:35:00 |
 |  5 | Break                                            |                   |           |   0:15 | 10:15:00 |
 |  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib]]                   | numpy             | Ryan      |   1:30 | 10:30:00 |
 |  7 | Lunch on your own                                |                   |           |   1:15 | 12:00:00 |
-|  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/intro_netCDF.ipynb][Introduction to netCDF]]                           | intro_netCDF      | Russ      |   0:45 | 13:15:00 |
+|  8 | [[http://figshare.com/s/c187717c58ad11e48fe806ec4b8d1f61][Introduction to netCDF]]                           | intro_netCDF      | Russ      |   0:45 | 13:15:00 |
 |  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                                   | reading_netCDF    | Jeff W.   |   0:45 | 14:00:00 |
 | 10 | Break                                            |                   |           |   0:15 | 14:45:00 |
 | 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib/cartopy]] | matplotlib        | Ryan      |   1:10 | 15:00:00 |
@@ -63,10 +63,10 @@ ipython notebook
 |----+---------------------------------------------+-------------------+-----------+--------+----------|
 |  1 | Continental breakfast                       |                   |           |   0:30 | 08:00:00 |
 |  2 | Reproducible Science webex                  |                   | Rich S.   |   0:40 | 08:30:00 |
-|  3 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/conda_binstar.ipynb][Conda/Binstar]]                               | conda_binstar.md  | Julien    |   0:30 | 09:10:00 |
+|  3 | [[http://figshare.com/s/1ab21e9658ae11e4a40206ec4b8d1f61][Conda/Binstar]]                               | conda_binstar.md  | Julien    |   0:30 | 09:10:00 |
 |  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/Geocoded_METAR.ipynb][Point observations w/ TDS]]                   | ncss              | Sean      |   0:45 | 09:40:00 |
 |  5 | Break                                       |                   |           |   0:15 | 10:25:00 |
-|  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/git.ipynb][git version control for science]]             | git.md            | Julien    |   0:50 | 10:40:00 |
+|  6 | [[http://figshare.com/s/8638d4e458ad11e4b7ca06ec4bbcf141][git version control for science]]             | git.md            | Julien    |   0:50 | 10:40:00 |
 |  7 | Lunch on your own                           |                   |           |   1:15 | 11:20:00 |
 |  8 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS extensions)         | wms_sample        | Sean      |   0:50 | 12:35:00 |
 |  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/CompositeRadar.ipynb][Accessing radar composites]]                  | CompositeRadar    | Ryan      |   0:30 | 13:25:00 |
