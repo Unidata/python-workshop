@@ -64,7 +64,7 @@ ipython notebook
 |  1 | Continental breakfast                       |                   |           |   0:30 | 08:00:00 |
 |  2 | Reproducible Science webex                  |                   | Rich S.   |   0:40 | 08:30:00 |
 |  3 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/conda_binstar.ipynb][Conda/Binstar]]                               | conda_binstar.md  | Julien    |   0:30 | 09:10:00 |
-|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ncss.ipynb][NCSS data access]]                            | ncss              | Sean      |   0:45 | 09:40:00 |
+|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/Geocoded_METAR.ipynb][Point observations w/ TDS]]                   | ncss              | Sean      |   0:45 | 09:40:00 |
 |  5 | Break                                       |                   |           |   0:15 | 10:25:00 |
 |  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/git.ipynb][git version control for science]]             | git.md            | Julien    |   0:50 | 10:40:00 |
 |  7 | Lunch on your own                           |                   |           |   1:15 | 11:20:00 |
