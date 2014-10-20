@@ -24,15 +24,13 @@ By default, Windows is not distributed with an ssh client.  There are many optio
 
 ## Creating the Workshop Environment
 
-    Two virtual environments are provided; workshop32 and workshop64.  These are 32-bit and64-bit environments, respectively.  For the purpose of the following examples, we'll assume we're using the 64-bit environment.
+A single environment is provided: `workshp64`.
 
 From the `unidata_python_workshop/` directory, perform the following actions from the system command line.  
 
 > $ vagrant up workshop64
 
 This step will take 5-10 minutes.  The VM will be instantiated and the required packages will be installed.
-
-    Note that if you are on an older 32-bit system, you will want to use workshop32 instead of workshop64.
 
 ## Connecting to the Workshop VM
 
@@ -54,7 +52,7 @@ You will launch IPython Notebook from inside the VM as follows.
 
 > $ ipython notebook --ip=* --no-browser
 
-Then, open your browser of choice and navigate to the following address:  `http://127.0.0.1:[port]` where `[port]` is `8832` if you are using a 32-bit VM and `8864` if you are using a 64-bit VM.
+Then, open your browser of choice and navigate to the following address:  `http://127.0.0.1:[port]` where `[port]` is `8864` if you are using a 64-bit VM.
 
 # Cleaning Up
 
