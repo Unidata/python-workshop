@@ -93,7 +93,7 @@ fi
 echo -e "\nNote: the \e[32m/vagrant/\e[39m directory is mapped to" >> $OFILE
 echo -e "the unidata-python-workshop/ directory on your" >> $OFILE
 echo -e "host machine.  This way any changes made to the" >> $OFILE
-echo -e "notebooks will not dissapear if the VM is destroyed!\n" >> $OFILE
+echo -e "notebooks will not disappear if the VM is destroyed!\n" >> $OFILE
 
 #
 # End workshop readme.
@@ -115,3 +115,4 @@ fi
 
 # Clean up
 chown -R vagrant:vagrant /home/vagrant
+
