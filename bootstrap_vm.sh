@@ -16,14 +16,14 @@ else
     exit 1
 fi
 # Update package manager
-#apt-get update
+apt-get update
 #apt-get -y upgrade
 
 # Install some packages
-sudo apt-get install -y git emacs24 firefox nethogs htop wget
+sudo apt-get install -y git emacs24 htop wget
 
 # Add the anaconda path to the vagrant users path.
-sudo -u vagrant echo 'PATH=/home/vagrant/anaconda/bin:$PATH' >> /home/vagrant/.bashrc
+sudo -u vagrant -i echo 'PATH=/home/vagrant/anaconda/bin:$PATH' >> /home/vagrant/.bashrc
 
 # Until we can automate the download,
 # check to see if the install file is
@@ -40,7 +40,7 @@ if [ ! -f "/vagrant/$INSTFILE" ]; then
 
     cp $INSTFILE /vagrant/
 else
-    sudo -u vagrant cp /vagrant/$INSTFILE /home/vagrant
+    sudo -u vagrant -i cp /vagrant/$INSTFILE /home/vagrant
 fi
 
 # If Anaconda has been installed, just skip next
@@ -48,20 +48,20 @@ fi
 if [ ! -f "$CONDALOCK" ]; then
 
     # Install Anaconda
-    sudo -u vagrant bash /home/vagrant/$INSTFILE -bf -p /home/vagrant/anaconda
+    sudo -u vagrant -i bash /home/vagrant/$INSTFILE -bf -p /home/vagrant/anaconda
 
-    # Install some conda packages
-    sudo -u vagrant /home/vagrant/anaconda/bin/conda create --yes -n workshop python numpy matplotlib netcdf4 basemap pandas ipython pyzmq jinja2 tornado sympy
-
-    # Rich only makes owslib availabe for 64-bit. I'll try to build
-    # and make available for 32-bit.
+     ###
+    # Add channels, create configuration.
+    ###
     if [ "$1" == "64" ]; then
-        sudo -u vagrant /home/vagrant/anaconda/bin/conda install --yes --quiet -n workshop -c https://conda.binstar.org/rsignell owslib
+        sudo -u vagrant -i /home/vagrant/anaconda/bin/conda config --add channels https://conda.binstar.org/rsignell
     else
-        sudo -u vagrant /home/vagrant/anaconda/bin/conda install --yes --quiet -n workshop -c https://conda.binstar.org/wardf owslib
+        sudo -u vagrant -i /home/vagrant/anaconda/bin/conda config --add channels https://conda.binstar.org/wardf
     fi
 
-    sudo -u vagrant /home/vagrant/anaconda/bin/conda install --yes --quiet -n workshop -c https://conda.binstar.org/Unidata pyudl
+    sudo -u vagrant -i /home/vagrant/anaconda/bin/conda config --add channels https://conda.binstar.org/Unidata
+
+    sudo -u vagrant -i /home/vagrant/anaconda/bin/conda create -n workshop --yes python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl networkx
 
 fi
 
@@ -75,17 +75,11 @@ if [ -f "$OFILE" ]; then
     rm $OFILE
 fi
 
-echo -e "\n\e[92mUnidata Python Workshop\e[39m\n=======================\n" > $OFILE
+echo -e "\e[2J\n" > $OFILE
+echo -e "\n\e[92mUnidata Python Workshop\e[39m\n=======================\n" >> $OFILE
 echo -e "This Virtual Machine provides a complete environment" >> $OFILE
 echo -e "for the Unidata Python workshop.\n" >> $OFILE
 echo -e "Usage:\n" >> $OFILE
-echo -e '    $ cd \e[32m/vagrant\e[39m' >> $OFILE
-echo -e '    $ \e[95mipython notebook\e[39m' >> $OFILE
-echo -e ""
-echo -e "\nThis will launch ipython notebook in firefox over x11." >> $OFILE
-echo -e "\nIf you want to use an external browser from" >> $OFILE
-echo -e "your host machine, you must start ipython notebook" >> $OFILE
-echo -e "as follows:\n" >> $OFILE
 echo -e '    $ cd \e[32m/vagrant\e[39m' >> $OFILE
 echo -e "    $ \e[95mipython notebook --ip=* --no-browser\e[39m" >> $OFILE
 echo -e "\nYou may then open a browser on your host machine and" >> $OFILE
@@ -99,7 +93,7 @@ fi
 echo -e "\nNote: the \e[32m/vagrant/\e[39m directory is mapped to" >> $OFILE
 echo -e "the unidata-python-workshop/ directory on your" >> $OFILE
 echo -e "host machine.  This way any changes made to the" >> $OFILE
-echo -e "notebooks will not dissapear if the VM is destroyed!\n" >> $OFILE
+echo -e "notebooks will not disappear if the VM is destroyed!\n" >> $OFILE
 
 #
 # End workshop readme.
@@ -109,10 +103,16 @@ echo -e "notebooks will not dissapear if the VM is destroyed!\n" >> $OFILE
 
 if [ ! -f "$CONDALOCK" ]; then
 
-    sudo -u vagrant echo 'if [ -f "/home/vagrant/WORKSHOP_README.txt" ]; then' >> /home/vagrant/.bashrc
-    sudo -u vagrant echo '  cat /home/vagrant/WORKSHOP_README.txt' >> /home/vagrant/.bashrc
-    sudo -u vagrant echo 'fi' >> /home/vagrant/.bashrc
-    sudo -u vagrant touch "$CONDALOCK"
+    sudo -u vagrant -i echo 'if [ -f "/home/vagrant/WORKSHOP_README.txt" ]; then' >> /home/vagrant/.bashrc
+    sudo -u vagrant -i echo '  cat /home/vagrant/WORKSHOP_README.txt' >> /home/vagrant/.bashrc
+    sudo -u vagrant -i echo 'fi' >> /home/vagrant/.bashrc
+    sudo -u vagrant -i echo 'source activate workshop' >> /home/vagrant/.bashrc
+
+    sudo -u vagrant -i touch "$CONDALOCK"
+
+
 fi
+
 # Clean up
 chown -R vagrant:vagrant /home/vagrant
+

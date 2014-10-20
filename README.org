@@ -20,9 +20,11 @@ The easiest way to install these libraries is with [[http://conda.pydata.org/][c
 package manager]]. Then,
 
 #+BEGIN_SRC shell
+conda config --add channels https://conda.binstar.org/rsignell
+
 conda config --add channels https://conda.binstar.org/Unidata
 
-conda create -n workshop python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl
+conda create -n workshop python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl networkx
 
 source activate workshop
 
@@ -40,15 +42,15 @@ ipython notebook
 |----+--------------------------------------------------+-------------------+-----------+--------+----------|
 |  1 | Continental breakfast                            |                   |           |   0:30 | 08:00:00 |
 |  2 | [[http://www.slideshare.net/julienchastang/overview-24555262][Introductions and overview]]                       |                   | Ethan     |   0:25 | 08:30:00 |
-|  3 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/setup.md][Setup w/ conda and github]]                        | setup.md          | All       |   0:40 | 08:55:00 |
+|  3 | [[setup.md][Setup w/ conda and github]]                        | setup.md          | All       |   0:40 | 08:55:00 |
 |  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook.ipynb][IPython notebook introduction]] (including 2.0)    | ipython-notebook  | Ward      |   0:40 | 09:35:00 |
 |  5 | Break                                            |                   |           |   0:15 | 10:15:00 |
-|  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy]] with intro to matplotlib                   | numpy             | Ryan      |   1:30 | 10:30:00 |
+|  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib]]                   | numpy             | Ryan      |   1:30 | 10:30:00 |
 |  7 | Lunch on your own                                |                   |           |   1:15 | 12:00:00 |
-|  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/intro_netCDF.ipynb][Introduction to netCDF]]                           | intro_netCDF      | Russ/Ward |   0:45 | 13:15:00 |
+|  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/intro_netCDF.ipynb][Introduction to netCDF]]                           | intro_netCDF      | Russ      |   0:45 | 13:15:00 |
 |  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                                   | reading_netCDF    | Jeff W.   |   0:45 | 14:00:00 |
 | 10 | Break                                            |                   |           |   0:15 | 14:45:00 |
-| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib/cartopy]] | matplotlib        | Ryan/Sean |   1:10 | 15:00:00 |
+| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib/cartopy]] | matplotlib        | Ryan      |   1:10 | 15:00:00 |
 | 12 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                                   | writing_netCDF    | Jeff W.   |   0:45 | 16:10:00 |
 | 13 | End of day 1                                     |                   |           |        | 16:55:00 |
 |----+--------------------------------------------------+-------------------+-----------+--------+----------|
@@ -64,10 +66,10 @@ ipython notebook
 |  3 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/conda_binstar.ipynb][Conda/Binstar]]                               | conda_binstar.md  | Julien    |   0:30 | 09:10:00 |
 |  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ncss.ipynb][NCSS data access]]                            | ncss              | Sean      |   0:45 | 09:40:00 |
 |  5 | Break                                       |                   |           |   0:15 | 10:25:00 |
-|  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/git.ipynb][git version control for science]]             | git               | Julien    |   0:40 | 10:40:00 |
+|  6 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/git.ipynb][git version control for science]]             | git.md            | Julien    |   0:50 | 10:40:00 |
 |  7 | Lunch on your own                           |                   |           |   1:15 | 11:20:00 |
 |  8 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS extensions)         | wms_sample        | Sean      |   0:50 | 12:35:00 |
-|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/radar_level2.ipynb][Accessing radar level 2]]                     | radar_level2      | Ryan/Sean |   0:30 | 13:25:00 |
+|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/CompositeRadar.ipynb][Accessing radar composites]]                  | CompositeRadar    | Ryan      |   0:30 | 13:25:00 |
 | 10 | Open discussion. Play w/ your data. Wrap up |                   | All       |   2:00 | 13:55:00 |
 | 11 | End of day 2                                |                   |           |        | 15:55:00 |
 |----+---------------------------------------------+-------------------+-----------+--------+----------|
@@ -81,6 +83,3 @@ Feedback" link to get to the [[http://www.unidata.ucar.edu/community/surveys/201
 
 Note: Please feel free to use the survey at any time during the class (and as
 often as you like) as comments come to mind.
-
-
-
