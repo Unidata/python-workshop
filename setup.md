@@ -69,6 +69,8 @@ git config --global user.email "YOUR EMAIL ADDRESS"
 
 git remote add myfork https://github.com/YOUR-USERNAME/unidata-python-workshop.git
 
+git remote set-url myfork https://YOUR-USERNAME@github.com/YOUR-USERNAME/unidata-python-workshop.git
+
 # Later if you wish to save (i.e., push out) your commits
 
 git push myfork master
