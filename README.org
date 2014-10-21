@@ -50,9 +50,9 @@ ipython notebook
 |  8 | [[http://figshare.com/s/c187717c58ad11e48fe806ec4b8d1f61][Introduction to netCDF]]                           | intro_netCDF      | Russ      |   0:55 | 13:05:00 |
 |  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                                   | reading_netCDF    | Jeff W.   |   1:00 | 14:00:00 |
 | 10 | Break                                            |                   |           |   0:10 | 15:00:00 |
-| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib/cartopy]] | matplotlib        | Ryan      |   1:10 | 15:10:00 |
-| 12 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                                   | writing_netCDF    | Jeff W.   |   0:45 | 16:20:00 |
-| 13 | End of day 1                                     |                   |           |        | 17:05:00 |
+| 11 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience visualization with matplotlib/cartopy]] | matplotlib        | Ryan      |   1:15 | 15:10:00 |
+| 12 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                                   | writing_netCDF    | Jeff W.   |   0:45 | 16:25:00 |
+| 13 | End of day 1                                     |                   |           |        | 17:10:00 |
 |----+--------------------------------------------------+-------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
