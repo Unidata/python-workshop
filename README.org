@@ -67,8 +67,8 @@ ipython notebook
 |  4 | Break                                       |                   |           |   0:10 | 10:10:00 |
 |  5 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/Geocoded_METAR.ipynb][Point observations w/ TDS]]                   | ncss              | Sean      |   0:50 | 10:20:00 |
 |  6 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS extensions)         | wms_sample        | Sean      |   0:50 | 11:10:00 |
-|  7 | Lunch on your own                           |                   |           |   1:15 | 12:00:00 |
-|  8 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/CompositeRadar.ipynb][Accessing radar composites]]                  | CompositeRadar    | Ryan      |   0:30 | 13:15:00 |
+|  7 | Lunch on your own                           |                   |           |   1:00 | 12:00:00 |
+|  8 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/CompositeRadar.ipynb][Accessing radar composites]]                  | CompositeRadar    | Ryan      |   0:45 | 13:00:00 |
 |  9 | [[http://figshare.com/s/8638d4e458ad11e4b7ca06ec4bbcf141][git version control for science]]             | git.md            | Julien    |   0:50 | 13:45:00 |
 | 10 | Open discussion. Play w/ your data. Wrap up |                   | All       |   2:00 | 14:35:00 |
 | 11 | End of day 2                                |                   |           |        | 16:35:00 |
