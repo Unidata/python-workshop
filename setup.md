@@ -40,7 +40,7 @@ From the command line:
 
 ~~`conda config --add channels https://conda.binstar.org/Unidata`~~
 
-~~`conda create -n workshop python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl networkx`~~
+~~`conda create -n workshop python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl networkx basemap`~~
 
 ```
 cd unidata-python-workshop

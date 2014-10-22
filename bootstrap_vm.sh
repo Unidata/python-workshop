@@ -63,7 +63,7 @@ if [ ! -f "$CONDALOCK" ]; then
 
     sudo -u vagrant -i /home/vagrant/anaconda/bin/conda config --add channels https://conda.binstar.org/Unidata
 
-    sudo -u vagrant -i /home/vagrant/anaconda/bin/conda create -n workshop --yes python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl networkx
+    sudo -u vagrant -i /home/vagrant/anaconda/bin/conda create -n workshop --yes python=2 numpy matplotlib cartopy ipython ipython-notebook netcdf4 owslib pyudl networkx basemap
 
 fi
 
