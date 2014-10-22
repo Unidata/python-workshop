@@ -62,7 +62,7 @@ ipython notebook
 |    | Section                                     | IPyNB or Markdown | Presenter | Length |     Time |
 |----+---------------------------------------------+-------------------+-----------+--------+----------|
 |  1 | Continental breakfast                       |                   |           |   0:30 | 08:00:00 |
-|  2 | Reproducible Science webex                  |                   | Rich S.   |   0:40 | 08:30:00 |
+|  2 | [[https://speakerdeck.com/rsignell/reproducible-science][Reproducible Science webex]]                  |                   | Rich S.   |   0:40 | 08:30:00 |
 |  3 | [[http://figshare.com/s/1ab21e9658ae11e4a40206ec4b8d1f61][Conda/Binstar]]                               | conda_binstar.md  | Julien    |   0:30 | 09:10:00 |
 |  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/Geocoded_METAR.ipynb][Point observations w/ TDS]]                   | ncss              | Sean      |   0:45 | 09:40:00 |
 |  5 | Break                                       |                   |           |   0:15 | 10:25:00 |
