@@ -14,7 +14,8 @@ following libraries installed:
 - [[http://matplotlib.org/][matplotlib]]
 - [[http://scitools.org.uk/cartopy/][cartopy]]
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
-- [[https://github.com/Unidata/pyudl][pyudl]]
+- [[https://github.com/Unidata/siphon][siphon]]
+- [[https://github.com/metpy/MetPy][MetPy]]
 
 The easiest way to install these libraries is with [[http://conda.pydata.org/][conda]]. First install the [[http://conda.pydata.org/][conda
 package manager]]. Then,

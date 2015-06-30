@@ -190,7 +190,7 @@
 
 # directory layout for conda recipe
 
-    `-- pyudl
+    `-- siphon
         |-- bld.bat
         |-- build.sh
         |-- meta.yaml
@@ -217,10 +217,10 @@
 # example meta.yaml
 
     package:
-      name: pyudl
-      version: 0.1
+      name: siphon
+      version: 0.3
     source:
-      git_url: https://github.com/Unidata/pyudl
+      git_url: https://github.com/Unidata/siphon
       git_tag: 0.1
     build:
       number: 0
@@ -231,7 +231,7 @@
       run:
         - python
     about:
-      home: https://github.com/Unidata/pyudl
+      home: https://github.com/Unidata/siphon
       license: MIT
       summary: 'A collection of Python utilities for interacting with Unidata technologies'         
 
