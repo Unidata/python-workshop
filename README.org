@@ -38,58 +38,57 @@ ipython notebook
 
 **** Workshop Schedule for <2015-07-20 Mon>
 
-|----+-------------------------------------------------+-------------------+-----------+--------+----------|
-|    | Section                                         | IPyNB or Markdown | Presenter | Length |     Time |
-|----+-------------------------------------------------+-------------------+-----------+--------+----------|
-|  1 | Continental breakfast                           |                   |           |   0:30 | 08:30:00 |
-|  2 | [[http://figshare.com/s/613753ea58ae11e4a40206ec4b8d1f61][Introductions and overview]]                      |                   | Ethan     |   0:20 | 09:00:00 |
-|  3 | Software carpentry for science w/ git/github    |                   | All       |   1:45 | 09:20:00 |
-|  4 | Break                                           |                   |           |   0:20 | 11:05:00 |
-|  5 | Software carpentry for science w/ conda/binstar |                   | All       |   1:00 | 11:25:00 |
-|  6 | Lunch on your own                               |                   |           |   1:15 | 12:25:00 |
-|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook-examples][IPython notebook introduction]] (including 2.0)   | ipython-notebook  | Ward      |   1:00 | 13:40:00 |
-|  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib Part 1]]           | numpy             | Ryan      |   1:00 | 14:40:00 |
-|  9 | Break                                           |                   |           |   0:20 | 15:40:00 |
-| 10 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib]] Part 2           | numpy             | Ryan      |   1:00 | 16:00:00 |
-| 11 | End of day 1                                    |                   |           |        | 17:00:00 |
-|----+-------------------------------------------------+-------------------+-----------+--------+----------|
+|----+-------------------------------------------------+-------------------+-------------+--------+----------|
+|    | Section                                         | IPyNB or Markdown | Presenter   | Length |     Time |
+|----+-------------------------------------------------+-------------------+-------------+--------+----------|
+|  1 | Continental breakfast                           |                   |             |   0:30 | 08:30:00 |
+|  2 | [[http://figshare.com/s/613753ea58ae11e4a40206ec4b8d1f61][Introductions and overview]]                      |                   | Ethan       |   0:20 | 09:00:00 |
+|  3 | Software carpentry for science w/ git/github    |                   | Julien/Ryan |   1:45 | 09:20:00 |
+|  4 | Break                                           |                   |             |   0:20 | 11:05:00 |
+|  5 | Software carpentry for science w/ conda/binstar |                   | Julien      |   1:00 | 11:25:00 |
+|  6 | Lunch on your own                               |                   |             |   1:15 | 12:25:00 |
+|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook-examples][IPython notebook introduction]] (including 2.0)   | ipython-notebook  | Ward        |   1:00 | 13:40:00 |
+|  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib Part 1]]           | numpy             | Ryan        |   1:00 | 14:40:00 |
+|  9 | Break                                           |                   |             |   0:20 | 15:40:00 |
+| 10 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib]] Part 2           | numpy             | Ryan        |   1:00 | 16:00:00 |
+| 11 | End of day 1                                    |                   |             |        | 17:00:00 |
+|----+-------------------------------------------------+-------------------+-------------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
 **** Workshop Schedule for <2015-07-21 Tue>
+
+|----+--------------------------------------+-------------------+-----------+--------+----------|
+|    | Section                              | IPyNB or Markdown | Presenter | Length |     Time |
+|----+--------------------------------------+-------------------+-----------+--------+----------|
+|  1 | Continental breakfast                |                   |           |   0:30 | 08:30:00 |
+|  2 | [[http://figshare.com/s/c187717c58ad11e48fe806ec4b8d1f61][Introduction to netCDF]]               | intro_netCDF      | Russ/Ward |   1:00 | 09:00:00 |
+|  3 | Break                                |                   |           |   0:15 | 10:00:00 |
+|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                       | reading_netCDF    | Jeff W.   |   1:00 | 10:15:00 |
+|  5 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                       | writing_netCDF    | Jeff W.   |   1:00 | 11:15:00 |
+|  6 | Lunch on your own                    |                   |           |   1:00 | 12:15:00 |
+|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience vis w/ matplotlib/cartopy]] | matplotlib        | Ryan      |   1:30 | 13:15:00 |
+|  8 | Break                                |                   |           |   0:15 | 14:45:00 |
+|  9 | NetCDF case study                    |                   | Julien    |   1:00 | 15:00:00 |
+| 10 | End of day 2                         |                   |           |        | 16:00:00 |
+|----+--------------------------------------+-------------------+-----------+--------+----------|
+#+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
+
+**** Workshop Schedule for <2015-07-22 Wed>
 
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
 |    | Section                                       | IPyNB or Markdown | Presenter | Length |     Time |
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
 |  1 | Continental breakfast                         |                   |           |   0:30 | 08:30:00 |
-|  2 | [[http://figshare.com/s/c187717c58ad11e48fe806ec4b8d1f61][Introduction to netCDF]]                        | intro_netCDF      | Russ      |   1:00 | 09:00:00 |
-|  3 | Break                                         |                   |           |   0:10 | 10:00:00 |
-|  4 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/reading_netCDF.ipynb][Reading netCDF]]                                | reading_netCDF    | Jeff W.   |   1:00 | 10:10:00 |
-|  5 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/writing_netCDF.ipynb][Writing netCDF]]                                | writing_netCDF    | Jeff W.   |   1:00 | 11:10:00 |
+|  2 | Pythonic Section (a la Johnny Lin)            |                   | Ryan      |   1:00 | 09:00:00 |
+|  3 | Siphon                                        |                   | Josh      |   1:00 | 10:00:00 |
+|  4 | Break                                         |                   |           |   0:10 | 11:00:00 |
+|  5 | Met Py (including ported GEMPAK stuff)        |                   | Ryan      |   1:00 | 11:10:00 |
 |  6 | Lunch on your own                             |                   |           |   1:00 | 12:10:00 |
-|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience vis w/ matplotlib/cartopy]]          | matplotlib        | Ryan      |   1:30 | 13:10:00 |
-|  8 | Break                                         |                   |           |   0:10 | 14:40:00 |
-|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/Geocoded_METAR.ipynb][Point observations w/ TDS]]                     | ncss              | Sean      |   1:00 | 14:50:00 |
-| 10 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS & Cartpoy extensions) | wms_sample        | Sean      |   1:00 | 15:50:00 |
-| 11 | End of day 2                                  |                   |           |        | 16:50:00 |
+|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/Geocoded_METAR.ipynb][Point observations w/ TDS]]                     | ncss              | Sean      |   1:00 | 13:10:00 |
+|  8 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS & Cartpoy extensions) | wms_sample        | Sean      |   1:00 | 14:10:00 |
+|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/CompositeRadar.ipynb][Accessing radar composites]]                    | CompositeRadar    | Ryan      |   1:00 | 15:10:00 |
+| 10 | End of day 3                                  |                   |           |        | 16:10:00 |
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
-#+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
-
-**** Workshop Schedule for <2015-07-22 Wed>
-
-|----+----------------------------------------+-------------------+-----------+--------+----------|
-|    | Section                                | IPyNB or Markdown | Presenter | Length |     Time |
-|----+----------------------------------------+-------------------+-----------+--------+----------|
-|  1 | Continental breakfast                  |                   |           |   0:30 | 08:30:00 |
-|  2 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/CompositeRadar.ipynb][Accessing radar composites]]             | CompositeRadar    | Ryan      |   1:00 | 09:00:00 |
-|  3 | Pythonic Section                       |                   |           |   1:00 | 10:00:00 |
-|  4 | Break                                  |                   |           |   0:10 | 11:00:00 |
-|  5 | Local TDS/CDM                          |                   |           |   1:00 | 11:10:00 |
-|  6 | Lunch on your own                      |                   |           |   1:00 | 12:10:00 |
-|  7 | New NCSS Python Client                 |                   |           |   1:00 | 13:10:00 |
-|  8 | Met Py (including ported GEMPAK stuff) |                   |           |   1:00 | 14:10:00 |
-|  9 | Netcdf case study                      |                   | Julien    |   1:00 | 15:10:00 |
-| 10 | End of day 2                           |                   |           |        | 16:10:00 |
-|----+----------------------------------------+-------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
 
