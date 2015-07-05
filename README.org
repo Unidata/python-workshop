@@ -21,17 +21,13 @@ The easiest way to install these libraries is with [[http://conda.pydata.org/][c
 package manager]]. Then,
 
 #+BEGIN_SRC shell
-conda config --add channels https://conda.binstar.org/scitools
-
-conda config --add channels https://conda.binstar.org/Unidata
-
-conda create -n workshop python=3 numpy matplotlib cartopy ipython-notebook netcdf4 owslib metpy siphon networkx
-
-source activate workshop
-
 git clone https://github.com/Unidata/unidata-python-workshop.git
 
 cd unidata-python-workshop
+
+conda env create
+
+source activate workshop
 
 ipython notebook
 #+END_SRC

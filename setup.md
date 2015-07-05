@@ -36,11 +36,9 @@ From the command line:
 
 ~~`git clone https://github.com/Unidata/unidata-python-workshop`~~
 
-~~`conda config --add channels https://conda.binstar.org/scitools`~~
+~~`cd unidata-python-workshop`~~
 
-~~`conda config --add channels https://conda.binstar.org/Unidata`~~
-
-~~`conda create -n workshop python=3 numpy matplotlib cartopy ipython-notebook netcdf4 owslib siphon metpy networkx`~~
+~~`conda env create`~~
 
 ```
 cd unidata-python-workshop

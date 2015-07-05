@@ -53,17 +53,9 @@ if [ ! -f "$CONDALOCK" ]; then
     sudo -u vagrant -i bash /home/vagrant/$INSTFILE -bf -p /home/vagrant/anaconda
 
      ###
-    # Add channels, create configuration.
+    # create conda environment.
     ###
-    if [ "$1" == "64" ]; then
-        sudo -u vagrant -i /home/vagrant/anaconda/bin/conda config --add channels https://conda.binstar.org/scitools
-    else
-        sudo -u vagrant -i /home/vagrant/anaconda/bin/conda config --add channels https://conda.binstar.org/wardf
-    fi
-
-    sudo -u vagrant -i /home/vagrant/anaconda/bin/conda config --add channels https://conda.binstar.org/Unidata
-
-    sudo -u vagrant -i /home/vagrant/anaconda/bin/conda create -n workshop --yes python=2 numpy matplotlib cartopy ipython-notebook netcdf4 owslib siphon metpy networkx
+    sudo -u vagrant -i /home/vagrant/anaconda/bin/conda env create 
 
 fi
 
