@@ -2,7 +2,7 @@
 
 - *What*: A series of IPython Notebooks on exploring Unidata technology with 
   Python for the 2015 Unidata Training Workshop.
-- *When*: <2015-07-20 Tue>--<2015-07-23 Wed>
+- *When*: <2015-07-20 Mon>--<2015-07-23 Wed>
 - *Where*: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
 
 **** Quick Start
@@ -132,8 +132,8 @@ ipython notebook
 
 **** Please give us your feedback
 
-From the Unidata [[http://www.unidata.ucar.edu/][page]], go to the "2014 Training Workshop" [[http://www.unidata.ucar.edu/events/2014TrainingWorkshop/][page]] by selecting
-"Events" -> "2014 Training Workshop" from the menu. Click on the "Give us your
+From the Unidata [[http://www.unidata.ucar.edu/][page]], go to the "2015 Training Workshop" [[http://www.unidata.ucar.edu/events/2014TrainingWorkshop/][page]] by selecting
+"Events" -> "2015 Training Workshop" from the menu. Click on the "Give us your
 Feedback" link to get to the [[http://www.unidata.ucar.edu/community/surveys/2014training/survey.html][survey]].
 
 Note: Please feel free to use the survey at any time during the class (and as
