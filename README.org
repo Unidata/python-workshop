@@ -1,13 +1,17 @@
 ** Unidata Technology with Python (in construction for 2015)
 
-- *What*: A series of IPython Notebooks on exploring Unidata technology with Python for the 2014 Unidata Training Workshop.
-- *When*: <2014-10-21 Tue>--<2014-10-22 Wed>
+- *What*: A series of IPython Notebooks on exploring Unidata technology with 
+Python for the 2015 Unidata Training Workshop.
+- *When*: <2015-07-20 Tue>--<2015-07-23 Wed>
 - *Where*: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
 
 **** Quick Start
 
-For these IPython Notebooks we will be using a Python environment with the
-following libraries installed:
+*Desktop computers will be provided for workshop attendees with the software
+already installed.* If you wish to bring your own laptop or for future use
+after the workshop you can follow these instruction.
+
+For this workshop, we will be using the following Python libraries:
 
 - [[http://www.numpy.org/][numpy]]
 - [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
@@ -17,17 +21,57 @@ following libraries installed:
 - [[https://github.com/Unidata/siphon][siphon]]
 - [[https://github.com/metpy/MetPy][MetPy]]
 
-The easiest way to install these libraries is with [[http://conda.pydata.org/][conda]]. First install the [[http://conda.pydata.org/][conda
-package manager]]. Then,
+The easiest way to install these libraries is with [[http://conda.pydata.org/][conda]].
+
+1. [[http://conda.pydata.org/miniconda.html][Install Miniconda (Python 2.7) from Continuum Analytics]].
+([[http://www.akaipro.com/kb/article/1616#os_32_or_64_bit][Determine if your OS 32 or 64 bit]])
+2. Once Miniconda is installed, from the command line (e.g., OS X terminal,
+cmd.exe), run these instructions:
+
+#+BEGIN_SRC shell
+conda create -n workshop2015 python=2 numpy netcdf4-python matplotlib cartopy
+OWSLib siphone MetPy
+#+END_SRC
+
+**** From a Unix command line (e.g., OS X terminal)
+*If your default shell is NOT bash, first type `bash`.*
+To activate or switch to a conda environment, you can =source activate
+<environment>=. For example,
+
+#+BEGIN_SRC shell
+source activate workshop2015
+#+END_SRC
+
+To switch and/or deactivate environments:
+
+#+BEGIN_SRC shell
+source deactivate
+source activate <environment>
+#+END_SRC
+ 
+
+**** From a Windows command line (e.g., cmd.exe)
+
+To activate or switch to a conda environment, you can =activate
+<environment>=. For example,
+
+#+BEGIN_SRC shell
+activate workshop2015
+#+END_SRC
+
+To switch and/or deactivate environments:
+
+#+BEGIN_SRC shell
+deactivate
+activate <environment>
+#+END_SRC
 
 #+BEGIN_SRC shell
 git clone https://github.com/Unidata/unidata-python-workshop.git
 
 cd unidata-python-workshop
 
-conda env create
-
-source activate workshop
+[source] activate workshop2015
 
 ipython notebook
 #+END_SRC
@@ -87,7 +131,6 @@ ipython notebook
 | 11 | End of day 3                                  |                   |           |        | 16:30:00 |
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
-
 
 **** Please give us your feedback
 
