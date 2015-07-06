@@ -1,7 +1,7 @@
 ** Unidata Technology with Python (in construction for 2015)
 
-- *What*: A series of IPython Notebooks on exploring Unidata technology with 
-  Python for the 2015 Unidata Training Workshop.
+- *What*: Jupyter Notebooks and related material on exploring Unidata technology
+  with Python for the 2015 Unidata Training Workshop.
 - *When*: <2015-07-20 Mon>--<2015-07-23 Wed>
 - *Where*: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
 
@@ -61,7 +61,7 @@
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
-**** Installation
+**** Optional Installation Instructions
 
 *Desktop computers will be provided for workshop attendees with the software
 already installed.* If you wish to bring your own laptop or for future use
