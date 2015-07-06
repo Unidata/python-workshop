@@ -1,10 +1,10 @@
 #+TITLE: Unidata Technology with Python (in construction for 2015)
 #+DATE: <2015-07-06 Mon>
-#+AUTHOR: chastang
+#+AUTHOR: Unidata Python Development Team
 #+EMAIL: support-python@unidata.ucar.edu
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
 #+OPTIONS: creator:comment d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t
-#+OPTIONS: num:t p:nil pri:nil stat:t tags:t tasks:t tex:t timestamp:t toc:t
+#+OPTIONS: num:nil p:nil pri:nil stat:t tags:t tasks:t tex:t timestamp:t toc:t
 #+OPTIONS: todo:t |:t
 #+CREATOR: Emacs 24.5.1 (Org mode 8.2.10)
 #+DESCRIPTION:
@@ -13,14 +13,12 @@
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 
-** Unidata Technology with Python (in construction for 2015)
-
 - *What*: Jupyter notebooks and related material on exploring Unidata technology
   with Python for the 2015 Unidata Training Workshop.
 - *When*: <2015-07-20 Mon>--<2015-07-23 Wed>
 - *Where*: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
 
-**** Workshop Schedule for <2015-07-20 Mon>
+** Workshop Schedule for <2015-07-20 Mon>
 
 |----+-------------------------------------------------+-------------------+-------------+--------+----------|
 |    | Section                                         | IPyNB or Markdown | Presenter   | Length |     Time |
@@ -39,7 +37,7 @@
 |----+-------------------------------------------------+-------------------+-------------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
-**** Workshop Schedule for <2015-07-21 Tue>
+** Workshop Schedule for <2015-07-21 Tue>
 
 |----+--------------------------------------+-------------------+-----------+--------+----------|
 |    | Section                              | IPyNB or Markdown | Presenter | Length |     Time |
@@ -57,7 +55,7 @@
 |----+--------------------------------------+-------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
-**** Workshop Schedule for <2015-07-22 Wed>
+** Workshop Schedule for <2015-07-22 Wed>
 
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
 |    | Section                                       | IPyNB or Markdown | Presenter | Length |     Time |
@@ -76,7 +74,17 @@
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
-**** Optional Installation Instructions
+** Running the notebooks
+
+#+BEGIN_SRC shell
+cd unidata-python-workshop
+
+[source] activate workshop2015
+
+ipython notebook
+#+END_SRC
+
+** Optional Installation Instructions
 
 *Desktop computers will be provided for workshop attendees with the software
 already installed.* If you wish to bring your own laptop or for future use
@@ -104,7 +112,7 @@ conda create -n workshop2015 python=2 numpy netcdf4-python matplotlib cartopy \
   OWSLib siphon MetPy
 #+END_SRC
 
-***** From a Unix command line (e.g., OS X terminal)
+*** From a Unix command line (e.g., OS X terminal)
 _If your default shell is NOT bash, first type =bash=._
 To activate or switch to a conda environment, you can =source activate
 <environment>=. For example,
@@ -120,7 +128,7 @@ source deactivate
 source activate <environment>
 #+END_SRC
  
-***** From a Windows command line (e.g., cmd.exe)
+*** From a Windows command line (e.g., cmd.exe)
 
 To activate or switch to a conda environment, you can =activate
 <environment>=. For example,
@@ -136,19 +144,7 @@ deactivate
 activate <environment>
 #+END_SRC
 
-***** Running the notebooks
-
-#+BEGIN_SRC shell
-git clone https://github.com/Unidata/unidata-python-workshop.git
-
-cd unidata-python-workshop
-
-[source] activate workshop2015
-
-ipython notebook
-#+END_SRC
-
-**** Please give us your feedback
+** Please give us your feedback
 
 From the Unidata [[http://www.unidata.ucar.edu/][page]], go to the "2015 Training Workshop" [[http://www.unidata.ucar.edu/events/2014TrainingWorkshop/][page]] by selecting
 "Events" -> "2015 Training Workshop" from the menu. Click on the "Give us your
