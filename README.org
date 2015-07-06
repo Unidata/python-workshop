@@ -1,6 +1,6 @@
 ** Unidata Technology with Python (in construction for 2015)
 
-- *What*: Jupyter Notebooks and related material on exploring Unidata technology
+- *What*: Jupyter notebooks and related material on exploring Unidata technology
   with Python for the 2015 Unidata Training Workshop.
 - *When*: <2015-07-20 Mon>--<2015-07-23 Wed>
 - *Where*: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
@@ -19,7 +19,7 @@
 |  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook-examples][IPython notebook introduction]] (including 2.0)   | ipython-notebook  | Ward        |   1:00 | 13:40:00 |
 |  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib Part 1]]           | numpy             | Ryan        |   1:00 | 14:40:00 |
 |  9 | Break                                           |                   |             |   0:20 | 15:40:00 |
-| 10 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib]] Part 2           | numpy             | Ryan        |   1:00 | 16:00:00 |
+| 10 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib Part 2]]           | numpy             | Ryan        |   1:00 | 16:00:00 |
 | 11 | End of day 1                                    |                   |             |        | 17:00:00 |
 |----+-------------------------------------------------+-------------------+-------------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
@@ -81,15 +81,16 @@ The easiest way to install these libraries is with [[http://conda.pydata.org/][c
 
 1. [[http://conda.pydata.org/miniconda.html][Install Miniconda (Python 2.7) from Continuum Analytics]].
   ([[http://www.akaipro.com/kb/article/1616#os_32_or_64_bit][Determine if your OS 32 or 64 bit]])
-2. Once Miniconda is installed, from the command line (e.g., OS X terminal,
-cmd.exe), run these instructions:
+2. Once Miniconda is installed, from the command line (e.g., OS X terminal, 
+  cmd.exe), run these instructions:
 
 #+BEGIN_SRC shell
-conda create -n workshop2015 python=2 numpy netcdf4-python matplotlib cartopy OWSLib siphone MetPy
+conda create -n workshop2015 python=2 numpy netcdf4-python matplotlib cartopy \
+  OWSLib siphon MetPy
 #+END_SRC
 
 ***** From a Unix command line (e.g., OS X terminal)
-*If your default shell is NOT bash, first type =bash=.*
+_If your default shell is NOT bash, first type =bash=._
 To activate or switch to a conda environment, you can =source activate
 <environment>=. For example,
 
@@ -119,6 +120,8 @@ To switch and/or deactivate environments:
 deactivate
 activate <environment>
 #+END_SRC
+
+***** Running the notebooks
 
 #+BEGIN_SRC shell
 git clone https://github.com/Unidata/unidata-python-workshop.git
