@@ -1,3 +1,18 @@
+#+TITLE: Unidata Technology with Python (in construction for 2015)
+#+DATE: <2015-07-06 Mon>
+#+AUTHOR: chastang
+#+EMAIL: support-python@unidata.ucar.edu
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
+#+OPTIONS: creator:comment d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t
+#+OPTIONS: num:t p:nil pri:nil stat:t tags:t tasks:t tex:t timestamp:t toc:t
+#+OPTIONS: todo:t |:t
+#+CREATOR: Emacs 24.5.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+
 ** Unidata Technology with Python (in construction for 2015)
 
 - *What*: Jupyter notebooks and related material on exploring Unidata technology
