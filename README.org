@@ -64,7 +64,7 @@
 |    | Section                                       | IPyNB or Markdown | Presenter | Length |     Time |
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
 |  1 | Continental breakfast                         |                   |           |   0:30 | 08:30:00 |
-|  2 | Pythonic Section (a la Johnny Lin)            |                   | Ryan      |   1:00 | 09:00:00 |
+|  2 | Pythonic Section (à la Johnny Lin)            |                   | Ryan      |   1:00 | 09:00:00 |
 |  3 | Siphon                                        |                   | Josh      |   1:00 | 10:00:00 |
 |  4 | Break                                         |                   |           |   0:15 | 11:00:00 |
 |  5 | MetPy (including ported GEMPAK stuff)         |                   | Ryan      |   1:00 | 11:15:00 |
@@ -82,7 +82,8 @@
 #+BEGIN_SRC shell
 cd unidata-python-workshop
 
-[source] activate workshop2015
+# unix, use bash. windows omit 'source'
+source activate workshop2015
 
 ipython notebook
 #+END_SRC
@@ -120,7 +121,7 @@ conda create -n workshop2015 python=3 numpy netcdf4 matplotlib cartopy OWSLib \
 #+END_SRC
 
 *** From a Unix command line (e.g., OS X terminal)
-_If your default shell is NOT bash, first type =bash=._
+If your default shell is NOT bash, first type =bash=.
 To activate or switch to a conda environment, you can =source activate
 <environment>=. For example,
 
