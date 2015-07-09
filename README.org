@@ -9,6 +9,9 @@
 #+CREATOR: Emacs 24.5.1 (Org mode 8.2.10)
 #+DESCRIPTION:
 #+EXCLUDE_TAGS: noexport
+
+
+
 #+KEYWORDS:
 #+LANGUAGE: en
 #+SELECT_TAGS: export
@@ -29,7 +32,7 @@
 |  4 | Break                                           |                   |             |   0:20 | 11:05:00 |
 |  5 | Software carpentry for science w/ conda/binstar |                   | Julien      |   1:00 | 11:25:00 |
 |  6 | Lunch on your own                               |                   |             |   1:15 | 12:25:00 |
-|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook-examples][IPython notebook introduction]] (including 2.0)   | ipython-notebook  | Ward        |   1:00 | 13:40:00 |
+|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook-examples][IPython notebook introduction]]                   | ipython-notebook  | Ward        |   1:00 | 13:40:00 |
 |  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib Part 1]]           | numpy             | Ryan        |   1:00 | 14:40:00 |
 |  9 | Break                                           |                   |             |   0:20 | 15:40:00 |
 | 10 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/numpy.ipynb][Numpy with intro to matplotlib Part 2]]           | numpy             | Ryan        |   1:00 | 16:00:00 |
@@ -50,7 +53,7 @@
 |  6 | Lunch on your own                    |                   |           |   1:00 | 12:15:00 |
 |  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/matplotlib.ipynb][Geoscience vis w/ matplotlib/cartopy]] | matplotlib        | Ryan      |   1:30 | 13:15:00 |
 |  8 | Break                                |                   |           |   0:15 | 14:45:00 |
-|  9 | NetCDF case study                    |                   | Julien    |   1:00 | 15:00:00 |
+|  9 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/casestudy.ipynb][NetCDF case study]]                    |                   | Julien    |   1:00 | 15:00:00 |
 | 10 | End of day 2                         |                   |           |        | 16:00:00 |
 |----+--------------------------------------+-------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
@@ -99,17 +102,21 @@ For this workshop, we will be using the following Python libraries:
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
 - [[https://github.com/Unidata/siphon][siphon]]
 - [[https://github.com/metpy/MetPy][MetPy]]
+- [[https://github.com/xray/xray][xray]]
+
 
 The easiest way to install these libraries is with [[http://conda.pydata.org/][conda]].
 
-1. [[http://conda.pydata.org/miniconda.html][Install Miniconda (Python 2.7) from Continuum Analytics]].
+1. [[http://conda.pydata.org/miniconda.html][Install Miniconda (Python 3.4) from Continuum Analytics]].
   ([[http://www.akaipro.com/kb/article/1616#os_32_or_64_bit][Determine if your OS 32 or 64 bit]])
 2. Once Miniconda is installed, from the command line (e.g., OS X terminal, 
   cmd.exe), run these instructions:
 
 #+BEGIN_SRC shell
-conda create -n workshop2015 python=2 numpy netcdf4-python matplotlib cartopy \
-  OWSLib siphon MetPy
+conda config --add channels http://conda.binstar.org/unidata
+
+conda create -n workshop2015 python=3 numpy netcdf4 matplotlib cartopy OWSLib \
+  siphon MetPy
 #+END_SRC
 
 *** From a Unix command line (e.g., OS X terminal)
