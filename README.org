@@ -116,8 +116,9 @@ The easiest way to install these libraries is with [[http://conda.pydata.org/][c
 #+BEGIN_SRC shell
 conda config --add channels http://conda.binstar.org/unidata
 
-conda create -n workshop2015 python=3 numpy netcdf4 matplotlib cartopy OWSLib \
-  siphon MetPy
+conda create -n workshop2015 python=3 ipython numpy netcdf4 matplotlib cartopy 
+  OWSLib siphon MetPy xray pyzmq jinja2 tornado jsonschema
+
 #+END_SRC
 
 *** From a Unix command line (e.g., OS X terminal)
