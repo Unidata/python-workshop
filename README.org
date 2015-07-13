@@ -77,22 +77,7 @@
 |----+-----------------------------------------------+-------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
-** Running the notebooks
-
-#+BEGIN_SRC shell
-cd unidata-python-workshop
-
-# unix, use bash. windows omit 'source'
-source activate workshop2015
-
-ipython notebook
-#+END_SRC
-
-** Optional Installation Instructions
-
-*Desktop computers will be provided for workshop attendees with the software
-already installed.* If you wish to bring your own laptop or for future use
-after the workshop you can follow these instruction.
+** Installation Instructions
 
 For this workshop, we will be using the following Python libraries:
 
@@ -151,6 +136,19 @@ To switch and/or deactivate environments:
 #+BEGIN_SRC shell
 deactivate
 activate <environment>
+#+END_SRC
+
+** Running the notebooks
+
+#+BEGIN_SRC shell
+git clone https://github.com/Unidata/unidata-python-workshop
+
+cd unidata-python-workshop
+
+# unix, use bash. windows omit 'source'
+source activate workshop2015
+
+ipython notebook
 #+END_SRC
 
 ** Please give us your feedback
