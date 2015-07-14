@@ -82,7 +82,7 @@
 For this workshop, we will be using the following Python libraries:
 
 - [[http://www.numpy.org/][numpy]]
-- [[https://code.google.com/p/netcdf4-python/][netcdf4-python]]
+- [[https://github.com/Unidata/netcdf4-python][netcdf4-python]]
 - [[http://matplotlib.org/][matplotlib]]
 - [[http://scitools.org.uk/cartopy/][cartopy]]
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
