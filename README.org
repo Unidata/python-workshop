@@ -138,6 +138,14 @@ deactivate
 activate <environment>
 #+END_SRC
 
+
+
+*** Docker
+
+For those interested in Docker, [[https://registry.hub.docker.com/u/unidata/python/][Unidata maintains a Docker image]] containing
+conda and the packages needed to run these notebooks. The relevant conda
+environment is named =unidata=.
+
 ** Running the notebooks
 
 #+BEGIN_SRC shell
