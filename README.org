@@ -95,14 +95,14 @@ The easiest way to install these libraries is with [[http://conda.pydata.org/][c
 
 1. [[http://conda.pydata.org/miniconda.html][Install Miniconda (Python 3.4) from Continuum Analytics]].
   ([[http://www.akaipro.com/kb/article/1616#os_32_or_64_bit][Determine if your OS 32 or 64 bit]])
-2. Once Miniconda is installed, from the command line (e.g., OS X terminal, 
+2. Once Miniconda is installed, from the command line (e.g., OS X terminal,
   cmd.exe), run these instructions:
 
 #+BEGIN_SRC shell
 conda config --add channels http://conda.binstar.org/unidata
 
-conda create -n workshop2015 python=3 ipython numpy netcdf4 matplotlib cartopy 
-  OWSLib siphon MetPy xray pyzmq jinja2 tornado jsonschema
+conda create -n workshop2015 python=3 ipython numpy netcdf4 matplotlib cartopy
+  OWSLib siphon MetPy xray pyzmq jinja2 tornado jsonschema networkx
 
 #+END_SRC
 
@@ -121,7 +121,7 @@ To switch and/or deactivate environments:
 source deactivate
 source activate <environment>
 #+END_SRC
- 
+
 *** From a Windows command line (e.g., cmd.exe)
 
 To activate or switch to a conda environment, you can =activate
