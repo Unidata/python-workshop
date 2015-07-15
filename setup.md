@@ -9,7 +9,7 @@ If you do not have one already, [sign up for a github account](https://github.co
 **Desktop computers will be provided for workshop attendees. However, if you plan on working on your own laptop, you have two options:**
 
 
-### Option 1, download git and conda
+### Using git and conda
 
 Download and install:
 
@@ -19,10 +19,6 @@ Download and install:
 If working in a Unix or Mac OS X environment, make sure `git` and `conda` are on your path.
 
 You will also need a text editor you are comfortable working with. On Unix or OS X this can be `vi`, `emacs`, `gedit`, or `pico`. On Windows, you can use notepad.
-
-### Option 2, Vagrant
-
-Vagrant is free, open-source software to create virtual environments. In practical terms, this means Vagrant is an alternative option to easily set up the workshop environment. [Instructions for working with Vagrant](https://github.com/Unidata/unidata-python-workshop/blob/master/VAGRANT_README.md).
 
 ## Setup at start of workshop
 
