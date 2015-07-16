@@ -191,7 +191,7 @@ source: http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging
 - Clones a repository into a local working directory
 - Also automatically creates **remote** tracking branches
 
-`git clone https://github.com/Unidata/conda-recipes`
+`git clone https://github.com/Unidata/dummy`
 
 # More on Remote repositories
 
@@ -217,11 +217,11 @@ source: http://illustrated-git.readthedocs.org/en/latest/
 # `git remote -v`
 
 ```
-git clone https://github.com/unidata/conda-recipes
-cd conda-recipes
+git clone https://github.com/unidata/dummy
+cd dummy
 git remote -v
-origin	https://github.com/unidata/conda-recipes (fetch)
-origin	https://github.com/unidata/conda-recipes (push)
+origin	https://github.com/unidata/dummy (fetch)
+origin	https://github.com/unidata/dummy (push)
 ```
 
 Note that we have a **remote** named "origin"
@@ -232,8 +232,8 @@ Will provide additional information on remote
 
 ```
 remote origin
-Fetch URL: https://github.com/unidata/conda-recipes
-Push  URL: https://github.com/unidata/conda-recipes
+Fetch URL: https://github.com/unidata/dummy
+Push  URL: https://github.com/unidata/dummy
 HEAD branch: master
 Remote branch:
     master tracked
