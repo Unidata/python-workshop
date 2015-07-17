@@ -18,6 +18,10 @@ git config --global user.name "YOUR NAME"
 
 git config --global user.email "YOUR EMAIL ADDRESS"
 
+git clone https://github.com/Unidata/dummy
+
+cd dummy
+
 git remote add myfork https://github.com/YOUR-USERNAME/dummy.git
 
 git remote set-url myfork https://YOUR-USERNAME@github.com/YOUR-USERNAME/dummy.git
