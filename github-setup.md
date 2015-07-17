@@ -18,16 +18,18 @@ git config --global user.name "YOUR NAME"
 
 git config --global user.email "YOUR EMAIL ADDRESS"
 
-git clone https://github.com/Unidata/dummy
+git clone https://github.com/YOUR-USERNAME/dummy
 
 cd dummy
 
-git remote add myfork https://github.com/YOUR-USERNAME/dummy.git
+git remote add upstream https://github.com/unidata/dummy.git
 
-git remote set-url myfork https://YOUR-USERNAME@github.com/YOUR-USERNAME/dummy.git
+git fetch upstream
+
+#sanity check, should see 'origin' and 'upstream' remotes
+git branch -a
 
 # Later if you wish to save (i.e., push out) your commits
-
-git push myfork master
+git push origin master
 
 ```
