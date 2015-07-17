@@ -1,5 +1,11 @@
 % Collaborative Science with git
 
+# Motivation
+
+- "Software Is Eating The World" - Marc Andreessen
+- Geoscientists of the future and present will have to know how to code
+- git is an essential tool for coders
+
 # What is git?
 
 - git is a version control system (VCS)
@@ -191,7 +197,7 @@ source: http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging
 - Clones a repository into a local working directory
 - Also automatically creates **remote** tracking branches
 
-`git clone https://github.com/Unidata/dummy`
+`git clone https://github.com/Unidata/conda-recipes`
 
 # More on Remote repositories
 
@@ -217,11 +223,11 @@ source: http://illustrated-git.readthedocs.org/en/latest/
 # `git remote -v`
 
 ```
-git clone https://github.com/unidata/dummy
-cd dummy
+git clone https://github.com/unidata/conda-recipes
+cd conda-recipes
 git remote -v
-origin	https://github.com/unidata/dummy (fetch)
-origin	https://github.com/unidata/dummy (push)
+origin	https://github.com/unidata/conda-recipes (fetch)
+origin	https://github.com/unidata/conda-recipes (push)
 ```
 
 Note that we have a **remote** named "origin"
@@ -232,8 +238,8 @@ Will provide additional information on remote
 
 ```
 remote origin
-Fetch URL: https://github.com/unidata/dummy
-Push  URL: https://github.com/unidata/dummy
+Fetch URL: https://github.com/unidata/conda-recipes
+Push  URL: https://github.com/unidata/conda-recipes
 HEAD branch: master
 Remote branch:
     master tracked
@@ -285,17 +291,17 @@ remotes/origin/master
 # github forking to enable collaboration via "pull request"
 
 - github allows copying of repositories **at github** with the fork button
-- once you have a forked repo, add it as an "upstream" remote
+- you can then work with this "forked" repo and eventually collaborate via "pull requests"
 
-# Adding additional upstream remotes to bring in other collaborators
+# Working with origin and upstream remotes for collaboration
 
-- For example, if forking https://github.com/unidata/unidata-python-workshop
-- `git clone https://github.com/USERNAME/unidata-python-workshop`
-- `git add remote upstream https://github.com/USERNAME/unidata-python-workshop`
-Then you can
-- `git push upstream master`
-- `git pull upstream master`
-- Once you have pushed your changes to an upstream master or better yet a feature branch, issue a pull request
+- For example, if forking https://github.com/Unidata/dummy
+
+- `git clone https://github.com/YOUR-USERNAME/dummy`
+- `git remote add upstream https://github.com/unidata/dummy.git`
+- `git fetch upstream`
+- `git push origin master`
+- Once you have pushed your changes to you origin master (or better yet a feature branch), issue a pull request
 
 # pull requests
 
