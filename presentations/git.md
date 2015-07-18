@@ -207,12 +207,6 @@ source: http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging
 - But is often a repository at github.com
 - git is by no means tied or limited to github
 
-# remote repositories
-
-![git remote repositories](./images/remotes.png) 
-
-source: http://illustrated-git.readthedocs.org/en/latest/
-
 
 # git cloning continued and remote branches
 
