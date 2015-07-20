@@ -151,7 +151,7 @@
 
 - Channels are tied to **users** or **organizations**
 - [`https://binstar.org/unidata`](https://binstar.org/unidata)
-- [`https://binstar.org/risgnell`](https://binstar.org/rsignell)
+- [`https://binstar.org/rsignell`](https://binstar.org/rsignell)
 - Channels can be added to conda configuration (.condarc) so you can find packages of interest
 
 # `binstar` command utility
