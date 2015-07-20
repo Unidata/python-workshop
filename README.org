@@ -32,7 +32,7 @@
 |  4 | Break                                           |                   |             |   0:20 | 11:05:00 |
 |  5 | [[http://figshare.com/preview/_preview/1209665][Software carpentry for science w/ conda/binstar]] |                   | Julien      |   1:00 | 11:25:00 |
 |  6 | Lunch on your own                               |                   |             |   1:15 | 12:25:00 |
-|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/ipython-notebook-examples][IPython notebook introduction]]                   | ipython-notebook  | Ward        |   1:00 | 13:40:00 |
+|  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/jupyter-notebook-examples][Jupyter notebook introduction]]                   | jupyter-notebook  | Ward        |   1:00 | 13:40:00 |
 |  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/intro-numpy-and-matplotlib.ipynb][Numpy with intro to matplotlib Part 1]]           | numpy             | Ryan        |   1:00 | 14:40:00 |
 |  9 | Break                                           |                   |             |   0:20 | 15:40:00 |
 | 10 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/intro-numpy-and-matplotlib.ipynb][Numpy with intro to matplotlib Part 2]]           | numpy             | Ryan        |   1:00 | 16:00:00 |
