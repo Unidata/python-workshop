@@ -161,9 +161,4 @@ ipython notebook
 
 ** Please give us your feedback
 
-From the Unidata [[http://www.unidata.ucar.edu/][page]], go to the "2015 Training Workshop" [[http://www.unidata.ucar.edu/events/2014TrainingWorkshop/][page]] by selecting
-"Events" -> "2015 Training Workshop" from the menu. Click on the "Give us your
-Feedback" link to get to the [[http://www.unidata.ucar.edu/community/surveys/2014training/survey.html][survey]].
-
-Note: Please feel free to use the survey at any time during the class (and as
-often as you like) as comments come to mind.
+Your feed back is greatly appreciated! Please feel free to use the [[http://www.unidata.ucar.edu/community/surveys/2015training/survey.html][survey]] as often as you like, at any time during or after the class as comments come to mind.
