@@ -1,4 +1,4 @@
-#+TITLE: Unidata Technology with Python (in construction for 2015)
+#+TITLE: Unidata Technology with Python
 #+DATE: <2015-07-06 Mon>
 #+AUTHOR: Unidata Python Development Team
 #+EMAIL: support-python@unidata.ucar.edu
