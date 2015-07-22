@@ -27,10 +27,10 @@
 |    | Section                                         | IPyNB or Markdown           | Presenter   | Length |     Time |
 |----+-------------------------------------------------+-----------------------------+-------------+--------+----------|
 |  1 | Continental breakfast                           |                             |             |   0:30 | 08:30:00 |
-|  2 | [[http://figshare.com/s/613753ea58ae11e4a40206ec4b8d1f61][Introductions and overview]]                      | presentations/Overview      | Ethan       |   0:20 | 09:00:00 |
-|  3 | [[http://figshare.com/s/8638d4e458ad11e4b7ca06ec4bbcf141][Software carpentry for science w/ git/github]]    | presentations/git           | Julien/Ryan |   1:45 | 09:20:00 |
+|  2 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/Overview.pdf][Introductions and overview]]                      | presentations/Overview      | Ethan       |   0:20 | 09:00:00 |
+|  3 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/git.pdf][Software carpentry for science w/ git/github]]    | presentations/git           | Julien/Ryan |   1:45 | 09:20:00 |
 |  4 | Break                                           |                             |             |   0:20 | 11:05:00 |
-|  5 | [[http://figshare.com/preview/_preview/1209665][Software carpentry for science w/ conda/binstar]] | presentations/conda_binstar | Julien      |   1:00 | 11:25:00 |
+|  5 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/conda_binstar.pdf][Software carpentry for science w/ conda/binstar]] | presentations/conda_binstar | Julien      |   1:00 | 11:25:00 |
 |  6 | Lunch on your own                               |                             |             |   1:15 | 12:25:00 |
 |  7 | [[http://nbviewer.ipython.org/urls/raw.github.com/Unidata/unidata-python-workshop/master/jupyter-notebook-examples][Jupyter notebook introduction]]                   | jupyter-notebook            | Ward        |   1:00 | 13:40:00 |
 |  8 | [[http://nbviewer.ipython.org/github/Unidata/unidata-python-workshop/blob/master/intro-numpy-and-matplotlib.ipynb][Numpy with intro to matplotlib Part 1]]           | intro-numpy-and-matplotlib  | Ryan        |   1:00 | 14:40:00 |
