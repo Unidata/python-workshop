@@ -96,15 +96,14 @@ The easiest way to install these libraries is with [[http://conda.pydata.org/][c
 1. [[http://conda.pydata.org/miniconda.html][Install Miniconda (Python 3.4) from Continuum Analytics]].
   ([[http://www.akaipro.com/kb/article/1616#os_32_or_64_bit][Determine if your OS 32 or 64 bit]])
 2. Once Miniconda is installed, from the command line (e.g., OS X terminal,
-  cmd.exe), run these instructions:
+  cmd.exe), run these instructions to clone the repository and create the environment:
 
 #+BEGIN_SRC shell
-conda config --add channels http://conda.binstar.org/unidata
+git clone https://github.com/Unidata/unidata-python-workshop
 
-conda create -n workshop2015 python=3 ipython numpy netcdf4 matplotlib cartopy \
-OWSLib siphon MetPy xray pyzmq jinja2 tornado jsonschema networkx \
-anaconda-client
+cd unidata-python-workshop
 
+conda env create 
 #+END_SRC
 
 *** From a Unix command line (e.g., OS X terminal)
@@ -150,8 +149,6 @@ environment is named =unidata=.
 ** Running the notebooks
 
 #+BEGIN_SRC shell
-git clone https://github.com/Unidata/unidata-python-workshop
-
 cd unidata-python-workshop
 
 # unix, use bash. windows omit 'source'

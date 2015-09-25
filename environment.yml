@@ -1,20 +1,18 @@
-name: workshop
-channels:
-  - https://conda.binstar.org/Unidata
-dependencies:
-  - python=3
-  - ipython
-  - numpy
-  - netcdf4
-  - matplotlib
-  - cartopy
-  - OWSLib
-  - siphon
-  - MetPy
-  - xray
-  - pyzmq
-  - jinja2
-  - tornado
-  - jsonschema
-  - networkx
-  - anaconda-client
+ name: workshop
+ channels:
+   - https://conda.binstar.org/scitools
+   - https://conda.binstar.org/Unidata
+ dependencies:
+   - python=3
+   - numpy
+   - matplotlib
+   - cartopy
+   - ipython-notebook
+   - networkx
+   - netcdf4
+   - owslib
+   - metpy
+   - siphon
+   - xray
+   - anaconda-client
+
