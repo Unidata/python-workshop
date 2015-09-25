@@ -7,7 +7,7 @@
    - numpy
    - matplotlib
    - cartopy
-   - ipython-notebook
+   - jupyter
    - networkx
    - netcdf4
    - owslib
