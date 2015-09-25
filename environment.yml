@@ -1,4 +1,4 @@
- name: workshop
+ name: workshop2015
  channels:
    - https://conda.binstar.org/scitools
    - https://conda.binstar.org/Unidata
