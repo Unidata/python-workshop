@@ -103,7 +103,7 @@ git clone https://github.com/Unidata/unidata-python-workshop
 
 cd unidata-python-workshop
 
-conda env create 
+conda env create -f environment.yml
 #+END_SRC
 
 *** From a Unix command line (e.g., OS X terminal)
