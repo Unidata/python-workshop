@@ -1,7 +1,7 @@
 FROM busybox
 
 # Fixes permissions when used with other images
-RUN adduser -D jupyter
+RUN adduser -u 1001 -s /bin/bash -h /home/jupyter -D jupyter
 
 ADD . /notebooks/unidata-python-workshop/
 
