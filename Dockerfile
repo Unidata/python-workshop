@@ -8,3 +8,6 @@ ADD . /notebooks/unidata-python-workshop/
 RUN chown -R jupyter:jupyter /notebooks
 
 USER jupyter
+
+# Try to expose as a volume
+VOLUME /notebooks
