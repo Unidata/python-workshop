@@ -12,6 +12,8 @@
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 
+[[http://mybinder.org/repo/Unidata/unidata-python-workshop][http://mybinder.org/badge.svg]]
+
 - *What*: Jupyter notebooks and related material on exploring Unidata technology
   with Python for the 2015 Unidata Training Workshop.
 - *When*: <2015-07-20 Mon>--<2015-07-23 Wed>
