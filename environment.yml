@@ -13,6 +13,6 @@
    - owslib
    - metpy
    - siphon
-   - xray
+   - xarray
    - anaconda-client
 

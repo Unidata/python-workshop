@@ -86,7 +86,7 @@ For this workshop, we will be using the following Python libraries:
 - [[https://pypi.python.org/pypi/OWSLib/][OWSLib]]
 - [[https://github.com/Unidata/siphon][siphon]]
 - [[https://github.com/metpy/MetPy][MetPy]]
-- [[https://github.com/xray/xray][xray]]
+- [[https://xarray.pydata.org][xarray]]
 
 
 The easiest way to install these libraries is with [[http://conda.pydata.org/][conda]].
