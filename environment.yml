@@ -1,9 +1,9 @@
- name: workshop2015
+ name: unidata-workshop
  channels:
+   - https://conda.binstar.org/conda-forge
    - https://conda.binstar.org/scitools
-   - https://conda.binstar.org/Unidata
  dependencies:
-   - python=3.4
+   - python=3
    - numpy
    - matplotlib
    - cartopy
@@ -15,4 +15,6 @@
    - siphon
    - xarray
    - anaconda-client
+   # Until 4.2.2 comes out
+   - jupyter_client!=4.2.1
 

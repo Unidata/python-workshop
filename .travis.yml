@@ -1,0 +1,32 @@
+# After changing this file, check it on:
+#   http://lint.travis-ci.org/
+language: python
+sudo: false
+
+python:
+  - 3.4
+  - 3.5
+
+before_install:
+  # Taken from: http://conda.pydata.org/docs/travis.html
+  # Need to make sure Travis' env isn't running, or Jupyter will pick it up
+  - deactivate
+  # We do this conditionally because it saves us some downloading if the
+  # version is the same.
+  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  # Useful for debugging any issues with conda
+  - conda info -a
+  - sed -i -e "s/python=3/python=$TRAVIS_PYTHON_VERSION/" environment.yml
+
+install:
+  - conda env create -f environment.yml
+  - source activate unidata-workshop
+  - python --version
+
+script:
+  - find . -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 --to=notebook --stdout >| /dev/null;

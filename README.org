@@ -110,7 +110,7 @@ To activate or switch to a conda environment, you can =source activate
 <environment>=. For example,
 
 #+BEGIN_SRC shell
-source activate workshop2015
+source activate unidata-workshop
 #+END_SRC
 
 To switch and/or deactivate environments:
@@ -126,7 +126,7 @@ To activate or switch to a conda environment, you can =activate
 <environment>=. For example,
 
 #+BEGIN_SRC shell
-activate workshop2015
+activate unidata-workshop
 #+END_SRC
 
 To switch and/or deactivate environments:
@@ -150,7 +150,7 @@ environment is named =unidata=.
 cd unidata-python-workshop
 
 # unix, use bash. windows omit 'source'
-source activate workshop2015
+source activate unidata-workshop
 
 ipython notebook
 #+END_SRC
