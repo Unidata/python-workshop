@@ -15,4 +15,6 @@
    - siphon
    - xarray
    - anaconda-client
+   # Until 4.2.2 comes out
+   - jupyter_client!=4.2.1
 
