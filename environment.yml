@@ -1,7 +1,6 @@
  name: unidata-workshop
  channels:
-   - https://conda.binstar.org/conda-forge
-   - https://conda.binstar.org/scitools
+   - https://conda.anaconda.org/conda-forge
  dependencies:
    - python=3
    - numpy
@@ -15,6 +14,4 @@
    - siphon
    - xarray
    - anaconda-client
-   # Until 4.2.2 comes out
-   - jupyter_client!=4.2.1
 
