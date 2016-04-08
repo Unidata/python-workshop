@@ -11,6 +11,7 @@
    - netcdf4
    - owslib
    - metpy
+   - pint<0.7
    - siphon
    - xarray
    - anaconda-client
