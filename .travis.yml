@@ -36,4 +36,4 @@ install:
   - conda list
 
 script:
-  - find . -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 --to=notebook --stdout >| /dev/null;
+  - find . -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=180 --to=notebook --stdout >| /dev/null;
