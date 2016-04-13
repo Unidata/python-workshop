@@ -9,31 +9,64 @@ os:
 env:
   global:
     - MINICONDA_DIR="$HOME/miniconda"
+    - GH_PAGES_DIR="$HOME/site_build/"
   matrix:
     - Python=3.4
     - Python=3.5
 
+matrix:
+  include:
+    - os: linux
+      language: ruby
+      rvm: 2.2
+      env: Task=website
+
 before_install:
   # Taken from: http://conda.pydata.org/docs/travis.html
-  - if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
-      wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh;
+  - if [[ $Task == 'website' ]]; then
+      gem install github-pages;
+      pip install --user linkchecker pyopenssl ndg-httpsclient pyasn1;
     else
-      wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
-    fi
-  - bash miniconda.sh -b -p $MINICONDA_DIR;
-  - export PATH="$MINICONDA_DIR/bin:$PATH"
-  - hash -r
-  - conda config --set always_yes yes --set changeps1 no
-  - conda update -q conda
-  # Useful for debugging any issues with conda
-  - conda info -a
-  - sed -i -e "s/python=3/python=$Python/" environment.yml
+      if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
+        wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh;
+      else
+        wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+      fi;
+      bash miniconda.sh -b -p $MINICONDA_DIR;
+      export PATH="$MINICONDA_DIR/bin:$PATH";
+      hash -r;
+      conda config --set always_yes yes --set changeps1 no;
+      conda update -q conda;
+      conda info -a;
+      sed -i -e "s/python=3/python=$Python/" environment.yml;
+    fi;
 
 install:
-  - conda env create -f environment.yml
-  - source activate unidata-workshop
-  - python --version
-  - conda list
+  - if [[ $Task != 'website' ]]; then
+      conda env create -f environment.yml;
+      source activate unidata-workshop;
+      python --version;
+      conda list;
+    fi
 
 script:
-  - find . -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=180 --to=notebook --stdout >| /dev/null;
+  - if [[ $Task == 'website' ]]; then
+      jekyll build -s website -d $GH_PAGES_DIR 2>build.log;
+      if [ -s build.log ]; then
+          echo Build produced errors:;
+          cat build.log;
+          false;
+      else
+        echo Checking links;
+        linkchecker --anchors --check-extern $GH_PAGES_DIR;
+      fi;
+    else
+      find . -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=180 --to=notebook --stdout >| /dev/null;
+    fi
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: scripts/deploy.sh
+  on:
+    branch: master
