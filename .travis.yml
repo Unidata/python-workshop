@@ -24,7 +24,7 @@ matrix:
 before_install:
   # Taken from: http://conda.pydata.org/docs/travis.html
   - if [[ $Task == 'website' ]]; then
-      gem install github-pages;
+      gem install github-pages jekyll-org-mode-converter;
       pip install --user linkchecker pyopenssl ndg-httpsclient pyasn1;
     else
       if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
