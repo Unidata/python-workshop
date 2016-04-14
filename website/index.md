@@ -15,6 +15,10 @@ a temporary environment from
 will let you test out the Python notebooks without downloading anything to your
 local system.
 
+You can also just view the notebooks on
+[NBViewer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/)
+to get a feel for what's in the workshop.
+
 ## Upcoming Events
 - SSEC Workshop (20-21, 22-23 June 2016 Madison, WI)
 - [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO) ([more information](https://www.unidata.ucar.edu/events/2016TrainingWorkshop/))
