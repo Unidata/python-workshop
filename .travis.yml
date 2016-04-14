@@ -70,3 +70,4 @@ deploy:
   script: scripts/deploy.sh
   on:
     branch: master
+    condition: $Task == 'website'
