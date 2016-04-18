@@ -58,7 +58,7 @@ script:
           false;
       else
         echo Checking links;
-        linkchecker --anchors --check-extern $GH_PAGES_DIR;
+        linkchecker --anchors --ignore mybinder --check-extern $GH_PAGES_DIR;
       fi;
     else
       find . -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=180 --to=notebook --stdout >| /dev/null;
