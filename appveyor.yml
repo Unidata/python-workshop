@@ -33,4 +33,5 @@ install:
 build: off
 
 test_script:
+    - cmd: cd notebooks
     - cmd: find . -name "*.ipynb" -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 --inplace

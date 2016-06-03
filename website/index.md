@@ -20,7 +20,7 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- SSEC Workshop (20-21, 22-23 June 2016 Madison, WI)
+- [SSEC/AOS Workshop](events/madison2016.html) (20-21, 22-23 June 2016 Madison, WI)
 - [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO) ([more information](https://www.unidata.ucar.edu/events/2016TrainingWorkshop/))
 
 ## Past Events
@@ -28,4 +28,3 @@ to get a feel for what's in the workshop.
 - Summer 2015 workshop (Boulder, CO)
 - Fall 2014 workshop (Boulder, CO)
 - Summer 2013 workshop (Boulder, CO)
-
