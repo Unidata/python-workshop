@@ -1,0 +1,101 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+  <!-- link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css' -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <title></title>
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+      <a href="http://unidata.github.io/unidata-python-workshop"><h1>Unidata Python Training Workshop</h1></a>
+      <h2>Exploring the use of Python with Unidata Technologies</h2>
+      <a href="https://github.com/Unidata/unidata-python-workshop" class="button"><small>View project on</small> GitHub</a>
+    </div>
+  </header>
+  <div id="content-wrapper">
+    <div class="inner clearfix">
+      <section id="main-content">
+        <h1 class="title">Installation Intructions</h1>
+<p>For this workshop, we will be using the following Python libraries:</p>
+<ul>
+  <li><a href="http://www.numpy.org/">numpy</a></li>
+  <li><a href="http://github.com/Unidata/netcdf4-python">netcdf4-python</a></li>
+  <li><a href="http://matplotlib.org/">matplotlib</a></li>
+  <li><a href="http://scitools.org.uk/cartopy/">cartopy</a></li>
+  <li><a href="http://pypi.python.org/pypi/OWSLib/">OWSLib</a></li>
+  <li><a href="http://github.com/Unidata/siphon">siphon</a></li>
+  <li><a href="http://github.com/metpy/MetPy">MetPy</a></li>
+  <li><a href="http://xarray.pydata.org">xarray</a></li>
+</ul>
+<h2>Running Locally</h2>
+<p>The easiest way to install these libraries is with <a href="http://conda.pydata.org/">conda</a>.</p>
+<ol>
+  <li><a href="http://conda.pydata.org/miniconda.html">Install Miniconda (Python 3.4) from Continuum Analytics</a>.
+    (<a href="http://www.akaipro.com/kb/article/1616#os_32_or_64_bit">Determine if your OS 32 or 64 bit</a>)</li>
+  <li>Once Miniconda is installed, from the command line (e.g., OS X terminal,
+    cmd.exe), run these instructions to clone the repository and create the environment:</li>
+</ol>
+<pre class="src" lang="shell">
+git clone https://github.com/Unidata/unidata-python-workshop
+
+cd unidata-python-workshop
+
+conda env create -f environment.yml
+</pre>
+<h3>From a Unix command line (e.g., OS X terminal)</h3>
+<p>If your default shell is NOT bash, first type <code>bash</code>.
+  To activate or switch to a conda environment, you can <code>source activate
+  &lt;environment&gt;</code>. For example,</p>
+<pre class="src" lang="shell">
+source activate unidata-workshop
+</pre>
+<p>To switch and/or deactivate environments:</p>
+<pre class="src" lang="shell">
+source deactivate
+source activate &lt;environment&gt;
+</pre>
+<h3>From a Windows command line (e.g., cmd.exe)</h3>
+<p>To activate or switch to a conda environment, you can <code>activate
+  &lt;environment&gt;</code>. For example,</p>
+<pre class="src" lang="shell">
+activate unidata-workshop
+</pre>
+<p>To switch and/or deactivate environments:</p>
+<pre class="src" lang="shell">
+deactivate
+activate &lt;environment&gt;
+</pre>
+<h2>Running the notebooks</h2>
+<pre class="src" lang="shell">
+cd unidata-python-workshop
+
+# unix, use bash. windows omit &#39;source&#39;
+source activate unidata-workshop
+
+ipython notebook
+</pre>
+<h2>Binder</h2>
+<p>It is also possible to run a temporary notebook session using binder by
+  visiting <a href="http://mybinder.org/repo/Unidata/unidata-python-workshop">mybinder.org</a>.</p>
+
+      </section>
+    </div>
+  </div>
+</body>
+</html>
