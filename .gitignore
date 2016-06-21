@@ -57,3 +57,5 @@ Anaconda-2.0.1-Linux-*.sh
 # notebook generated temp dirs #
 ################################
 tmp_img/
+data/new.nc
+data/new2.nc
