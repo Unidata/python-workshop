@@ -44,7 +44,7 @@ What follows is a tentative workshop schedule for the Python workshops held in M
 |    | Section                                   | IPyNB or Markdown      | Presenter | Length |     Time |
 |----+-------------------------------------------+------------------------+-----------+--------+----------|
 |  1 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/pythonic-data-analysis.ipynb][Pythonic Data Analysis]]                    | pythonic-data-analysis | Ryan      |   1:00 | 9:00:00 |
-|  2 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy.ipynb][Plotting Upper Air Data with MetPy]]                                         | MetPy             | Ryan      |   0:45 | 10:00:00 |
+|  2 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy Units and Upper Air.ipynb][Plotting Upper Air Data with MetPy]]                                         | MetPy             | Ryan      |   0:45 | 10:00:00 |
 |  3 | Break                                     |                        |           |   0:15 | 10:45:00 |
 |  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Siphon_Cartopy_MetPy_HRRR.ipynb][Accessing Model Data with Siphon/MetPy]]                         | Siphon_Cartopy_MetPy_HRRR           | Sean      |   1:00 | 11:00:00 |
 |  5 | Lunch on your own                         |                        |           |   1:15 | 12:00:00 |
