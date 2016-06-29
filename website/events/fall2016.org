@@ -68,10 +68,10 @@ What follows is a tentative workshop schedule for the fall 2016 workshop.
 |  1 | Continental breakfast                         |                   |           |   0:30 | 08:30:00 |
 |  2 | Siphon [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/SIPHON_NCSS_Example.ipynb][Part 1]], [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Siphon Radar Server.ipynb][Part 2]]                         | SIPHON*           | Ryan      |   1:00 | 09:00:00 |
 |  3 | Break                                         |                   |           |   0:15 | 10:00:00 |
-|  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy.ipynb][MetPy]]                                         | MetPy             | Ryan      |   1:00 | 10:15:00 |
-|  5 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/CompositeRadar.ipynb][Accessing GINI Satellite Data]]                 | CompositeRadar    | Ryan      |   1:00 | 11:15:00 |
+|  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy Units and Upper Air.ipynb][MetPy Units and Upper Air]]                           | MetPy Units and Upper Air     | Ryan      |   1:00 | 10:15:00 |
+|  5 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/GINI Satellite with MetPy and Siphon.ipynb][Accessing GINI Satellite Data]]                 | GINI Satellite with MetPy and Siphon    | Ryan      |   1:00 | 11:15:00 |
 |  6 | Lunch on your own                             |                   |           |   1:15 | 12:15:00 |
-|  7 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Geocoded_METAR.ipynb][Point observations w/ TDS]]                     | Geocoded_METAR    | Sean      |   1:00 | 13:30:00 |
+|  7 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Surface Data with Siphon and MetPy.ipynb][Surface Data with Siphon and MetPy]]                     | Surface Data with Siphon and MetPy    | Sean      |   1:00 | 13:30:00 |
 |  8 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS & Cartopy extensions) | wms_sample        | Sean      |   0:45 | 14:30:00 |
 |  9 | Break                                         |                   |           |   0:15 | 15:15:00 |
 | 10 | Python AWIPS Data Access Framework            |                   | Michael   |   0:45 | 15:30:00 |
