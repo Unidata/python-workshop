@@ -46,6 +46,7 @@ install:
       conda env create -f environment.yml;
       source activate unidata-workshop;
       python --version;
+      python -m ipykernel install --user --name workshop;
       conda list;
     fi
 
@@ -61,7 +62,7 @@ script:
         linkchecker --anchors --ignore mybinder --check-extern $GH_PAGES_DIR;
       fi;
     else
-      find . -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=180 --to=notebook --stdout >| /dev/null;
+      find notebooks/ -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=180 --ExecutePreprocessor.kernel_name=workshop --to=notebook --stdout >| /dev/null;
     fi
 
 deploy:
