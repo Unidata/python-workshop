@@ -1,8 +1,8 @@
 ---
 title:
 ---
-#+TITLE: Fall 2016 Workshop
-#+DATE: <2016-04-13 Wed>
+#+TITLE: 2016 SSEC/AOS Workshop Workshop
+#+DATE: <2016-06-21 Wed>
 #+AUTHOR: Unidata Python Development Team
 #+EMAIL: support-python@unidata.ucar.edu
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
@@ -56,7 +56,3 @@ What follows is a tentative workshop schedule for the Python workshops held in M
 | 11 | End of day 2                              |                        |           |        | 17:00:00 |
 |----+-------------------------------------------+------------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
-
-** Please give us your feedback
-
-Your feed back is greatly appreciated! Please feel free to use the [[http://www.unidata.ucar.edu/community/surveys/2015training/survey.html][survey]] as often as you like, at any time during or after the class as comments come to mind.
