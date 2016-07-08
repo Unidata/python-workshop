@@ -27,11 +27,11 @@ install:
     - cmd: conda env create -q -f environment.yml
     - cmd: activate unidata-workshop
     - cmd: python --version
+    - cmd: python -m ipykernel install --user --name workshop
     - cmd: conda list
 
 # Skip .NET project specific build phase.
 build: off
 
 test_script:
-    - cmd: cd notebooks
-    - cmd: find . -name "*.ipynb" -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 --inplace
+    - cmd: find notebooks/ -name "*.ipynb" -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 --ExecutePreprocessor.kernel_name=workshop --inplace
