@@ -34,4 +34,4 @@ install:
 build: off
 
 test_script:
-    - cmd: find notebooks/ -name "*.ipynb" -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 --ExecutePreprocessor.kernel_name=workshop --inplace
+    - cmd: find notebooks/ -name "*.ipynb" -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=180 --ExecutePreprocessor.kernel_name=workshop --inplace
