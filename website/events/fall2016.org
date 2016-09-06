@@ -4,7 +4,7 @@ title:
 #+TITLE: Fall 2016 Workshop
 #+DATE: <2016-04-13 Wed>
 #+AUTHOR: Unidata Python Development Team
-#+EMAIL: support-python@unidata.ucar.edu
+#+EMAIL: python-users@unidata.ucar.edu
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
 #+OPTIONS: creator:comment d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t
 #+OPTIONS: num:nil p:nil pri:nil stat:t tags:t tasks:t tex:t timestamp:t toc:t
@@ -28,8 +28,8 @@ What follows is a tentative workshop schedule for the fall 2016 workshop.
 |    | Section                                      | IPyNB or Markdown           | Presenter   | Length |     Time |
 |----+----------------------------------------------+-----------------------------+-------------+--------+----------|
 |  1 | Continental breakfast                        |                             |             |   0:30 | 08:30:00 |
-|  2 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/Overview.pdf][Introductions and overview]]                   | presentations/Overview      | Ethan       |   0:20 | 09:00:00 |
-|  3 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/git.pdf][Software carpentry for science w/ git/github]] | presentations/git           | Julien/Ryan |   1:45 | 09:20:00 |
+|  2 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/Overview.pdf][Introductions and overview]]                   | presentations/Overview      | Ryan        |   0:20 | 09:00:00 |
+|  3 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/git.pdf][Software carpentry for science w/ git/github]] | presentations/git           | Ryan/Julien |   1:45 | 09:20:00 |
 |  4 | Break                                        |                             |             |   0:20 | 11:05:00 |
 |  5 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/conda_binstar.pdf][Getting Python packages w/ Conda]]             | presentations/conda_binstar | Ryan/Julien |   1:00 | 11:25:00 |
 |  6 | Lunch on your own                            |                             |             |   1:15 | 12:25:00 |
@@ -47,10 +47,10 @@ What follows is a tentative workshop schedule for the fall 2016 workshop.
 |    | Section                                   | IPyNB or Markdown      | Presenter | Length |     Time |
 |----+-------------------------------------------+------------------------+-----------+--------+----------|
 |  1 | Continental breakfast                     |                        |           |   0:30 | 08:30:00 |
-|  2 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/netcdf-intro.pdf][Introduction to netCDF]]                    | intro_netCDF           | Russ/Ward |   1:05 | 09:00:00 |
+|  2 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/netcdf-intro.pdf][Introduction to netCDF]]                    | intro_netCDF           | Ward      |   1:05 | 09:00:00 |
 |  3 | Break                                     |                        |           |   0:15 | 10:05:00 |
-|  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/reading_netCDF.ipynb][Reading netCDF]]                            | reading_netCDF         | Jeff W.   |   0:45 | 10:20:00 |
-|  5 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/writing_netCDF.ipynb][Writing netCDF]]                            | writing_netCDF         | Jeff W.   |   0:45 | 11:05:00 |
+|  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/reading_netCDF.ipynb][Reading netCDF]]                            | reading_netCDF         | Ward      |   0:45 | 10:20:00 |
+|  5 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/writing_netCDF.ipynb][Writing netCDF]]                            | writing_netCDF         | Ward      |   0:45 | 11:05:00 |
 |  6 | Lunch on your own                         |                        |           |   1:10 | 11:50:00 |
 |  7 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/matplotlib-and-cartopy.ipynb][Basic model data access and visualization]] | matplotlib-and-cartopy | Ryan      |   1:45 | 13:00:00 |
 |  8 | Break                                     |                        |           |   0:15 | 14:45:00 |
@@ -62,22 +62,21 @@ What follows is a tentative workshop schedule for the fall 2016 workshop.
 
 ** Workshop Schedule for <2016-10-19 Wed>
 
-|----+-----------------------------------------------+-------------------+-----------+--------+----------|
-|    | Section                                       | IPyNB or Markdown | Presenter | Length |     Time |
-|----+-----------------------------------------------+-------------------+-----------+--------+----------|
-|  1 | Continental breakfast                         |                   |           |   0:30 | 08:30:00 |
-|  2 | Siphon [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/SIPHON_NCSS_Example.ipynb][Part 1]], [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Siphon Radar Server.ipynb][Part 2]]                         | SIPHON*           | Ryan      |   1:00 | 09:00:00 |
-|  3 | Break                                         |                   |           |   0:15 | 10:00:00 |
-|  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy Units and Upper Air.ipynb][MetPy Units and Upper Air]]                           | MetPy Units and Upper Air     | Ryan      |   1:00 | 10:15:00 |
-|  5 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/GINI Satellite with MetPy and Siphon.ipynb][Accessing GINI Satellite Data]]                 | GINI Satellite with MetPy and Siphon    | Ryan      |   1:00 | 11:15:00 |
-|  6 | Lunch on your own                             |                   |           |   1:15 | 12:15:00 |
-|  7 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Surface Data with Siphon and MetPy.ipynb][Surface Data with Siphon and MetPy]]                     | Surface Data with Siphon and MetPy    | Sean      |   1:00 | 13:30:00 |
-|  8 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/wms_sample.ipynb][Exploring WMS]] (w/ ncWMS & Cartopy extensions) | wms_sample        | Sean      |   0:45 | 14:30:00 |
-|  9 | Break                                         |                   |           |   0:15 | 15:15:00 |
-| 10 | Python AWIPS Data Access Framework            |                   | Michael   |   0:45 | 15:30:00 |
-| 11 | Collaborative development on github           |                   | Julien    |   0:45 | 16:15:00 |
-| 12 | End of day 3                                  |                   |           |        | 17:00:00 |
-|----+-----------------------------------------------+-------------------+-----------+--------+----------|
+|----+-------------------------------------+--------------------------------------+-----------+--------+----------|
+|    | Section                             | IPyNB or Markdown                    | Presenter | Length |     Time |
+|----+-------------------------------------+--------------------------------------+-----------+--------+----------|
+|  1 | Continental breakfast               |                                      |           |   0:30 | 08:30:00 |
+|  2 | Siphon [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/SIPHON_NCSS_Example.ipynb][Part 1]], [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Siphon Radar Server.ipynb][Part 2]]               | SIPHON*                              | Ryan      |   1:00 | 09:00:00 |
+|  3 | Break                               |                                      |           |   0:15 | 10:00:00 |
+|  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy Units and Upper Air.ipynb][MetPy Units and Upper Air]]           | MetPy Units and Upper Air            | Ryan      |   1:00 | 10:15:00 |
+|  5 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/GINI Satellite with MetPy and Siphon.ipynb][Accessing GINI Satellite Data]]       | GINI Satellite with MetPy and Siphon | Ryan      |   1:00 | 11:15:00 |
+|  6 | Lunch on your own                   |                                      |           |   1:15 | 12:15:00 |
+|  7 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Surface Data with Siphon and MetPy.ipynb][Surface Data with Siphon and MetPy]]  | Surface Data with Siphon and MetPy   | Ryan      |   1:00 | 13:30:00 |
+|  8 | Break                               |                                      |           |   0:15 | 14:30:00 |
+|  9 | Python AWIPS Data Access Framework  |                                      | Michael   |   0:45 | 14:45:00 |
+| 10 | Collaborative development on github |                                      | Julien    |   0:45 | 15:30:00 |
+| 11 | End of day 3                        |                                      |           |        | 16:15:00 |
+|----+-------------------------------------+--------------------------------------+-----------+--------+----------|
 #+TBLFM: @3$6..@-1$6=@-1$5+@-1$6;T::$1=@#-1
 
 ** Please give us your feedback
