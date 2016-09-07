@@ -19,6 +19,24 @@ You can also just view the notebooks on
 [NBViewer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/)
 to get a feel for what's in the workshop.
 
+## Documentation and Resources
+
+- Documentation for packages used:
+  - [MetPy](http://metpy.readthedocs.io)
+  - [Siphon](http://siphon.readthedocs.io)
+  - [CartoPy](http://scitools.org.uk/cartopy/docs/latest/index.html)
+  - [Matplotlib](http://matplotlib.org)
+  - [NumPy](http://docs.scipy.org/doc/numpy/reference/)
+  - [Jupyter](https://jupyter.readthedocs.io/en/latest/)
+  - [netCDF4-python](http://unidata.github.io/netcdf4-python/)
+  - [pint](http://pint.readthedocs.io/)
+- Other Useful Resources
+  - GitHub's [git cheatsheet](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+  - [conda cheatsheet](http://conda.pydata.org/docs/_downloads/conda-cheatsheet.pdf) from ContinuumIO
+  - MATLAB to Python [cross reference](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
+  - [Numpy](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) for MatLab users
+  - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
+
 ## Upcoming Events
 - [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO) ([more information](https://www.unidata.ucar.edu/events/2016TrainingWorkshop/))
 
