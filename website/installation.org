@@ -82,7 +82,7 @@ cd unidata-python-workshop
 # unix, use bash. windows omit 'source'
 source activate unidata-workshop
 
-ipython notebook
+jupyter notebook
 #+END_SRC
 
 ** Binder
