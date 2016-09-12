@@ -21,6 +21,7 @@ to get a feel for what's in the workshop.
 
 ## Documentation and Resources
 
+- New to Python? Start with Jake VanderPlas' excellent [Whirlwind Tour of Python](http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb)
 - Documentation for packages used:
   - [MetPy](http://metpy.readthedocs.io)
   - [Siphon](http://siphon.readthedocs.io)
