@@ -43,7 +43,7 @@ before_install:
 
 install:
   - if [[ $Task != 'website' ]]; then
-      conda env create -f environment.yml;
+      conda env create -q -f environment.yml;
       source activate unidata-workshop;
       python --version;
       python -m ipykernel install --user --name workshop;
