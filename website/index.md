@@ -33,6 +33,7 @@ to get a feel for what's in the workshop.
   - [pint](http://pint.readthedocs.io/)
 - Other Useful Resources
   - GitHub's [git cheatsheet](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+  - [Illustrated Git](http://illustrated-git.readthedocs.io)
   - [conda cheatsheet](http://conda.pydata.org/docs/_downloads/conda-cheatsheet.pdf) from ContinuumIO
   - MATLAB to Python [cross reference](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
   - [Numpy](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) for MatLab users
