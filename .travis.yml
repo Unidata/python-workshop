@@ -62,7 +62,7 @@ script:
         linkchecker --anchors --ignore mybinder --check-extern $GH_PAGES_DIR;
       fi;
     else
-      find notebooks/ -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=180 --ExecutePreprocessor.kernel_name=workshop --to=notebook --stdout >| /dev/null;
+      find notebooks/ -name \*.ipynb -print0 | xargs -0 -n1 jupyter nbconvert --execute --ExecutePreprocessor.timeout=300 --ExecutePreprocessor.kernel_name=workshop --to=notebook --stdout >| /dev/null;
     fi
 
 deploy:
