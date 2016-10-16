@@ -49,8 +49,8 @@ What follows is a tentative workshop schedule for the fall 2016 workshop.
 |  1 | Continental breakfast                     |                        |           |   0:30 | 08:30:00 |
 |  2 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/netcdf-intro.pdf][Introduction to netCDF]]                    | intro_netCDF           | Ward      |   1:05 | 09:00:00 |
 |  3 | Break                                     |                        |           |   0:15 | 10:05:00 |
-|  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/reading_netCDF.ipynb][Reading netCDF]]                            | reading_netCDF         | Ward      |   0:45 | 10:20:00 |
-|  5 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/writing_netCDF.ipynb][Writing netCDF]]                            | writing_netCDF         | Ward      |   0:45 | 11:05:00 |
+|  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/netCDF-Reading.ipynb][Reading netCDF]]                            | reading_netCDF         | Ward      |   0:45 | 10:20:00 |
+|  5 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/netCDF-Writing.ipynb][Writing netCDF]]                            | writing_netCDF         | Ward      |   0:45 | 11:05:00 |
 |  6 | Lunch on your own                         |                        |           |   1:10 | 11:50:00 |
 |  7 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/matplotlib-and-cartopy.ipynb][Basic model data access and visualization]] | matplotlib-and-cartopy | Ryan      |   1:45 | 13:00:00 |
 |  8 | Break                                     |                        |           |   0:15 | 14:45:00 |
