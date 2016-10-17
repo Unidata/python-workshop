@@ -25,8 +25,8 @@ What follows is a tentative workshop schedule for the Python workshops held in M
 |----+----------------------------------------------+-----------------------------+-------------+--------+----------|
 |    | Section                                      | IPyNB or Markdown           | Presenter   | Length |     Time |
 |----+----------------------------------------------+-----------------------------+-------------+--------+----------|
-|  1 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/git.pdf][Software carpentry for science w/ git]] | presentations/git           | Ryan |   1:00 | 09:00:00 |
-|  2 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/conda_binstar.pdf][Getting Python packages w/ Conda]]             | presentations/conda_binstar | Ryan |   1:00 | 10:00:00 |
+|  1 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/git.md][Software carpentry for science w/ git]] | presentations/git           | Ryan |   1:00 | 09:00:00 |
+|  2 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/conda.md][Getting Python packages w/ Conda]]             | presentations/conda | Ryan |   1:00 | 10:00:00 |
 |  3 | Break                                        |                             |             |   0:15 | 11:00:00 |
 |  4 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/jupyter-examples][Jupyter notebook introduction]]                | jupyter-examples            | Sean        |   0:45 | 11:15:00 |
 |  5 | Lunch on your own                            |                             |             |   1:15 | 12:00:00 |
