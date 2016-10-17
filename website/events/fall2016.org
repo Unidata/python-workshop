@@ -33,7 +33,7 @@ What follows is a tentative workshop schedule for the fall 2016 workshop.
 |  4 | Break                                        |                             |             |   0:20 | 11:05:00 |
 |  5 | [[https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/conda_binstar.pdf][Getting Python packages w/ Conda]]             | presentations/conda_binstar | Ryan/Julien |   1:00 | 11:25:00 |
 |  6 | Lunch on your own                            |                             |             |   1:15 | 12:25:00 |
-|  7 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/jupyter-examples][Jupyter notebook introduction]]                | jupyter-examples            | Ward        |   1:00 | 13:40:00 |
+|  7 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/jupyter-examples/notebook-examples.ipynb][Jupyter notebook introduction]]                | jupyter-examples            | Ward        |   1:00 | 13:40:00 |
 |  8 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/intro-numpy-and-matplotlib.ipynb][Numpy with intro to matplotlib Part 1]]        | intro-numpy-and-matplotlib  | Ryan        |   1:00 | 14:40:00 |
 |  9 | Break                                        |                             |             |   0:20 | 15:40:00 |
 | 10 | [[http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/intro-numpy-and-matplotlib.ipynb][Numpy with intro to matplotlib Part 2]]        | intro-numpy-and-matplotlib  | Ryan        |   1:00 | 16:00:00 |
