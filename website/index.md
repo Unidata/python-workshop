@@ -31,6 +31,7 @@ to get a feel for what's in the workshop.
   - [Jupyter](https://jupyter.readthedocs.io/en/latest/)
   - [netCDF4-python](http://unidata.github.io/netcdf4-python/)
   - [pint](http://pint.readthedocs.io/)
+  - [python-awips](http://python-awips.readthedocs.io/)
 - Other Useful Resources
   - Git
     - GitHub's [git cheatsheet](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
