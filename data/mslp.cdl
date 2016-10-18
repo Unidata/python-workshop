@@ -15,7 +15,7 @@ variables:
 		pr:units = "hPa" ;
 
 // global attributes:
-		:title = "example for workshop" ;
+		:title = "example for workshop updated" ;
 data:
 
  lat = 25, 30, 35, 40, 45, 50 ;
