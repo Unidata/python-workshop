@@ -23,6 +23,7 @@ For this workshop, we will be using the following Python libraries:
 - [[http://pypi.python.org/pypi/OWSLib/][OWSLib]]
 - [[http://github.com/Unidata/siphon][siphon]]
 - [[http://github.com/metpy/MetPy][MetPy]]
+- [[http://github.com/Unidata/python-awips][python-awips]]
 - [[http://xarray.pydata.org][xarray]]
 
 ** Running Locally
