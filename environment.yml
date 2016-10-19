@@ -11,9 +11,10 @@
    - owslib
    - metpy
    - pint
+   - shapely
    - siphon
    - xarray
    - pip
    - pip:
-     - https://testpypi.python.org/packages/2d/42/7995409e0f71a7d61400809c74f05eb6cd6eaf18ce5e1940fddb2ebee58b/python-awips-0.9.5.tar.gz
+     - https://testpypi.python.org/packages/9f/ac/4872c4a8ebe655345d532828ad061ccc764d43386e92604cacd4e4a9887c/python-awips-0.9.7.tar.gz
 
