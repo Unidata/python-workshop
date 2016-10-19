@@ -16,5 +16,5 @@
    - xarray
    - pip
    - pip:
-     - https://testpypi.python.org/packages/9f/ac/4872c4a8ebe655345d532828ad061ccc764d43386e92604cacd4e4a9887c/python-awips-0.9.7.tar.gz
+     - https://github.com/Unidata/python-awips/archive/0.9.7.tar.gz
 
