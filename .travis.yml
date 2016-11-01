@@ -23,6 +23,7 @@ matrix:
 
 before_install:
   # Taken from: http://conda.pydata.org/docs/travis.html
+  # Need pyyaml until conda 4.2.12 and a new miniconda are released
   - if [[ $Task == 'website' ]]; then
       gem install github-pages jekyll-org-mode-converter;
       pip install --user linkchecker pyopenssl ndg-httpsclient pyasn1 "requests<=2.9";
@@ -37,6 +38,7 @@ before_install:
       hash -r;
       conda config --set always_yes yes --set changeps1 no;
       conda update -q conda;
+      conda install -q pyyaml;
       conda info -a;
       sed -i -e "s/python=3/python=$Python/" environment.yml;
     fi;
