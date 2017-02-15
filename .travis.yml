@@ -11,8 +11,8 @@ env:
     - MINICONDA_DIR="$HOME/miniconda"
     - GH_PAGES_DIR="$HOME/site_build/"
   matrix:
-    - Python=3.4
     - Python=3.5
+    - Python=3.6
 
 matrix:
   include:
