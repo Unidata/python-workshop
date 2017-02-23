@@ -3,9 +3,10 @@ title: Welcome to Unidata's Python Training Workshop
 ---
 # Unidata's Python Training Workshop
 
-This workshop teaches the use of python in the atmospheric and oceanic sciences,
-with a particular emphasis on using Unidata's
-[other technologies](https://www.unidata.ucar.edu/software/) through Python.
+This workshop teaches the use of Python in the atmospheric and oceanic sciences.
+This encompasses using the [Siphon](http://unidata.github.io/siphon) and [MetPy](http://unidata.github.com/MetPy/)
+libraries to solve relevant problems as well as using Python with Unidata's
+[other technologies](https://www.unidata.ucar.edu/software/).
 
 ## Getting started
 See the [installation instructions](installation.html) for information on how
@@ -19,12 +20,17 @@ You can also just view the notebooks on
 [NBViewer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/)
 to get a feel for what's in the workshop.
 
-## Documentation and Resources
+## Upcoming Events
+- [Regional Workshop at Millersville University](events/millersville2017.html) (6-8 April 2017 Millersville, PA)
 
-- New to Python? Start with Jake VanderPlas' excellent [Whirlwind Tour of Python](http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb)
+## Documentation and Resources
+- New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
+  is an excellent primer on Python before diving into this workshop
+- Jake VanderPlas' excellent [Whirlwind Tour of Python](http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb)
+  is also a good place to look to get started
 - Documentation for packages used:
-  - [MetPy](http://metpy.readthedocs.io)
-  - [Siphon](http://siphon.readthedocs.io)
+  - [MetPy](https://unidata.github.io/MetPy/)
+  - [Siphon](https://unidata.github.io/siphon/)
   - [CartoPy](http://scitools.org.uk/cartopy/docs/latest/index.html)
   - [Matplotlib](http://matplotlib.org)
   - [NumPy](http://docs.scipy.org/doc/numpy/reference/)
@@ -45,11 +51,8 @@ to get a feel for what's in the workshop.
   - [Numpy](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) for MatLab users
   - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
 
-## Upcoming Events
-- [Regional Workshop at Millersville University](events/millersville2017.html) (6-8 April 2017 Millersville, PA)
-
 ## Past Events
-- [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO) ([more information](https://www.unidata.ucar.edu/events/2016TrainingWorkshop/))
+- [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO)
 - [SSEC/AOS Workshop](events/madison2016.html) (20-21, 22-23 June 2016 Madison, WI)
 - Half-day tutorial at UCAR SEA Conference (8 April 2016 Boulder, CO)
 - Summer 2015 workshop (Boulder, CO)
