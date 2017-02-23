@@ -46,9 +46,9 @@ to get a feel for what's in the workshop.
   - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
 
 ## Upcoming Events
-- [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO) ([more information](https://www.unidata.ucar.edu/events/2016TrainingWorkshop/))
 
 ## Past Events
+- [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO) ([more information](https://www.unidata.ucar.edu/events/2016TrainingWorkshop/))
 - [SSEC/AOS Workshop](events/madison2016.html) (20-21, 22-23 June 2016 Madison, WI)
 - Half-day tutorial at UCAR SEA Conference (8 April 2016 Boulder, CO)
 - Summer 2015 workshop (Boulder, CO)

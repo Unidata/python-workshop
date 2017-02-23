@@ -18,10 +18,6 @@ title:
 - *When*: <2016-10-17 Mon>--<2016-10-19 Wed>
 - *Where*: [[http://www.unidata.ucar.edu/about/#visit][UCAR Foothills Lab 4, Room 1201]]
 
-** !Under Construction for Fall 2016 Workshop!
-
-What follows is a tentative workshop schedule for the fall 2016 workshop.
-
 ** Workshop Schedule for <2016-10-17 Mon>
 
 |----+----------------------------------------------+-----------------------------+-------------+--------+----------|
