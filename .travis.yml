@@ -1,0 +1,19 @@
+language: ruby
+sudo: false
+
+rvm: 2.2
+
+before_install:
+  - gem install github-pages;
+  - pip install --user linkchecker pyopenssl ndg-httpsclient pyasn1 "requests<=2.9";
+
+script:
+  - jekyll build -s website -d $GH_PAGES_DIR 2>build.log;
+  - if [ -s build.log ]; then
+      echo Build produced errors:;
+      cat build.log;
+      false;
+    else
+      echo Checking links;
+      linkchecker --anchors --ignore mybinder --check-extern $GH_PAGES_DIR;
+    fi;

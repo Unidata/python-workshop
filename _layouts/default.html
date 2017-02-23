@@ -1,0 +1,39 @@
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+  <!-- link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css' -->
+  <link rel="stylesheet" type="text/css" href="{{ relative }}stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ relative }}stylesheets/github-light.css" media="screen">
+
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <title>{{ page.title }}</title>
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+      <a href="http://unidata.github.io/unidata-python-workshop"><h1>Unidata Python Training Workshop</h1></a>
+      <h2>Using Python to solve atmospheric science problems</h2>
+      <a href="https://github.com/Unidata/unidata-python-workshop" class="button"><small>View project on</small> GitHub</a>
+    </div>
+  </header>
+  <div id="content-wrapper">
+    <div class="inner clearfix">
+      <section id="main-content">
+        {{ content }}
+      </section>
+    </div>
+  </div>
+</body>
+</html>
