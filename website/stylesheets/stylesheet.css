@@ -423,7 +423,8 @@ table {
 
 td,
 th {
-  padding: 0;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
 }
 
 /* LAYOUT STYLES */

@@ -46,6 +46,7 @@ to get a feel for what's in the workshop.
   - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
 
 ## Upcoming Events
+- [Regional Workshop at Millersville University](events/millersville2017.html) (6-8 April 2017 Millersville, PA)
 
 ## Past Events
 - [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO) ([more information](https://www.unidata.ucar.edu/events/2016TrainingWorkshop/))
