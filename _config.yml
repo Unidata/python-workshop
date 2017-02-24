@@ -4,4 +4,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-gems: [jekyll-org-mode-converter]
