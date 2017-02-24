@@ -9,68 +9,32 @@ os:
 env:
   global:
     - MINICONDA_DIR="$HOME/miniconda"
-    - GH_PAGES_DIR="$HOME/site_build/"
   matrix:
     - Python=3.5
     - Python=3.6
 
-matrix:
-  include:
-    - os: linux
-      language: ruby
-      rvm: 2.2
-      env: Task=website
-
 before_install:
   # Taken from: http://conda.pydata.org/docs/travis.html
-  # Need pyyaml until conda 4.2.12 and a new miniconda are released
-  - if [[ $Task == 'website' ]]; then
-      gem install github-pages jekyll-org-mode-converter;
-      pip install --user linkchecker pyopenssl ndg-httpsclient pyasn1 "requests<=2.9";
+  - if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
+      wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh;
     else
-      if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
-        wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh;
-      else
-        wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
-      fi;
-      bash miniconda.sh -b -p $MINICONDA_DIR;
-      export PATH="$MINICONDA_DIR/bin:$PATH";
-      hash -r;
-      conda config --set always_yes yes --set changeps1 no;
-      conda update -q conda;
-      conda install -q pyyaml;
-      conda info -a;
-      sed -i -e "s/python=3/python=$Python/" environment.yml;
+      wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
     fi;
+  - bash miniconda.sh -b -p $MINICONDA_DIR
+  - export PATH="$MINICONDA_DIR/bin:$PATH"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  - conda install -q pyyaml
+  - conda info -a
+  - sed -i -e "s/python=3/python=$Python/" environment.yml
 
 install:
-  - if [[ $Task != 'website' ]]; then
-      conda env create -q -f environment.yml;
-      source activate unidata-workshop;
-      python --version;
-      conda list;
-      python -m ipykernel install --user --name workshop;
-    fi
+  - conda env create -q -f environment.yml
+  - source activate unidata-workshop
+  - python --version
+  - conda list
+  - python -m ipykernel install --user --name workshop
 
 script:
-  - if [[ $Task == 'website' ]]; then
-      jekyll build -s website -d $GH_PAGES_DIR 2>build.log;
-      if [ -s build.log ]; then
-          echo Build produced errors:;
-          cat build.log;
-          false;
-      else
-        echo Checking links;
-        linkchecker --anchors --ignore mybinder --check-extern $GH_PAGES_DIR;
-      fi;
-    else
-      python run_notebooks.py;
-    fi
-
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: scripts/deploy.sh
-  on:
-    branch: master
-    condition: $Task == 'website'
+  - python run_notebooks.py
