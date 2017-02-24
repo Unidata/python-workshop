@@ -46,7 +46,7 @@ to get a feel for what's in the workshop.
     - [Git it](https://github.com/jlord/git-it-electron), an interactive application showing how to use git
     - GitHub's [interactive git tutorial](https://try.github.io/)
     - [Introduction to GitHub](https://services.github.com/on-demand/intro-to-github/)
-  - [conda cheatsheet](http://conda.pydata.org/docs/_downloads/conda-cheatsheet.pdf) from ContinuumIO
+  - [conda cheatsheet](http://conda.io/docs/_downloads/conda-cheatsheet.pdf) from ContinuumIO
   - MATLAB to Python [cross reference](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
   - [Numpy](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) for MatLab users
   - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
