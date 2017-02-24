@@ -3,6 +3,11 @@ sudo: false
 
 rvm: 2.2
 
+branches:
+  only:
+    - gh-pages
+    - /(.*)/
+
 before_install:
   - gem install github-pages;
   - pip install --user linkchecker pyopenssl ndg-httpsclient pyasn1 "requests<=2.9";
