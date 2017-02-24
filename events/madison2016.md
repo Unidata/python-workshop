@@ -17,8 +17,8 @@ title: SSEC/Wisconsin AOS Workshop
 | 12:00 | Lunch on your own | | | 1:15 |
 | 13:15 | [Numpy with intro to matplotlib](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/madison2016/notebooks/intro-numpy-and-matplotlib.ipynb) | intro-numpy-and-matplotlib | Ryan | 2:00 |
 | 15:15 | Break | | | 0:15 |
-| 15:30 | [Reading netCDF](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/madison2016/notebooks/netCDF-Reading.ipynb) | reading~netCDF~ | Sean | 0:45 |
-| 16:15 | [Writing netCDF](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/madison2016/notebooks/netCDF-Writing.ipynb) | writing~netCDF~ | Sean | 0:45 |
+| 15:30 | [Reading netCDF](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/madison2016/notebooks/reading_netCDF.ipynb) | reading~netCDF~ | Sean | 0:45 |
+| 16:15 | [Writing netCDF](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/madison2016/notebooks/writing_netCDF.ipynb) | writing~netCDF~ | Sean | 0:45 |
 | 17:00 | End of day 1 | | | |
 
 ## Tue (21st) / Thu (23rd)
