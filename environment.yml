@@ -15,6 +15,6 @@
    - siphon
    - xarray
    - pip
+   - ffmpeg
    - pip:
      - https://github.com/Unidata/python-awips/archive/0.9.7.tar.gz
-
