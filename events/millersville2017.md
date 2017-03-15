@@ -18,7 +18,7 @@ title:
 | 10:25 | [Conda and package management](https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/conda.md)    | presentations/conda | John  |  1:00  |
 | 11:25 | [Jupyter notebooks](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/jupyter-examples)  | jupyter-examples            | John        |  0:40  |
 | 12:05 | Lunch                                        |                             |             |  1:15  |
-| 13:20 | [Numpy Primer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/intro-numpy-and-matplotlib.ipynb)        | intro-numpy-and-matplotlib  | Ryan        |  0:30  |
+| 13:20 | [Numpy Primer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/NumPy Primer.ipynb)        | NumPy Primer  | Ryan        |  0:30  |
 | 13:50 | [Working with Time Series Data ](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Surface Data with Siphon and MetPy.ipynb)                     | Surface Data with Siphon and MetPy    | Ryan      |  1:30  |
 | 15:20 | Break                                        |                             |             |  0:10  |
 | 15:30 | [Upper Air Data Plotting and Analysis with MetPy](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy Units and Upper Air.ipynb)                                         | MetPy Units and Upper Air       | John      |  1:30  |
@@ -31,7 +31,7 @@ title:
 |  9:00 | Review and Questions                         |                             | All         |  0:10  |
 |  9:10 | [Surface Data with Siphon/MetPy](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Surface Data with Siphon and MetPy.ipynb)                     | Surface Data with Siphon and MetPy    | Ryan      |  1:30  |
 | 10:40 | Break                                        |                             |             |  0:10  |
-| 10:50 | [GINI Satellite Data with MetPy/Siphon](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/GINI Satellite with MetPy and Siphon.ipynb)                | GINI Satellite with MetPy and Siphon  | John      |  1:30  |
+| 10:50 | [Working with Satellite Data](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Working with Satellite Data.ipynb)                | Working with Satellite Data  | John      |  1:30  |
 | 12:20 | Lunch                                        |                             |             |  1:15  |
 | 13:35 | [Accessing Model Data with Siphon/MetPy](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Siphon_Cartopy_MetPy_HRRR.ipynb)                         | Siphon_Cartopy_MetPy_HRRR           | Ryan      |  1:30  |
 | 15:05 | Break                                     |                        |           |  0:10  |
