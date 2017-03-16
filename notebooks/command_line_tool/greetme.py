@@ -6,7 +6,7 @@ parser = argparse.ArgumentParser(description='A simple program that prints a gre
 # Add a name argument
 parser.add_argument('--name', type=str, required=True, help='Name of the person being greeted')
 
-parser.add_argument('--greeting', type=str, default='Hello,', help='Greeting to be used')
+parser.add_argument('--greeting', '-g', type=str, default='Hello,', help='Greeting to be used')
 
 # Parse the arguments
 args = parser.parse_args()
