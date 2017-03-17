@@ -21,7 +21,9 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- [Regional Workshop at Millersville University](events/millersville2017.html) (6-8 April 2017 Millersville, PA)
+- [Millersville University Regional Workshop](events/millersville2017.html) (6-8 April 2017 Millersville, PA)
+- [University of Oklahoma Regional Workshop](events/oklahoma2017.html) (27-29 April 2017 Norman, OK)
+- [University of Wisconsin Regional Workshop](events/madison2017.html) (5-8 June 2017 Madison, WI)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
