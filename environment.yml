@@ -8,6 +8,7 @@
    - cartopy
    - jupyter
    - netcdf4
+   - libnetcdf!=4.4.1.1
    - owslib
    - metpy
    - pint
