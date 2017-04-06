@@ -19,7 +19,7 @@ title:
 | 11:25 | [Jupyter notebooks](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/jupyter-examples)  | jupyter-examples            | John        |  0:40  |
 | 12:05 | Lunch                                        |                             |             |  1:15  |
 | 13:20 | [Numpy Primer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/NumPy Primer.ipynb)        | NumPy Primer  | Ryan        |  0:30  |
-| 13:50 | [Working with Time Series Data ](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Surface Data with Siphon and MetPy.ipynb)                     | Surface Data with Siphon and MetPy    | Ryan      |  1:30  |
+| 13:50 | [Time Series Plotting](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Time Series Plotting.ipynb)                     | Time Series Plotting    | Ryan      |  1:30  |
 | 15:20 | Break                                        |                             |             |  0:10  |
 | 15:30 | [Upper Air Data Plotting and Analysis with MetPy](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy Units and Upper Air.ipynb)                                         | MetPy Units and Upper Air       | John      |  1:30  |
 | 17:00 | End of day 1                                 |                             |             |        |
