@@ -18,7 +18,7 @@ title:
 | 10:25 | [Conda and package management](https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/conda.md)    | presentations/conda | John  |  1:00  |
 | 11:25 | [Jupyter notebooks](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/jupyter-examples)  | jupyter-examples            | John        |  0:40  |
 | 12:05 | Lunch                                        |                             |             |  1:15  |
-| 13:20 | [Numpy Primer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/NumPy Primer.ipynb)        | NumPy Primer  | Ryan        |  0:30  |
+| 13:20 | [Primer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Primer.ipynb)        | Primer  | Ryan        |  0:30  |
 | 13:50 | [Time Series Plotting](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Time Series Plotting.ipynb)                     | Time Series Plotting    | Ryan      |  1:30  |
 | 15:20 | Break                                        |                             |             |  0:10  |
 | 15:30 | [Upper Air and the Skew-T Log-P](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Upper Air and the Skew-T Log-P.ipynb)                                         | Upper Air and the Skew-T Log-P       | John      |  1:30  |
