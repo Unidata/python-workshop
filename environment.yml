@@ -17,4 +17,5 @@
    - xarray
    - pip
    - ffmpeg
-   - python-awips
+   - pip:
+     - python-awips
