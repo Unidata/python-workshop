@@ -21,7 +21,7 @@ title:
 | 13:20 | [Numpy Primer](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/NumPy Primer.ipynb)        | NumPy Primer  | Ryan        |  0:30  |
 | 13:50 | [Time Series Plotting](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Time Series Plotting.ipynb)                     | Time Series Plotting    | Ryan      |  1:30  |
 | 15:20 | Break                                        |                             |             |  0:10  |
-| 15:30 | [Upper Air Data Plotting and Analysis with MetPy](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/MetPy Units and Upper Air.ipynb)                                         | MetPy Units and Upper Air       | John      |  1:30  |
+| 15:30 | [Upper Air and the Skew-T Log-P](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Upper Air and the Skew-T Log-P.ipynb)                                         | Upper Air and the Skew-T Log-P       | John      |  1:30  |
 | 17:00 | End of day 1                                 |                             |             |        |
 
 ## Friday, April 28th
