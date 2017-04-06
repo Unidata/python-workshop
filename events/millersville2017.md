@@ -6,7 +6,8 @@ title:
 - **When**: 6-8 April 2017
 - **Where**: Millersville, PA
 
-**NOTE:** This is a tentative schedule and set of materials. The linked notebooks *WILL BE* revised.
+## Feedback
+Let us know how we did: https://www.surveymonkey.com/r/H28XCFL
 
 ## Thursday, April 6th
 
