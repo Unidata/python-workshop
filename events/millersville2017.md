@@ -7,7 +7,7 @@ title:
 - **Where**: Millersville, PA
 
 ## Feedback
-Let us know how we did: https://www.surveymonkey.com/r/H28XCFL
+Let us know how we did and take the [survey](https://www.surveymonkey.com/r/H28XCFL).
 
 ## Thursday, April 6th
 
