@@ -8,7 +8,7 @@ SKIP_NOTEBOOKS = ['What to do when things go wrong.ipynb']
 
 def run_notebook(notebook):
     args = ['jupyter', 'nbconvert', '--execute',
-            '--ExecutePreprocessor.timeout=300',
+            '--ExecutePreprocessor.timeout=900',
             '--ExecutePreprocessor.kernel_name=workshop',
             '--to=notebook', '--stdout']
 
