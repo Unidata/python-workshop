@@ -5,7 +5,7 @@ environment:
   CONDA_PATH: "C:\\Miniconda3"
 
   matrix:
-    - PYTHON_VERSION: "3.5"
+    - PYTHON_VERSION: "3.6"
 
 platform:
     - x86
@@ -13,14 +13,12 @@ platform:
 
 install:
     # Use the pre-installed Miniconda for the desired arch
-    - ps: if($env:PYTHON_VERSION -eq '3.5')
-            { $env:CONDA_PATH="$($env:CONDA_PATH)5" }
+    - ps: if($env:PYTHON_VERSION -eq '3.6')
+            { $env:CONDA_PATH="$($env:CONDA_PATH)6" }
     - ps: if($env:TARGET_ARCH -eq 'x64')
             { $env:CONDA_PATH="$($env:CONDA_PATH)-x64" }
     - ps: $env:path="$($env:CONDA_PATH);$($env:CONDA_PATH)\Scripts;$($env:CONDA_PATH)\Library\bin;C:\cygwin\bin;$($env:PATH)"
     - cmd: conda config --set always_yes yes --set changeps1 no
-    # Avoid updating to conda 4.2 until conda-forge rebuilds: See conda-forge/hdf5-feedstock#41
-    - cmd: conda install -q conda=4.1 conda-env=2.5.1
     # Useful for debugging any issues with conda
     - cmd: conda info -a
     - cmd: sed -i -e s/python=3/python=%PYTHON_VERSION%/ environment.yml
