@@ -12,7 +12,6 @@
    - owslib
    - metpy
    - pint
-   - scikit-image
    - shapely
    - siphon
    - xarray
