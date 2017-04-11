@@ -38,3 +38,4 @@ install:
 
 script:
   - python run_notebooks.py
+  - python notebooks/command_line_tool/synopticplot.py  --gfslevel 850 --gfsfield Relative_humidity_isobaric --savefig --imgformat jpg
