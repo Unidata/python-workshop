@@ -1,6 +1,6 @@
  name: unidata-workshop
  channels:
-   - https://conda.anaconda.org/conda-forge
+   - conda-forge
  dependencies:
    - python=3
    - numpy
