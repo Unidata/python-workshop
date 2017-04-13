@@ -22,6 +22,7 @@ before_install:
     fi;
   - bash miniconda.sh -b -p $MINICONDA_DIR
   - export PATH="$MINICONDA_DIR/bin:$PATH"
+  - export QT_QPA_PLATFORM="offscreen"
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
