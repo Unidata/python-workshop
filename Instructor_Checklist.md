@@ -1,6 +1,11 @@
 # Instructor Checklist
 This checklist contains everything we need to have and do to make sure workshops go smoothly.
 
+## Before
+* [ ] Send out announcement
+* [ ] Send out follow-up announcement
+* [ ] Create survey
+
 ## Materials
 * [ ] Red and Green Sticky Notes (3M are best for color deficient use)
 * [ ] VGA and HDMI video adapters
