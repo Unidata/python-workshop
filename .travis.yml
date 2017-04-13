@@ -22,6 +22,7 @@ before_install:
     fi;
   - bash miniconda.sh -b -p $MINICONDA_DIR
   - export PATH="$MINICONDA_DIR/bin:$PATH"
+  - export QT_QPA_PLATFORM="offscreen"
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
@@ -38,3 +39,4 @@ install:
 
 script:
   - python run_notebooks.py
+  - python notebooks/command_line_tool/synopticplot.py  --gfslevel 850 --gfsfield Relative_humidity_isobaric --savefig --imgformat jpg

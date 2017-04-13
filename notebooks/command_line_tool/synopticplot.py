@@ -138,7 +138,7 @@ if __name__ == '__main__':
                                      the most recent quarter degree run.''')
     parser.add_argument('--gfsfield', default='Geopotential_height_isobaric',
                         help='CF field name of data to contour from the GFS model.')
-    parser.add_argument('--gfslevel', default=500,
+    parser.add_argument('--gfslevel', default=500, type=int,
                         help='Model level to plot (in hPa)')
     parser.add_argument('--hours', default=0,
                         help='Time to plot (must be present or past)', type=int)
@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
     # Save or show figure
     if args.savefig:
-        plt.savefig('{}.{}}'.format(datetime.strftime(requested_time, '%Y%m%d_%H%MZ')),
-                    args.imgformat)
+        plt.savefig('{}.{}'.format(datetime.strftime(requested_time, '%Y%m%d_%H%MZ'),
+                    args.imgformat))
     else:
         plt.show()

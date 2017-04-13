@@ -33,3 +33,4 @@ build: off
 
 test_script:
     - cmd: python run_notebooks.py
+    - cmd: python notebooks/command_line_tool/synopticplot.py  --gfslevel 850 --gfsfield Relative_humidity_isobaric --savefig --imgformat jpg
