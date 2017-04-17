@@ -13,7 +13,7 @@ title: SSEC/Wisconsin AOS Workshop
 | 09:00 | [Software carpentry for science w/ git](https://github.com/Unidata/unidata-python-workshop/blob/madison2016/presentations/git.md) | presentations/git | Ryan | 1:00 |
 | 10:00 | [Getting Python packages w/ Conda](https://github.com/Unidata/unidata-python-workshop/blob/madison2016/presentations/conda.md) |     presentations/conda | Ryan | 1:00 |
 | 11:00 | Break | | | 0:15 |
-| 11:15 | [Jupyter notebook introduction](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/master/notebooks/jupyter-examples) | jupyter-examples | Sean | 0:45 |
+| 11:15 | [Jupyter notebook introduction](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/tree/madison2016/notebooks/jupyter-examples) | jupyter-examples | Sean | 0:45 |
 | 12:00 | Lunch on your own | | | 1:15 |
 | 13:15 | [Numpy with intro to matplotlib](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/madison2016/notebooks/intro-numpy-and-matplotlib.ipynb) | intro-numpy-and-matplotlib | Ryan | 2:00 |
 | 15:15 | Break | | | 0:15 |
