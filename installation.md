@@ -14,6 +14,27 @@ For this workshop, we will be using the following Python libraries:
 -   [python-awips](http://github.com/Unidata/python-awips)
 -   [xarray](http://xarray.pydata.org)
 
+Installing git
+--------------
+We'll be showing you the basics of the git version control system and use it
+to retrieve the material for the workshop.
+
+## Mac
+The XCode command line tools need to be installed.
+1. Install XCode if it isn't already. XCode is  available in the Mac App Store
+for free.
+2. Launch XCode and accept the license agreement.
+3. Quit XCode.
+4. Open a new terminal and run the command `xcode-select --install`
+5. Select install on the pop-up menu.
+
+## Linux
+Use your package manager. For example, using aptitude you would run the
+following terminal command: `sudo apt-get install git`
+
+## Windows
+Download and install the [GitHub desktop tools](https://desktop.github.com).
+
 Running Locally
 ---------------
 
