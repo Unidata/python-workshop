@@ -18,7 +18,15 @@
 - `git config --global --add color.ui auto`
 - `git config --list`
 
+## How Git Works
+Draw diagram on the board showing:
+- commits
+- head
+- rollback
+- branch/merge
+
 ## Creating a Git Repository
+- What is a repository?
 - `mkdir project_code`
 - `cd project_code`
 - `git init`
@@ -41,7 +49,7 @@
 - `git commit -m "Add new calcuation"`
 - `git status`
 
-### Exercise: Add a new file with some code to git.
+### Exercise: Add a new file to git.
 
 ## History
 - `git log`
