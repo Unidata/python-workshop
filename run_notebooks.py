@@ -24,7 +24,7 @@ if __name__ == '__main__':
     import sys
 
     ret = 0
-    notebooks = set(glob.glob(os.path.join(NOTEBOOKS_DIR, '*.ipynb')))
+    notebooks = set(glob.glob(os.path.join(NOTEBOOKS_DIR, '**/*.ipynb'), recursive=True))
     notebooks -= set(os.path.join(NOTEBOOKS_DIR, s)
                      for s in SKIP_NOTEBOOKS)
     for path in sorted(notebooks):
