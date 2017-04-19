@@ -3,7 +3,7 @@
 import subprocess
 
 NOTEBOOKS_DIR = 'notebooks'
-SKIP_NOTEBOOKS = ['What to do when things go wrong.ipynb']
+SKIP_NOTEBOOKS = ['Bonus/What to do when things go wrong.ipynb']
 
 
 def run_notebook(notebook):
