@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 import subprocess
+import os.path
 
 NOTEBOOKS_DIR = 'notebooks'
-SKIP_NOTEBOOKS = ['What to do when things go wrong.ipynb']
+SKIP_NOTEBOOKS = [os.path.join('Bonus','What to do when things go wrong.ipynb')]
 
 
 def run_notebook(notebook):
@@ -20,11 +21,10 @@ def run_notebook(notebook):
 
 if __name__ == '__main__':
     import glob
-    import os.path
     import sys
 
     ret = 0
-    notebooks = set(glob.glob(os.path.join(NOTEBOOKS_DIR, '*.ipynb')))
+    notebooks = set(glob.glob(os.path.join(NOTEBOOKS_DIR, '**', '*.ipynb'), recursive=True))
     notebooks -= set(os.path.join(NOTEBOOKS_DIR, s)
                      for s in SKIP_NOTEBOOKS)
     for path in sorted(notebooks):
