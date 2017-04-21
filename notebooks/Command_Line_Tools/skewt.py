@@ -9,6 +9,7 @@ from metpy.io.upperair import get_upper_air_data
 from metpy.plots import Hodograph, SkewT
 from metpy.units import units
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+from mpldatacursor import datacursor
 import numpy as np
 
 def get_sounding_data(date, station):
@@ -108,4 +109,5 @@ if __name__ == '__main__':
                                         datetime.strftime(date, '%Y%m%d_%HZ'),
                                         args.imgformat))
     else:
+        datacursor(formatter=u'{y:.02f} hPa \n{x:.02f}\u00B0C'.format, bbox=dict(fc='white'))
         plt.show()
