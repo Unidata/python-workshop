@@ -117,7 +117,7 @@ def make_basemap(proj):
     """
     # Make state boundaries feature
     states_provinces = cfeature.NaturalEarthFeature(category='cultural',
-                                                    name='admin_1_states_provinces_lines',
+                                                    name='admin_1_states_provinces_lakes',
                                                     scale='50m', facecolor='none')
 
     # Make country borders feature
