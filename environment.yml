@@ -19,3 +19,4 @@
    - ffmpeg
    - pip:
      - python-awips
+     - mpldatacursor
