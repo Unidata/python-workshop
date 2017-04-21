@@ -37,7 +37,7 @@ title:
 | 10:40 | Break                                        |             |  0:10  |
 | 10:50 | [Working with Satellite Data](https://github.com/Unidata/unidata-python-workshop/tree/master/notebooks/Satellite_Data) | John      |  1:30  |
 | 12:20 | Lunch                                        |             |  1:15  |
-| 13:35 | [Accessing Model Data with Siphon/MetPy](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Model_Data/Siphon_Cartopy_MetPy_HRRR.ipynb)| Ryan      |  1:30  |
+| 13:35 | [Accessing Model Data with Siphon/MetPy](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Model_Data/Downloading HRRR with Siphon.ipynb)| Ryan      |  1:30  |
 | 15:05 | Break                                     |           |  0:10  |
 | 15:15 | [Command Line Tool Creation](https://github.com/Unidata/unidata-python-workshop/tree/master/notebooks/Command_Line_Tools) | John        |  1:30  |
 | 16:45 | Wrap up                                      | All         |  0:20  |
