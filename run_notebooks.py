@@ -4,7 +4,9 @@ import subprocess
 import os.path
 
 NOTEBOOKS_DIR = 'notebooks'
-SKIP_NOTEBOOKS = [os.path.join('Bonus','What to do when things go wrong.ipynb')]
+SKIP_NOTEBOOKS = [os.path.join('Bonus','What to do when things go wrong.ipynb'),
+                  os.path.join('python-awips',
+                                'NEXRAD3_Storm_Total_Accumulation.ipynb')]
 
 
 def run_notebook(notebook):
