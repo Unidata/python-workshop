@@ -45,8 +45,13 @@ def get_closest_gfs(time, level, field):
     # Pull out the variables we will use
     lat_var = data.variables['lat']
     lon_var = data.variables['lon']
-    time_var = data.variables['reftime1']
     data_var = data.variables[field]
+
+    # Find the correct time dimension name
+    for coord in data_var.coordinates.split():
+        if 'time' in coord:
+            time_var = data.variables[coord]
+            break
 
     # Convert number of hours since the reference time into an actual date
     time_vals = netCDF4.num2date(time_var[:].squeeze(), data.variables['reftime1'].units)
