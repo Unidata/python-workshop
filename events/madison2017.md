@@ -8,6 +8,10 @@ title:
 
 **NOTE:** This is a tentative schedule and set of materials. The linked notebooks *WILL BE* revised.
 
+## Before the workshop
+- If you're not familiar with Python, visit [Unidata's Online Python Training](https://unidata.github.io/online-python-training)
+- Review the [Basics of NumPy and Matplotlib](http://nbviewer.jupyter.org/github/Unidata/unidata-python-workshop/blob/master/notebooks/Primer/Numpy and Matplotlib Basics.ipynb)
+
 ## Monday, June 5th
 
 |  Time | Section                                      | Presenter   | Length |
