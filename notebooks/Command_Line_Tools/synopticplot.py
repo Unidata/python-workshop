@@ -54,7 +54,7 @@ def get_closest_gfs(time, level, field):
             break
 
     # Convert number of hours since the reference time into an actual date
-    time_vals = netCDF4.num2date(time_var[:].squeeze(), data.variables['reftime1'].units)
+    time_vals = netCDF4.num2date(time_var[:].squeeze(), time_var.units)
 
     # Combine 1D latitude and longitudes into a 2D grid of locations
     lon_2d, lat_2d = np.meshgrid(lon_var[:], lat_var[:])
