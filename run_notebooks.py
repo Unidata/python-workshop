@@ -6,13 +6,15 @@ import os.path
 NOTEBOOKS_DIR = 'notebooks'
 SKIP_NOTEBOOKS = [os.path.join('Bonus','What to do when things go wrong.ipynb'),
                   os.path.join('python-awips',
-                                'NEXRAD3_Storm_Total_Accumulation.ipynb')]
+                                'NEXRAD3_Storm_Total_Accumulation.ipynb'),
+                  os.path.join('python-awips',
+                                'Watch_and_Warning_Polygons.ipynb')]
 
 
 def run_notebook(notebook):
     args = ['jupyter', 'nbconvert', '--execute',
             '--ExecutePreprocessor.timeout=900',
-            '--ExecutePreprocessor.kernel_name=workshop',
+            '--ExecutePreprocessor.kernel_name=python3',
             '--to=notebook', '--stdout']
 
     args.append(notebook)
@@ -37,8 +39,8 @@ if __name__ == '__main__':
     with mp.Pool(processes=6) as pool:
         for notebook in notebooks:
             pool.apply_async(run_notebook, args=(notebook,), callback=log_result)
+        pool.close()
         pool.join()
-        print("RESULTS: ", results)
 
-    ret = max(results, ret)
+    ret = max(results)
     sys.exit(ret)
