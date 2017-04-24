@@ -20,15 +20,25 @@ def run_notebook(notebook):
         proc.wait()
         return proc.returncode
 
+results = []
+def log_result(result):
+    results.append(result)
 
 if __name__ == '__main__':
     import glob
+    import multiprocessing as mp
     import sys
 
     ret = 0
     notebooks = set(glob.glob(os.path.join(NOTEBOOKS_DIR, '**', '*.ipynb'), recursive=True))
     notebooks -= set(os.path.join(NOTEBOOKS_DIR, s)
                      for s in SKIP_NOTEBOOKS)
-    for path in sorted(notebooks):
-        ret = max(run_notebook(path), ret)
+
+    with mp.Pool(processes=6) as pool:
+        for notebook in notebooks:
+            pool.apply_async(run_notebook, args=(notebook,), callback=log_result)
+        pool.join()
+        print("RESULTS: ", results)
+
+    ret = max(results, ret)
     sys.exit(ret)
