@@ -35,7 +35,6 @@ install:
   - source activate unidata-workshop
   - python --version
   - conda list
-  - python -m ipykernel install --user --name workshop
 
 script:
   - python run_notebooks.py
