@@ -13,6 +13,8 @@ title:
 ## Feedback
 Let us know how we did and take the [survey](https://www.surveymonkey.com/r/3GVFRK6). (Feel free to take the survey multiple times during the workshop.)
 
+Ask questions and take notes on the [Etherpad](https://etherpad.wikimedia.org/p/unidata-ou-workshop) for the workshop.
+
 ## Thursday, April 27th
 
 |  Time | Section                                      | Presenter   | Length |
