@@ -21,7 +21,6 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- [University of Oklahoma Regional Workshop](events/oklahoma2017.html) (27-29 April 2017 Norman, OK)
 - [University of Wisconsin Regional Workshop](events/madison2017.html) (5-8 June 2017 Madison, WI)
 
 ## Documentation and Resources
@@ -54,6 +53,7 @@ to get a feel for what's in the workshop.
   - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
 
 ## Past Events
+- [University of Oklahoma Regional Workshop](events/oklahoma2017.html) (27-29 April 2017 Norman, OK)
 - [Millersville University Regional Workshop](events/millersville2017.html) (6-8 April 2017 Millersville, PA)
 - [Fall 2016 workshop](events/fall2016.html) (17-19 October 2016 Boulder, CO)
 - [SSEC/AOS Workshop](events/madison2016.html) (20-21, 22-23 June 2016 Madison, WI)
