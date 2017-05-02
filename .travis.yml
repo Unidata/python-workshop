@@ -36,6 +36,11 @@ install:
   - python --version
   - conda list
 
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 3 # give xvfb some time to start
+  
 script:
   - python run_notebooks.py
   - python notebooks/Command_Line_Tools/synopticplot.py  --gfslevel 850 --gfsfield Relative_humidity_isobaric --savefig --imgformat jpg
