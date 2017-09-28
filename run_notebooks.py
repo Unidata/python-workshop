@@ -8,7 +8,11 @@ SKIP_NOTEBOOKS = [os.path.join('Bonus','What to do when things go wrong.ipynb'),
                   os.path.join('python-awips',
                                 'NEXRAD3_Storm_Total_Accumulation.ipynb'),
                   os.path.join('python-awips',
-                                'Watch_and_Warning_Polygons.ipynb')]
+                                'Watch_and_Warning_Polygons.ipynb'),
+                  os.path.join('python-awips',
+                               'NEXRAD3_Reflectivity_Velocity_Matplotlib.ipynb'),
+                  os.path.join('python-awips',
+                               'Satellite_Imagery.ipynb')]
 
 
 def run_notebook(notebook):
