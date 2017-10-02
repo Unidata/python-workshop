@@ -2,7 +2,7 @@ clone_depth: 5
 
 environment:
 
-  CONDA_PATH: "C:\\Miniconda3"
+  CONDA_PATH: "C:\\Miniconda"
 
   matrix:
     - PYTHON_VERSION: "3.6"
