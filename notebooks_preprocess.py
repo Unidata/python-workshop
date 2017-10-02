@@ -8,7 +8,7 @@ from pathlib import Path
 def format_script_for_cell(path):
     """Read and format a .py file to be inserted into the json for a cell."""
     header = '\n# Cell content replaced by load magic replacement.\n'
-    with open(path) as f:
+    with open(str(path)) as f:
         return header + f.read()
 
 
@@ -52,7 +52,7 @@ for notebook in notebooks:
         modified = False
         # Read in the notebook as JSON data
         print('Reading notebook: {}'.format(notebook))
-        with open(notebook, 'r') as f:
+        with open(str(notebook), 'r') as f:
             json_data = json.load(f)
 
         # Process each cell in the file
@@ -62,7 +62,7 @@ for notebook in notebooks:
         # Write out the modified notebook
         if modified:
             print('Writing notebook: {}\n'.format(notebook))
-            with open(notebook, 'w') as outfile:
+            with open(str(notebook), 'w') as outfile:
                 json.dump(json_data, outfile)
         else:
             print('Notebook not modified.\n')
