@@ -6,6 +6,10 @@ os:
   - linux
   - osx
 
+matrix:
+  allow_failures:
+    - os: osx
+
 env:
   global:
     - MINICONDA_DIR="$HOME/miniconda"
