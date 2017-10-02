@@ -14,10 +14,17 @@ For this workshop, we will be using the following Python libraries:
 -   [python-awips](http://github.com/Unidata/python-awips)
 -   [xarray](http://xarray.pydata.org)
 
+Downloading the Material
+------------------------
+The material for the workshop can be cloned from our
+[GitHub repository](https://github.com/Unidata/unidata-python-workshop)
+or can be directly downloaded as a zip file
+[here](https://github.com/Unidata/unidata-python-workshop/archive/master.zip).
+
 Installing git
 --------------
-We'll be showing you the basics of the git version control system and use it
-to retrieve the material for the workshop.
+We'll be showing you the basics of the git version control system and you can
+use it to retrieve the material for the workshop with the `git clone` command.
 
 ## Mac
 The XCode command line tools need to be installed.
@@ -37,7 +44,6 @@ Download and install the [GitHub desktop tools](https://desktop.github.com).
 
 Running Locally
 ---------------
-
 The easiest way to install these libraries is with
 [conda](http://conda.io/).
 
@@ -91,7 +97,6 @@ activate <environment>
 
 Running the notebooks
 ---------------------
-
 ```shell
 cd unidata-python-workshop
 
@@ -103,7 +108,6 @@ jupyter notebook
 
 Binder
 ------
-
 It is also possible to run a temporary notebook session using binder by
 visiting
 [mybinder.org](http://mybinder.org/repo/Unidata/unidata-python-workshop).
