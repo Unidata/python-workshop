@@ -10,7 +10,7 @@ branches:
 
 before_install:
   - gem install github-pages;
-  - pip install --user pyopenssl ndg-httpsclient pyasn1 "requests>=2.4";
+  - pip install --user pyopenssl ndg-httpsclient pyasn1 "requests==2.5.3";
   - pip install --user git+git://github.com/linkcheck/linkchecker.git
 
 script:
