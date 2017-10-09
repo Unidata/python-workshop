@@ -49,7 +49,7 @@ The easiest way to install these libraries is with
 
 1.  [Install Miniconda (Python 3.5) from Continuum
     Analytics](http://conda.io/miniconda.html). ([Determine if
-    your OS 32 or 64 bit](http://www.akaipro.com/kb/article/1616#os_32_or_64_bit))
+    your OS 32 or 64 bit](https://www.chiefarchitect.com/support/article/KB-01230/determining-if-your-computer-is-32-bit-or-64-bit.html))
 2.  Once Miniconda is installed, from the command line (e.g., OS X
     terminal, cmd.exe), run these instructions to clone the repository
     and create the environment:
