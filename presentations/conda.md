@@ -63,3 +63,8 @@
 - Create a new environment based what's in the `environment.yml` file: `conda env create`
 - Make sure our new environment is there: `conda env list`
 - Activate the new environment: `(source) activate unidata-workshop`
+
+## Cleaning up
+- Conda stores a lot of information on your system. Tarballs, indexes, caches, etc.
+- The `conda clean` command can free up gigabytes of space on your disk!
+- Recommended invocation: `conda clean -tp` (tarballs and unused cached packages)
