@@ -9,7 +9,10 @@ def format_script_for_cell(path):
     """Read and format a .py file to be inserted into the json for a cell."""
     header = '\n# Cell content replaced by load magic replacement.\n'
     with open(str(path), encoding='utf8') as f:
-        return header + f.read()
+        solution = f.read()
+        if not solution:
+            raise RuntimeError('Solution {} has no content.'.format(path))
+        return header + solution
 
 
 def find_load_magics_in_cell(cell):
@@ -27,6 +30,14 @@ def get_cell_content_as_string(cell):
     return ''.join(cell['source']) + '\n'
 
 
+def find_extra_content(cell_text):
+    """Find and non load magic or blank lines in a solution cell."""
+    for line in cell_text.split('\n'):
+        m = re.match('#\s?%load.*', line)
+        if not m and line:
+            raise RuntimeError('Solution cell has extra content: {}'.format(cell_text))
+
+
 def process_cell(path, cell):
     """Append the data from the load magics into the cell content."""
     modified = False
@@ -39,6 +50,7 @@ def process_cell(path, cell):
         script_path = path.parent / magic_string.split('load ')[1]
         formatted_script = format_script_for_cell(script_path)
         cell_str = get_cell_content_as_string(cell)
+        find_extra_content(cell_str)
         cell['source'] = cell_str + formatted_script
         modified = True
     return modified
