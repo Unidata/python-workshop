@@ -21,7 +21,7 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- [Texas Tech Intermediate Python Workshop](events/ttu2017.html) (10-11 November 2017 Lubbock, TX)
+No upcoming workshops are scheduled
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
@@ -53,6 +53,7 @@ to get a feel for what's in the workshop.
   - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
 
 ## Past Events
+- [Texas Tech Intermediate Python Workshop](events/ttu2017.html) (10-11 November 2017 Lubbock, TX)
 - [University of Wisconsin Regional Workshop](events/madison2017.html) (5-8 June 2017 Madison, WI)
 - [University of Oklahoma Regional Workshop](events/oklahoma2017.html) (27-29 April 2017 Norman, OK)
 - [Millersville University Regional Workshop](events/millersville2017.html) (6-8 April 2017 Millersville, PA)
