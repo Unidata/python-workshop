@@ -14,7 +14,7 @@ def read_buoy_data(fname):
     # Using inplace means the return is None and the dataframe is simply modified.
     df.drop(['year', 'month', 'day', 'hour', 'minute'], axis='columns', inplace=True)
     
-    idx = (df.time >= datetime(2017, 9, 18)) & (df.time <= datetime(2017, 9, 23))
+    idx = (df.time >= datetime(2017, 9, 6)) & (df.time <= datetime(2017, 9, 8))
     df = df[idx]
     
     df.reset_index(drop=True, inplace=True)
