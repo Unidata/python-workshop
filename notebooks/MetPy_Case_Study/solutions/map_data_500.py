@@ -2,7 +2,6 @@
 fig = plt.figure(figsize=(14, 8))
 proj = ccrs.LambertConformal(central_latitude=50, central_longitude=-107)
 ax = plt.subplot(111, projection=proj)
-ax.set_extent([LLlon, URlon, LLlat, URlat], ccrs.PlateCarree())
 ax.coastlines('50m', edgecolor='grey', linewidth=0.75)
 ax.add_feature(states_provinces, edgecolor='grey', linewidth=0.5)
 
