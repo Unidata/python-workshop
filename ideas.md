@@ -1,4 +1,4 @@
-- xray
+- xarray
 - GIS
   - Expand on some of the more interesting aspects of what we do in the cartopy tutorial
   - Fun things that can be done with Shapely
