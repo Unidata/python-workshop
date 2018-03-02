@@ -38,8 +38,8 @@ ax.contour(longitude, latitude, height_var[time_index].squeeze(), contours, colo
 ax.set_title(time[time_index])
 
 # add some common geographic features
-ax.coastlines(resolution='10m', color='black', zorder=1)
-ax.add_feature(states_provinces, edgecolor='black', zorder=1)
+ax.coastlines(resolution='10m', color='black')
+ax.add_feature(cfeat.STATES, edgecolor='black')
 ax.add_feature(cfeat.BORDERS)
 
 # add some lat/lon gridlines
