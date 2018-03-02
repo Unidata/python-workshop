@@ -11,7 +11,7 @@
    - owslib
    - metpy
    - pint
-   - shapely<=1.5.17
+   - shapely
    - siphon
    - xarray
    - pip
