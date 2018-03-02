@@ -3,7 +3,7 @@
 
 import argparse
 import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+import cartopy.feature as cfeat
 import matplotlib.pyplot as plt
 import netCDF4
 import numpy as np
@@ -115,21 +115,10 @@ def make_basemap(proj):
 
     proj: Cartopy projection to build map with
     """
-    # Make state boundaries feature
-    states_provinces = cfeature.NaturalEarthFeature(category='cultural',
-                                                    name='admin_1_states_provinces_lakes',
-                                                    scale='50m', facecolor='none')
-
-    # Make country borders feature
-    country_borders = cfeature.NaturalEarthFeature(category='cultural',
-                                                   name='admin_0_countries',
-                                                   scale='50m', facecolor='none')
-
     fig = plt.figure(figsize=(10.5, 7))
     ax = fig.add_subplot(1, 1, 1, projection=proj)
-    ax.coastlines('50m', edgecolor='black', linewidth=0.5, zorder=-100)
-    ax.add_feature(states_provinces, edgecolor='black', linewidth=0.5)
-    ax.add_feature(country_borders, edgecolor='black', linewidth=0.5)
+    ax.add_feature(cfeat.STATES, linestyle=':')
+    ax.add_feature(cfeat.COASTLINE)
 
     return fig, ax
 
