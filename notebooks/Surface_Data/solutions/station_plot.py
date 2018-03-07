@@ -4,7 +4,7 @@ mask = reduce_point_density(xy, 75000)
 # Set up a plot with map features
 fig = plt.figure(figsize=(12, 12))
 ax = fig.add_subplot(1, 1, 1, projection=proj)
-ax.add_feature(cfeat.STATES, edgecolor='black')
+ax.add_feature(cfeature.STATES, edgecolor='black')
 ax.coastlines(resolution='50m')
 ax.gridlines()
 

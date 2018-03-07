@@ -3,7 +3,7 @@
 
 import argparse
 import cartopy.crs as ccrs
-import cartopy.feature as cfeat
+import cartopy.feature as cfeature
 import matplotlib.pyplot as plt
 import netCDF4
 import numpy as np
@@ -117,8 +117,8 @@ def make_basemap(proj):
     """
     fig = plt.figure(figsize=(10.5, 7))
     ax = fig.add_subplot(1, 1, 1, projection=proj)
-    ax.add_feature(cfeat.STATES, linestyle=':')
-    ax.add_feature(cfeat.COASTLINE)
+    ax.add_feature(cfeature.STATES, linestyle=':')
+    ax.add_feature(cfeature.COASTLINE)
 
     return fig, ax
 

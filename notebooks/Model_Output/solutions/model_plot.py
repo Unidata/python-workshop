@@ -39,8 +39,8 @@ ax.set_title(time[time_index])
 
 # add some common geographic features
 ax.coastlines(resolution='10m', color='black')
-ax.add_feature(cfeat.STATES, edgecolor='black')
-ax.add_feature(cfeat.BORDERS)
+ax.add_feature(cfeature.STATES, edgecolor='black')
+ax.add_feature(cfeature.BORDERS)
 
 # add some lat/lon gridlines
 ax.gridlines()

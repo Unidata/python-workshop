@@ -34,8 +34,8 @@ ax = fig.add_subplot(1, 1, 1, projection=proj)
 im = ax.imshow(data_var[:], extent=(x.min(), x.max(), y.min(), y.max()), origin='upper',
                cmap=wv_cmap, norm=wv_norm)
 ax.coastlines(resolution='50m', color='black')
-ax.add_feature(cfeat.STATES, linestyle=':')
-ax.add_feature(cfeat.BORDERS, linewidth=2)
+ax.add_feature(cfeature.STATES, linestyle=':')
+ax.add_feature(cfeature.BORDERS, linewidth=2)
 
 # Add text (aligned to the right); save the returned object so we can manipulate it.
 text_time = ax.text(0.99, 0.01, timestamp.strftime('%d %B %Y %H%MZ'),
