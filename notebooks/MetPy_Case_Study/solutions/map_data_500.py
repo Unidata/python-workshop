@@ -3,7 +3,7 @@ fig = plt.figure(figsize=(14, 8))
 proj = ccrs.LambertConformal(central_latitude=50, central_longitude=-107)
 ax = plt.subplot(111, projection=proj)
 ax.coastlines('50m', edgecolor='grey', linewidth=0.75)
-ax.add_feature(cfeat.STATES, edgecolor='grey', linewidth=0.5)
+ax.add_feature(cfeature.STATES, edgecolor='grey', linewidth=0.5)
 
 # Set up station plotting using only every third
 # element from arrays for plotting
