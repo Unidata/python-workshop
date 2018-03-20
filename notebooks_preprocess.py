@@ -4,55 +4,31 @@ import json
 import re
 from pathlib import Path
 
-
-def format_script_for_cell(path):
-    """Read and format a .py file to be inserted into the json for a cell."""
-    header = '\n# Cell content replaced by load magic replacement.\n'
-    with open(str(path), encoding='utf8') as f:
-        solution = f.read()
-        if not solution:
-            raise RuntimeError('Solution {} has no content.'.format(path))
-        return header + solution
-
-
-def find_load_magics_in_cell(cell):
-    """Find the load magics in a cell and return them as a list."""
-    load_magics = []
-    for cell_source_line in cell['source']:
-        m = re.match('#\s?%load.*', cell_source_line)
-        if m:
-            load_magics.append(m.group())
-    return load_magics
-
-
 def get_cell_content_as_string(cell):
     """Return the cells source as a single string."""
     return ''.join(cell['source']) + '\n'
 
 
-def find_extra_content(cell_text):
-    """Find and non load magic or blank lines in a solution cell."""
-    for line in cell_text.split('\n'):
-        m = re.match('#\s?%load.*', line)
-        if not m and line:
-            raise RuntimeError('Solution cell has extra content: {}'.format(cell_text))
-
-
 def process_cell(path, cell):
-    """Append the data from the load magics into the cell content."""
+    """Replace the solution button with the solution code."""
     modified = False
-    # See if there are any load magics used
-    load_magics = find_load_magics_in_cell(cell)
 
-    # Replace the load magics with content from their recpective files
-    for magic_string in load_magics:
-        path = Path(path)
-        script_path = path.parent / magic_string.split('load ')[1]
-        formatted_script = format_script_for_cell(script_path)
-        cell_str = get_cell_content_as_string(cell)
-        find_extra_content(cell_str)
-        cell['source'] = cell_str + formatted_script
-        modified = True
+    # See if there is a solution div in the cell
+    for cell_source_line in cell['source']:
+        m = re.match('<div id="sol*', cell_source_line)
+        if m:
+            modified = True
+            # Breakout the solution content (i.e. strip HTML)
+            solution_code = get_cell_content_as_string(cell)
+            solution_code = solution_code.split('```python')[1]
+            solution_code = solution_code.rsplit('```', maxsplit=1)[0]
+
+            # Replace the cell content and change it to a code cell.
+            cell['cell_type'] = "code"
+            cell['source'] = "# Replaced by notebook preprocessor\n" + solution_code
+            cell['outputs'] = []
+            cell['execution_count'] = 0
+
     return modified
 
 
