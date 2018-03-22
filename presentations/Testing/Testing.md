@@ -41,7 +41,7 @@ Interactive:
   - Add tests for `temperature.py` to `tests/test_temperature.py`
     - values
     - round trip
-  - How do we run tests: `pytest
+  - How do we run tests: `pytest`
 
 Exercise:
   - Add calculations for mean and median to `stats.py`
