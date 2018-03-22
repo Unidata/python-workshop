@@ -5,23 +5,23 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 import metpy.calc as mpcalc
-from metpy.io.upperair import get_upper_air_data
 from metpy.plots import Hodograph, SkewT
 from metpy.units import units
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 from mpldatacursor import datacursor
 import numpy as np
+from siphon.simplewebservice.wyoming import WyomingUpperAir
 
 def get_sounding_data(date, station):
 
-    ds = get_upper_air_data(date, station)
+    df = WyomingUpperAir.request_data(date, station)
 
-    p = ds.variables['pressure'][:]
-    T = ds.variables['temperature'][:]
-    Td = ds.variables['dewpoint'][:]
-    u = ds.variables['u_wind'][:]
-    v = ds.variables['v_wind'][:]
-    windspeed = ds.variables['speed'][:]
+    p = df['pressure'].values * units(df.units['pressure'])
+    T = df['temperature'].values * units(df.units['temperature'])
+    Td = df['dewpoint'].values * units(df.units['dewpoint'])
+    u = df['u_wind'].values * units(df.units['u_wind'])
+    v = df['v_wind'].values * units(df.units['v_wind'])
+    windspeed = df['speed'].values * units(df.units['speed'])
 
     return p, T, Td, u, v, windspeed
 
@@ -38,7 +38,7 @@ def plot_sounding(date, station):
 
     # Plot the data
     skew.plot(p, T, color='tab:red')
-    skew.plot(p, Td, color='tab:green')
+    skew.plot(p, Td, color='blue')
 
     # Plot thermodynamic parameters and parcel path
     skew.plot(p, parcel_path, color='black')
