@@ -20,8 +20,8 @@ def process_cell(path, cell):
             modified = True
             # Breakout the solution content (i.e. strip HTML)
             solution_code = get_cell_content_as_string(cell)
-            solution_code = solution_code.split('```python')[1]
-            solution_code = solution_code.rsplit('```', maxsplit=1)[0]
+            solution_code = solution_code.split('<code><pre>')[1]
+            solution_code = solution_code.rsplit('</pre></code>\n</div>', maxsplit=1)[0]
 
             # Replace the cell content and change it to a code cell.
             cell['cell_type'] = "code"
