@@ -21,7 +21,10 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-There are no upcoming workshops.
+- [Jackson St. University](events/jackson2018.html) (30-31 August 2018 Jackson, MS)
+- San Jose St. University (TBD San Jose, CA)
+- Fall 2018 Unidata Workhop (22-24 October 2018 Boulder, CO)
+- AMS 2019 Annual Meeting Short Course (6 January 2019 Phoenix, AZ)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
