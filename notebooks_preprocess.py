@@ -2,11 +2,21 @@
 
 import json
 import re
+import sys
+import warnings
 from pathlib import Path
 
 def get_cell_content_as_string(cell):
     """Return the cells source as a single string."""
     return ''.join(cell['source']) + '\n'
+
+
+def check_if_notebook_has_run(cell):
+    """Check to ensure that the notebook has not been committed in a run state."""
+    for cell in json_data['cells']:
+        if cell['cell_type']=='code' and cell['execution_count'] != None:
+            return True
+    return False
 
 
 def process_cell(path, cell):
@@ -34,7 +44,7 @@ def process_cell(path, cell):
 
 # Recursively grab all notebooks and process them
 notebooks = Path('notebooks').rglob('*.ipynb')
-
+notebooks_that_have_run = []
 for notebook in notebooks:
     if not str(notebook.parts[-2]).startswith('.'):
         modified = False
@@ -42,6 +52,11 @@ for notebook in notebooks:
         print('Reading notebook: {}'.format(notebook))
         with open(str(notebook), 'r', encoding='utf8') as f:
             json_data = json.load(f)
+
+        # Check the notebook for executed code cells - we don't want those.
+        found_executed_cells = check_if_notebook_has_run(json_data)
+        if found_executed_cells:
+            notebooks_that_have_run.append(notebook)
 
         # Process each cell in the file
         for cell in json_data['cells']:
@@ -54,3 +69,8 @@ for notebook in notebooks:
                 json.dump(json_data, outfile)
         else:
             print('Notebook not modified.\n')
+
+if len(notebooks_that_have_run) > 0:
+    print('These notebooks were committed in the executed state: ',
+          notebooks_that_have_run)
+    sys.exit(1)
