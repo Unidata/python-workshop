@@ -16,7 +16,6 @@ title:
 | 11:30 | [Introduction to NumPy](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/NumPy/Numpy%20Basics.ipynb)                        | Ryan        |  1:00  |
 | 12:30 | Lunch                                        |             |  1:15  |
 | 13:45 | [Introduction to MetPy](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Metpy_Introduction/Introduction%20to%20MetPy.ipynb)                        | John        |  0:30  |
-
 | 14:15 | [Introduction Siphon](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Siphon/Siphon%20Overview.ipynb)                          | Ryan        |  0:30  |
 | 14:45 | Break                                        |             |  0:15  |
 | 15:00 | [Upper Air Data Analysis and the Skew-T](https://github.com/Unidata/unidata-python-workshop/tree/master/notebooks/Skew_T)       | John         |  1:00  |
