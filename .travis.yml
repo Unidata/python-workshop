@@ -33,7 +33,7 @@ before_install:
   - conda update -q conda
   - conda install -q pyyaml
   - conda info -a
-  - sed -i -e "s/python=3/python=$Python/" environment.yml
+  - sed -i -e "s/python=3.6/python=$Python/" environment.yml
 
 install:
   - conda env create -q -f environment.yml
