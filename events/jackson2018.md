@@ -12,12 +12,12 @@ title:
 |-------|----------------------------------------------|-------------|--------|
 |  9:00 | Introductions and Overview                   | All         |  0:10  |
 |  9:10 | [System Setup and Conda](https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/10_Minutes_to_Conda.pdf)                       | John        |  1:00  |
-| 10:10 | [Jupyter Notebooks](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Jupyter_Notebooks/Jupyter%20Notebooks%20Introduction.ipynb)                            | John        |  0:30  |
-| 10:40 | Break                                        |             |  0:20  |
-| 11:00 | [Introduction to NumPy](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/NumPy/Numpy%20Basics.ipynb)                        | Ryan        |  1:00  |
-| 12:00 | [Introduction to MetPy](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Metpy_Introduction/Introduction%20to%20MetPy.ipynb)                        | John        |  0:30  |
+| 10:10 | [Jupyter Notebooks w/Break](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Jupyter_Notebooks/Jupyter%20Notebooks%20Introduction.ipynb)                            | John        |  1:20  |
+| 11:30 | [Introduction to NumPy](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/NumPy/Numpy%20Basics.ipynb)                        | Ryan        |  1:00  |
 | 12:30 | Lunch                                        |             |  1:15  |
-| 13:45 | [Introduction Siphon](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Siphon/Siphon%20Overview.ipynb)                          | Ryan        |  1:00  |
+| 13:45 | [Introduction to MetPy](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Metpy_Introduction/Introduction%20to%20MetPy.ipynb)                        | John        |  0:30  |
+
+| 14:15 | [Introduction Siphon](https://github.com/Unidata/unidata-python-workshop/blob/master/notebooks/Siphon/Siphon%20Overview.ipynb)                          | Ryan        |  0:30  |
 | 14:45 | Break                                        |             |  0:15  |
 | 15:00 | [Upper Air Data Analysis and the Skew-T](https://github.com/Unidata/unidata-python-workshop/tree/master/notebooks/Skew_T)       | John         |  1:00  |
 | 16:00 | Break                                        |             |  0:15  |
