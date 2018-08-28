@@ -33,6 +33,10 @@ def process_cell(path, cell):
             solution_code = solution_code.split('<code><pre>')[1]
             solution_code = solution_code.rsplit('</pre></code>\n</div>', maxsplit=1)[0]
 
+            # Replace any escaped characters with the character to avoid markdown
+            # escapes (See issue #323)
+            solution_code = solution_code.replace('\\#', '#')
+
             # Replace the cell content and change it to a code cell.
             cell['cell_type'] = "code"
             cell['source'] = "# Replaced by notebook preprocessor\n" + solution_code
