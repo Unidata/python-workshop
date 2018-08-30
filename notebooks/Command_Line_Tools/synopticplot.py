@@ -161,7 +161,7 @@ if __name__ == '__main__':
 
     # Contour the GFS data
     c = ax.contour(gfs_lon_grid, gfs_lat_grid, gfs_data_grid, colors='C3',
-                   lw=2, transform=ccrs.PlateCarree())
+                   linewidths=2, transform=ccrs.PlateCarree())
 
     plt.clabel(c, fontsize=14, inline=1, inline_spacing=1, fmt='%i', rightside_up=True)
 
