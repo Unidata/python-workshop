@@ -1,4 +1,4 @@
-[![My Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/Unidata/unidata-python-workshop)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Unidata/unidata-python-workshop/master)
 
 [![Travis Status](https://travis-ci.org/Unidata/unidata-python-workshop.svg?branch=master)](https://travis-ci.org/Unidata/unidata-python-workshop)
 
