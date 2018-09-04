@@ -4,6 +4,7 @@
  dependencies:
    - python=3
    - numpy
+   - nomkl
    - matplotlib
    - cartopy
    - jupyter
