@@ -17,6 +17,3 @@
    - pip
    - ffmpeg
    - pytest
-   - pip:
-     - python-awips
-     - mpldatacursor
