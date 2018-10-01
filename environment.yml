@@ -17,3 +17,5 @@
    - pip
    - ffmpeg
    - pytest
+   - pip:
+     - mpldatacursor
