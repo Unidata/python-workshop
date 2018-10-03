@@ -4,7 +4,6 @@
  dependencies:
    - python=3
    - numpy
-   - nomkl
    - matplotlib
    - cartopy
    - jupyter
@@ -18,6 +17,4 @@
    - pip
    - ffmpeg
    - pytest
-   - pip:
-     - python-awips
-     - mpldatacursor
+   - mplcursors

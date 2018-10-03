@@ -1,6 +1,6 @@
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Unidata/unidata-python-workshop/master)
 
-[![Travis Status](https://travis-ci.org/Unidata/unidata-python-workshop.svg?branch=master)](https://travis-ci.org/Unidata/unidata-python-workshop)
+[![Travis Status](https://api.travis-ci.org/Unidata/unidata-python-workshop.svg?branch=master)](https://travis-ci.org/Unidata/unidata-python-workshop)
 
 [![AppVeyor Status](https://ci.appveyor.com/api/projects/status/rgmgbsv0yia7i0nm?svg=true)](https://ci.appveyor.com/project/Unidata/unidata-python-workshop)
 

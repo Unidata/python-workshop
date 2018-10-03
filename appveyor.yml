@@ -6,7 +6,6 @@ environment:
 
   matrix:
     - PYTHON_VERSION: "3.6"
-    - PYTHON_VERSION: "3.7"
 
 platform:
     - x64
@@ -34,4 +33,4 @@ build: off
 test_script:
     - cmd: python notebooks_preprocess.py
     - cmd: python run_notebooks.py
-    - cmd: python notebooks/Command_Line_Tools/synopticplot.py  --gfslevel 850 --gfsfield Relative_humidity_isobaric --savefig --imgformat jpg
+    #- cmd: python notebooks/Command_Line_Tools/synopticplot.py  --gfslevel 850 --gfsfield Relative_humidity_isobaric --savefig --imgformat jpg

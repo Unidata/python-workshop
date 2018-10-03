@@ -17,7 +17,6 @@ env:
   matrix:
     - Python=3.5
     - Python=3.6
-    - Python=3.7
 
 before_install:
   # Taken from: http://conda.pydata.org/docs/travis.html
@@ -52,5 +51,5 @@ before_script:
 script:
   - python notebooks_preprocess.py
   - python run_notebooks.py
-  - python notebooks/Command_Line_Tools/synopticplot.py  --gfslevel 850 --gfsfield Relative_humidity_isobaric --savefig --imgformat jpg
+  #- python notebooks/Command_Line_Tools/synopticplot.py  --gfslevel 850 --gfsfield Relative_humidity_isobaric --savefig --imgformat jpg
   - python notebooks/Command_Line_Tools/skewt.py --date 20170420 --hour 0 --station BMX  --savefig  --imgformat jpg
