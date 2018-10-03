@@ -34,14 +34,17 @@ For meteorology work, get oriented with **Metpy_Introduction/Introduction to Met
 
   - Meteorology grids and streams
     - Siphon/Siphon Overview.ipynb
+    - AWIPS/Grid_Levels_and_Parameters.ipynb
     - Bonus/Downloading GFS with Siphon.ipynb
     - Bonus/Siphon_XARRAY_Cartopy_HRRR.ipynb
     - Model_Output/Downloading model fields with NCSS.ipynb
     - Satellite_Data/Working with Satellite Data.ipynb
+    - AWIPS/Satellite_Imagery.ipynb
 
   - Weather observations
     - Skew_T/Upper Air and the Skew-T Log-P.ipynb
     - Surface_Data/Surface Data with Siphon and MetPy.ipynb
+    - AWIPS/Upper_Air_BUFR_Soundings.ipynb
 
 ### Analysis: derived quantities and statistical summarizations
 
@@ -56,6 +59,8 @@ For meteorology work, get oriented with **Metpy_Introduction/Introduction to Met
   - Matplotlib/Matplotlib Basics.ipynb
   - Satellite_Data/GOES_Interactive_Plot.ipynb
   - Skew_T/Upper Air and the Skew-T Log-P.ipynb
+  - AWIPS/Model_Sounding_Data.ipynb
+  - AWIPS/NEXRAD_Level_3_Plot_with_Matplotlib.ipynb
 
 ### File outputs
   - netCDF/netCDF-Writing.ipynb
