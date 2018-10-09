@@ -4,8 +4,8 @@
  dependencies:
    - python=3
    - numpy
-   - matplotlib
-   - cartopy
+   - matplotlib=2
+   - cartopy=0.16
    - jupyter
    - netcdf4
    - owslib
