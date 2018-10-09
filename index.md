@@ -21,8 +21,6 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-
-- [San Jose St. University (TBD San Jose, CA)](events/sjsu2018.html)
 - Fall 2018 Unidata Workhop (22-24 October 2018 Boulder, CO)
 - AMS 2019 Annual Meeting Short Course (6 January 2019 Phoenix, AZ)
 
@@ -57,6 +55,7 @@ to get a feel for what's in the workshop.
 
 ## Past Events
 ### 2018
+- [San Jose St. University](events/sjsu2018.html) (4-5 October 2018 San Jose, CA)
 - [Jackson St. University](events/jackson2018.html) (30-31 August 2018 Jackson, MS)
 - [CSU](events/csu2018.html) (23-24 May 2018 Fort Collins, CO)
 - [Software Engineering Assembly Tutorial](events/sea2018.html) (6 April 2018 Boulder, CO)
