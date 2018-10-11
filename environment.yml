@@ -18,3 +18,5 @@
    - ffmpeg
    - pytest
    - mplcursors
+   - pip:
+     - python-awips
