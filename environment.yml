@@ -1,4 +1,4 @@
- name: unidata-workshop
+ name: unidata
  channels:
    - conda-forge
  dependencies:
