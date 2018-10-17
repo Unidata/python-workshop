@@ -14,7 +14,8 @@ This checklist contains everything we need to have and do to make sure workshops
 
 ## Before Starting
 * [ ] Set your shell to a clean BASH
-* [ ] Remove and unidata environment before beginning
+* [ ] Remove the unidata environment before beginning
+* [ ] Remove conda-forge from your default channels and any other conda config
 * [ ] Ensure you are running an updated and clean set of materials
 * [ ] Use no syntax highlighting or highlighting that projects well
 * [ ] Write workshop web address up on the board
