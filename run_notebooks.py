@@ -4,7 +4,15 @@ import subprocess
 import os.path
 
 NOTEBOOKS_DIR = 'notebooks'
-SKIP_NOTEBOOKS = [os.path.join('Bonus','What to do when things go wrong.ipynb')]
+SKIP_NOTEBOOKS = [os.path.join('Bonus', 'What to do when things go wrong.ipynb'),
+                  os.path.join('AWIPS', 'AWIPS_Grids_and_Cartopy.ipynb'),
+                  os.path.join('AWIPS', 'Grid_Levels_and_Parameters.ipynb'),
+                  os.path.join('AWIPS', 'Map_Resources_and_Topography.ipynb'),
+                  os.path.join('AWIPS', 'Model_Sounding_Data.ipynb'),
+                  os.path.join('AWIPS', 'NEXRAD_Level_3_Plot_with_Matplotlib.ipynb'),
+                  os.path.join('AWIPS', 'Satellite_Imagery.ipynb'),
+                  os.path.join('AWIPS', 'Upper_Air_BUFR_Soundings.ipynb'),
+                  os.path.join('AWIPS', 'Watch_and_Warning_Polygons.ipynb')]
 
 
 def run_notebook(notebook):
