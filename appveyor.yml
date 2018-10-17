@@ -22,7 +22,7 @@ install:
     - cmd: conda info -a
     - cmd: sed -i -e s/python=3/python=%PYTHON_VERSION%/ environment.yml
     - cmd: conda env create -q -f environment.yml
-    - cmd: activate unidata-workshop
+    - cmd: activate unidata
     - cmd: python --version
     - cmd: python -m ipykernel install --user --name workshop
     - cmd: conda list

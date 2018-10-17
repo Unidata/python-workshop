@@ -37,7 +37,7 @@ before_install:
 
 install:
   - conda env create -q -f environment.yml
-  - source activate unidata-workshop
+  - source activate unidata
   - python --version
   - conda list
 
