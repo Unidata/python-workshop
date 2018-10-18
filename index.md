@@ -21,7 +21,7 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- Fall 2018 Unidata Workhop (22-24 October 2018 Boulder, CO)
+- [Fall 2018 Unidata Workhop (22-24 October 2018 Boulder, CO)](events/unidata2018.md)
 - AMS 2019 Annual Meeting Short Course (6 January 2019 Phoenix, AZ)
 
 ## Documentation and Resources
