@@ -12,7 +12,7 @@ title:
 |-------|----------------------------------------------|-------------|--------|
 | 9:00 | Introductions and Overview | All | 0:10 |
 | 9:10 | Conda | John | 0:20 |
-| 9:30 | Jupyter | John | 1:00 |
+| 9:30 | Jupyter | John/Julien | 1:00 |
 | 10:30 | Break | N/A | 0:10 |
 | 10:40 | Introduction to Numpy | Ryan | 1:00 |
 | 11:40 | Lunch | N/A | 1:15 |
