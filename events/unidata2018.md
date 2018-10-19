@@ -13,16 +13,17 @@ title:
 | 9:00 | Introductions and Overview | All | 0:10 |
 | 9:10 | Conda | John | 0:20 |
 | 9:30 | Jupyter | John | 1:00 |
-| 10:30 | Break | N/A | 0:10 |
-| 10:40 | Introduction to Numpy | Ryan | 1:00 |
-| 11:40 | Lunch | N/A | 1:15 |
-| 12:55 | Introduction to Pandas | John | 0:45 |
-| 13:40 | Introduction to Xarray | Ryan | 0:45 |
-| 14:25 | Break | N/A | 0:15 |
-| 14:40 | Introduction to Matplotlib | Ryan | 0:30 |
-| 15:10 | Introduction to MetPy | John | 0:45 |
-| 15:55 | Introduction to siphon | Ryan | 0:30 |
-| 16:25 | End of Day |  |
+| 10:30| JupyterHub on Jetstream | Julien | 0:15 |
+| 10:45 | Break | N/A | 0:10 |
+| 10:55 | Introduction to Numpy | Ryan | 1:00 |
+| 11:55 | Lunch | N/A | 1:15 |
+| 13:10 | Introduction to Pandas | John | 0:45 |
+| 13:55 | Introduction to Xarray | Ryan | 0:45 |
+| 14:40 | Break | N/A | 0:15 |
+| 14:55 | Introduction to Matplotlib | Ryan | 0:30 |
+| 15:25 | Introduction to MetPy | John | 0:45 |
+| 16:10 | Introduction to siphon | Ryan | 0:30 |
+| 16:40 | End of Day |  |
 
 ## Tuesday, October 23rd
 
