@@ -21,7 +21,7 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- AMS 2019 Annual Meeting Short Course (6 January 2019 Phoenix, AZ)
+- [AMS 2019 Annual Meeting Short Course](events/ams2019.md) (6 January 2019 Phoenix, AZ)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
@@ -54,7 +54,7 @@ to get a feel for what's in the workshop.
 
 ## Past Events
 ### 2018
-- [Fall 2018 Unidata Workhop (22-24 October 2018 Boulder, CO)](events/unidata2018.md)
+- [Fall 2018 Unidata Workhop](events/unidata2018.md) (22-24 October 2018 Boulder, CO)
 - [San Jose St. University](events/sjsu2018.html) (4-5 October 2018 San Jose, CA)
 - [Jackson St. University](events/jackson2018.html) (30-31 August 2018 Jackson, MS)
 - [CSU](events/csu2018.html) (23-24 May 2018 Fort Collins, CO)
