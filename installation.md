@@ -9,7 +9,15 @@ teach you more Python!
 
 To get ready we'll install conda and setup the Python environment will all of
 the packages you'll need. The instructions for Mac, Windows, and Linux are
-outlined below.
+outlined below in text form as well as videos for each operating system.
+
+## Video Guides
+
+### Mac/Linux
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lmAulLlXNOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Windows
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5DFDXKzqkrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Installing Conda
 Head over to [conda.io/miniconda.html](https://conda.io/miniconda.html) and
