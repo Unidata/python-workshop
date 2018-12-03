@@ -1,0 +1,5 @@
+date = datetime.utcnow() - timedelta(days=1)
+cat = TDSCatalog('http://thredds.ucar.edu/thredds/catalog/satellite/SFC-T/SUPER-NATIONAL_1km/{dt:%Y%m%d}/catalog.xml'.format(dt=date))
+request_time = date.replace(hour=12, minute=0, second=0, microsecond=0)
+datasets = cat.datasets.filter_time_range(request_time, request_time + timedelta(hours=6))
+print(datasets)
