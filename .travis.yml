@@ -1,6 +1,7 @@
 # Since we really don't want any of Travis' Python
 language: generic
-sudo: false
+sudo: required
+dist: xenial
 
 os:
   - linux
@@ -15,8 +16,11 @@ env:
   global:
     - MINICONDA_DIR="$HOME/miniconda"
   matrix:
-    - Python=3.5
-    - Python=3.6
+    - Python: 3.5
+    - Python: 3.6
+    - Python: 3.7
+    - Python: 3.7
+      env: TASK="dev"
 
 before_install:
   # Taken from: http://conda.pydata.org/docs/travis.html
@@ -38,6 +42,12 @@ before_install:
 install:
   - conda env create -q -f environment.yml
   - source activate unidata
+  - if [[ $TASK == "dev" ]]; then
+      conda uninstall metpy;
+      pip install https://github.com/unidata/metpy;
+      conda uninstall siphon;
+      pip install https://github.com/unidata/siphon;
+    fi;
   - python --version
   - conda list
 
