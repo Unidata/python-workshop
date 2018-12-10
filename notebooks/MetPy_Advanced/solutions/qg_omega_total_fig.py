@@ -28,9 +28,8 @@ ax.barbs(lons, lats, uwnd_700s.to('kts').m, vwnd_700s.to('kts').m,
          regrid_shape=15, transform=dataproj)
 
 # Titles
-plt.title(r'700-hPa Geopotential Heights, Temperature (C), QG Omega Forcings '
-          '($*10^{12}$ kg m$^{-3}$ s$^{-3}$), and Winds (kt)',loc='left')
+plt.title('700-hPa Geopotential Heights, Temperature (C),\n'
+          'Winds (kt), and QG Omega Forcings ($*10^{12}$ kg m$^{-3}$ s$^{-3}$)',loc='left')
 plt.title('VALID: %s' %(vtime),loc='right')
 
-plt.tight_layout()
 plt.show()
