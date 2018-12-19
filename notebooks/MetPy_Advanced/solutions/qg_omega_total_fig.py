@@ -24,7 +24,7 @@ cf = ax.contourf(lons, lats, (term_A+term_B)*10**12, clev_omega,
 plt.colorbar(cf, orientation='horizontal', pad=0.0, aspect=50, extendrect=True)
 
 # Vector
-ax.barbs(lons, lats, uwnd_700s.to('kts').m, vwnd_700s.to('kts').m,
+ax.barbs(lons.m, lats.m, uwnd_700s.to('kts').m, vwnd_700s.to('kts').m,
          regrid_shape=15, transform=dataproj)
 
 # Titles

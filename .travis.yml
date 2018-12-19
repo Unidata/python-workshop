@@ -19,8 +19,7 @@ env:
     - Python: 3.5
     - Python: 3.6
     - Python: 3.7
-    - Python: 3.7
-      env: TASK="dev"
+    - Python: 3.7 TASK="dev"
 
 before_install:
   # Taken from: http://conda.pydata.org/docs/travis.html
@@ -44,9 +43,9 @@ install:
   - source activate unidata
   - if [[ $TASK == "dev" ]]; then
       conda uninstall metpy;
-      pip install https://github.com/unidata/metpy;
+      pip install git+git://github.com/unidata/metpy.git;
       conda uninstall siphon;
-      pip install https://github.com/unidata/siphon;
+      pip install git+git://github.com/unidata/siphon.git;
     fi;
   - python --version
   - conda list
