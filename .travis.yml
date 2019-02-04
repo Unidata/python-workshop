@@ -16,7 +16,6 @@ env:
   global:
     - MINICONDA_DIR="$HOME/miniconda"
   matrix:
-    - Python: 3.5
     - Python: 3.6
     - Python: 3.7
     - Python: 3.7 TASK="dev"
