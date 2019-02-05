@@ -21,7 +21,7 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- [AMS 2019 Annual Meeting Short Course](events/ams2019.md) (6 January 2019 Phoenix, AZ)
+- [Python Workshop at Metropolitan State University](events/metro2019.md) (8 March 2019 Denver, CO)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
@@ -53,6 +53,9 @@ to get a feel for what's in the workshop.
   - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
 
 ## Past Events
+### 2019
+- [AMS 2019 Annual Meeting Short Course](events/ams2019.md) (6 January 2019 Phoenix, AZ)
+
 ### 2018
 - [Fall 2018 Unidata Workhop](events/unidata2018.md) (22-24 October 2018 Boulder, CO)
 - [San Jose St. University](events/sjsu2018.html) (4-5 October 2018 San Jose, CA)
