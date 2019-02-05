@@ -21,7 +21,7 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- [AMS 2019 Annual Meeting Short Course](events/ams2019.md) (6 January 2019 Phoenix, AZ)
+- [Python Workshop at Metropolitan State University](events/metro2019.html) (8 March 2019 Denver, CO)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
@@ -46,15 +46,18 @@ to get a feel for what's in the workshop.
     - [Git it](https://github.com/jlord/git-it-electron), an interactive application showing how to use git
     - GitHub's [interactive git tutorial](https://try.github.io/)
     - [Introduction to GitHub](https://services.github.com/on-demand/intro-to-github/)
-  - [conda cheatsheet](http://conda.io/docs/_downloads/conda-cheatsheet.pdf) from ContinuumIO
+  - [conda cheatsheet](https://docs.conda.io/projects/continuumio-conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf) from ContinuumIO
   - DataCamp's [numpy cheatsheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
   - MATLAB to Python [cross reference](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
   - [Numpy](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) for MatLab users
   - [Instructions](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash) for adding git information to your bash prompt
 
 ## Past Events
+### 2019
+- [AMS 2019 Annual Meeting Short Course](events/ams2019.html) (6 January 2019 Phoenix, AZ)
+
 ### 2018
-- [Fall 2018 Unidata Workhop](events/unidata2018.md) (22-24 October 2018 Boulder, CO)
+- [Fall 2018 Unidata Workhop](events/unidata2018.html) (22-24 October 2018 Boulder, CO)
 - [San Jose St. University](events/sjsu2018.html) (4-5 October 2018 San Jose, CA)
 - [Jackson St. University](events/jackson2018.html) (30-31 August 2018 Jackson, MS)
 - [CSU](events/csu2018.html) (23-24 May 2018 Fort Collins, CO)
