@@ -8,7 +8,7 @@ skew.plot_dry_adiabats()
 skew.plot_moist_adiabats()
 
 # Add mixing ratio lines
-skew.plot_mixing_lines
+skew.plot_mixing_lines()
 
 # Redisplay figure
 fig
