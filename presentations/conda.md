@@ -30,8 +30,7 @@
 ## Creating environments
 - Create a simple testing environment: `conda create -n playground python=3`
 - Currently we are in the root environment: `conda env list`
-- Switch to the new environment: `(source) activate playground`
-  `source` is necessary on Mac and Linux only.
+- Switch to the new environment: `(source/conda) activate playground`
 - We're now in the playground environment: `conda env list`
 - Check the Python version: `python --version`
 - List what's installed in this environment: `conda list`
@@ -58,11 +57,11 @@
 - Now we can find MetPy and install it: `conda search metpy`
 
 ## Create an environment from a config
-- Let's go back to the root environment: `(source) deactivate`
+- Let's go back to the root environment: `(source/conda) deactivate`
 - Make sure we're in the workshop directory.
 - Create a new environment based what's in the `environment.yml` file: `conda env create`
 - Make sure our new environment is there: `conda env list`
-- Activate the new environment: `(source) activate unidata-workshop`
+- Activate the new environment: `(source/conda) activate unidata-workshop`
 
 ## Cleaning up
 - Conda stores a lot of information on your system. Tarballs, indexes, caches, etc.
