@@ -9,11 +9,11 @@ title:
 |  Time | Section                                      | Presenter   | Length |
 |-------|----------------------------------------------|-------------|--------|
 | 8:30 | Arrival and Introductions | All | 0:10 |
-| 8:40 | Setup User Systems and Conda | John | 0:40 |
+| 8:40 | Setup User Systems and Conda | TBD | 0:40 |
 | 9:20 | Jupyter Notebooks | TBD | 0:45 |
 | 10:05 | Coffee Break | N/A | 0:15 |
-| 10:20 | Introduction to Pandas | TBD | 0:45 |
-| 11:05 | Introduction to XArray | Ryan | 0:45 |
+| 10:20 | Introduction to NumPy | TBD | 0:45 |
+| 11:05 | Introduction to Matplotlib | Ryan | 0:45 |
 | 11:50 | Lunch (on your own) | N/A | 1:15 |
 | 13:05 | Introduction to MetPy | TBD | 0:30 |
 | 13:35 | Siphon for Remote Data Access | TBD | 0:45 |

@@ -22,6 +22,7 @@ to get a feel for what's in the workshop.
 
 ## Upcoming Events
 - [Python Workshop at Metropolitan State University](events/metro2019.html) (8 March 2019 Denver, CO)
+- [Regional Python Workshop at Valparaiso University](events/valpo2019.html) (14-16 March Valparaiso, IN)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
