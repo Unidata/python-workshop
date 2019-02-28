@@ -2,9 +2,9 @@
  channels:
    - conda-forge
  dependencies:
-   - python=3
+   - python>=3.6
    - numpy
-   - matplotlib=2
+   - matplotlib
    - cartopy=0.16
    - jupyter
    - jupyterlab
