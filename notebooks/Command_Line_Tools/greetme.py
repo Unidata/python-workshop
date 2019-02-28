@@ -12,4 +12,4 @@ parser.add_argument('--greeting', '-g', type=str, default='Hello,', help='Greeti
 args = parser.parse_args()
 
 # Print the greeting
-print('{} {}'.format(args.greeting, args.name))
+print(f'{args.greeting} {args.name}')

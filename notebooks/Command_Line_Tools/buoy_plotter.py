@@ -24,11 +24,11 @@ if __name__ == '__main__':
 
     print('Downloading data...')
     df = NDBC.latest_observations()
-    print('Complete. {} stations'.format(len(df)))
+    print(f'Complete. {len(df)} stations')
     print(df.columns)
     # Drop any rows with NaN for the data we want
     df.dropna(subset=[args.var], inplace=True)
-    print('{} stations with variable {}\nPlotting...'.format(len(df), args.var))
+    print(f'{len(df)} stations with variable {args.var}\nPlotting...')
     # Make an LCC map projection
     proj = ccrs.LambertConformal()
 
