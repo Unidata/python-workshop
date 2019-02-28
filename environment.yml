@@ -5,7 +5,7 @@
    - python>=3.6
    - numpy
    - matplotlib
-   - cartopy=0.16
+   - cartopy>=0.17
    - jupyter
    - jupyterlab
    - netcdf4
