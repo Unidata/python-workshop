@@ -10,10 +10,8 @@ channel = 8
 
 # Construct the data_url string
 data_url = ('https://thredds.ucar.edu/thredds/catalog/satellite'
-            '/goes16/GOES16/{region}/Channel{channel:02d}/'
-            '{dt:%Y%m%d}/catalog.xml'.format(region=region,
-                                             channel=channel,
-                                             dt=image_date))
+            f'/goes16/GOES16/{region}/Channel{channel:02d}/'
+            f'{image_date:%Y%m%d}/catalog.xml')
 
 # Print out your URL and verify it works!
 print(data_url)

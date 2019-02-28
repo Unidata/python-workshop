@@ -1,15 +1,23 @@
-fig = plt.figure(figsize=(10, 8))
-ax = fig.add_subplot(1, 1, 1, projection=proj)
+# Import for the bonus exercise
+from metpy.plots import add_timestamp
 
-# Plot the data using imshow
-ax.imshow(dat, origin='upper',
-          extent=(x.min(), x.max(), y.min(), y.max()))
+# Make the image plot
+img = ImagePlot()
+img.data = ds
+img.field = 'Sectorized_CMI'
+img.colormap = 'WVCIMSS_r'
 
-# Add country borders and states (use your favorite linestyle!)
-ax.add_feature(cfeature.BORDERS, linewidth=2, edgecolor='black')
-ax.add_feature(cfeature.STATES, linestyle=':', edgecolor='black')
+# Make the map panel and add the image to it
+panel = MapPanel()
+panel.plots = [img]
 
-# Bonus/Daily Double
-timestamp = datetime.strptime(ds.start_date_time, '%Y%j%H%M%S')
-add_timestamp(ax, timestamp, pretext='GOES-16 Ch.{} '.format(channel),
-              high_contrast=True, fontsize=16, y=0.01)
+# Make the panel container and add the panel to it
+pc = PanelContainer()
+pc.panels = [panel]
+
+# Bonus
+start_time = datetime.strptime(ds.start_date_time, '%Y%j%H%M%S')
+add_timestamp(panel.ax, time=start_time)
+
+# Show the plot
+pc.show()

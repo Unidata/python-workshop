@@ -2,10 +2,10 @@
  channels:
    - conda-forge
  dependencies:
-   - python=3
+   - python>=3.6
    - numpy
-   - matplotlib=2
-   - cartopy=0.16
+   - matplotlib
+   - cartopy>=0.17
    - jupyter
    - jupyterlab
    - netcdf4
