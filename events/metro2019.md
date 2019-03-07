@@ -13,10 +13,10 @@ title:
 | 9:20 | Jupyter Notebooks | Sean | 0:45 |
 | 10:05 | Coffee Break | N/A | 0:15 |
 | 10:20 | Introduction to NumPy | Sean | 0:45 |
-| 11:05 | Introduction to Matplotlib | Ryan | 0:45 |
+| 11:05 | Introduction to Matplotlib | Howard | 0:45 |
 | 11:50 | Lunch (on your own) | N/A | 1:15 |
 | 13:05 | Introduction to MetPy | Ryan | 0:30 |
-| 13:35 | Siphon for Remote Data Access | Howard/Sean | 0:45 |
+| 13:35 | Siphon for Remote Data Access | Sean | 0:45 |
 | 14:20 | Coffee Break | N/A | 0:15 |
 | 14:35 | Skew-T Data Analysis | Ryan | 0:45 |
 | 15:20 | Working with Satellite Data | Ryan | 0:45 |
