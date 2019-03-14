@@ -3,10 +3,10 @@ title:
 ---
 # 2019 Regional Python Workshop at Valparaiso University
 
-- **When**: 14-16 March 2019
+- **When**: TBD
 - **Where**: Valparaiso, Indiana
 
-## Thursday, March 14th
+## Day 1
 
 |  Time | Section                                      | Presenter   | Length |
 |-------|----------------------------------------------|-------------|--------|
@@ -24,7 +24,7 @@ title:
 | 15:55 | [Introduction to siphon](https://github.com/Unidata/python-workshop/blob/unidata18/notebooks/Siphon/Siphon%20Overview.ipynb) | Ryan | 0:30 |
 | 16:25 | End of Day |  |
 
-## Friday, March 15th
+## Day 2
 
 |  Time | Section                                      | Presenter   | Length |
 |-------|----------------------------------------------|-------------|--------|
@@ -39,7 +39,7 @@ title:
 | 15:25 | [Time Series Analysis of Buoy Data](https://github.com/Unidata/python-workshop/blob/unidata18/notebooks/Time_Series/Basic%20Time%20Series%20Plotting.ipynb) | John | 1:00 |
 | 16:25 | End of Day |  |
 
-## Saturday, March 16th
+## Day 3
 
 |  Time | Section                                      | Presenter   | Length |
 |-------|----------------------------------------------|-------------|--------|
