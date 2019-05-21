@@ -21,7 +21,8 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- [Regional Python Workshop at Valparaiso University](events/valpo2019.html) (Dates TBD Valparaiso, IN)
+- [Regional Python Workshop at SUNY Albany](events/albany2019.html) (29-30 May Albany, NY)
+- [Regional Python Workshop at Valparaiso University](events/valpo2019.html) (12-14 August Valparaiso, IN)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
