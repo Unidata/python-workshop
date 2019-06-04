@@ -29,12 +29,13 @@ title:
 |  Time | Section                                      | Presenter   | Length |
 |-------|----------------------------------------------|-------------|--------|
 | 9:00 | [Pythonic Data Analysis](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/Pythonic_Data_Analysis/Pythonic%20Data%20Analysis.ipynb) | Max | 1:30 |
-| 10:30 | Break | N/A | 0:10 |
-| 10:40 | [Making Maps with Cartopy](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/CartoPy/CartoPy.ipynb) | Ryan | 1:00 |
-| 11:40 | Lunch | NA | 1:15 |
-| 12:55 | [Working with Satellite Data](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/Satellite_Data/Working%20with%20Satellite%20Data.ipynb) | Max | 1:00 |
-| 13:55 | Break | N/A | 0:15 |
-| 14:10 | [Model Output](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/Model_Output/Downloading%20model%20fields%20with%20NCSS.ipynb) | Max | 1:00 |
+| 10:20 | Break | N/A | 0:10 |
+| 10:30 | [Making Maps with Cartopy](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/CartoPy/CartoPy.ipynb) | Ryan | 0:40 |
+| 11:10 | [Plotting SkewTs with MetPy](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/Skew_T/SkewT_and_Hodograph.ipynb) | Ryan | 0:50 |
+| 12:00 | Lunch | NA | 1:15 |
+| 13:15 | [Working with Satellite Data](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/Satellite_Data/Working%20with%20Satellite%20Data.ipynb) | Max | 1:00 |
+| 14:15 | Break | N/A | 0:15 |
+| 14:30 | [Model Output](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/Model_Output/Downloading%20model%20fields%20with%20NCSS.ipynb) | Max | 0:40 |
 | 15:10 | Break | N/A | 0:15 |
-| 15:25 | [Time Series Analysis of Buoy Data](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/Time_Series/Basic%20Time%20Series%20Plotting.ipynb) | Ryan | 1:00 |
-| 16:25 | End of Day |  |
+| 15:25 | [QG Analysis with MetPy](https://github.com/Unidata/python-workshop/blob/albany2019/notebooks/MetPy_Advanced/QG%20Analysis.ipynb) | Ryan | 1:15 |
+| 16:40 | End of Day |  |
