@@ -30,6 +30,6 @@ ax.barbs(lons.m, lats.m, uwnd_700s.to('kts').m, vwnd_700s.to('kts').m,
 # Titles
 plt.title('700-hPa Geopotential Heights, Temperature (C),\n'
           'Winds (kt), and QG Omega Forcings ($*10^{12}$ kg m$^{-3}$ s$^{-3}$)',loc='left')
-plt.title('VALID: %s' %(vtime),loc='right')
+plt.title('VALID: ' + vtime_str, loc='right')
 
 plt.show()
