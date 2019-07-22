@@ -11,8 +11,6 @@ title:
 |  Time | Section                                      | Presenter   | Length |
 |-------|----------------------------------------------|-------------|--------|
 | 9:00 | Introductions and Overview | All | 0:10 |
-| 9:10 | [Conda](https://github.com/Unidata/python-workshop/blob/master/presentations/10_Minutes_to_Conda.pdf) | Ryan | 0:20 |
-| 9:30 | [Jupyter](https://github.com/Unidata/python-workshop/blob/master/notebooks/Jupyter_Notebooks/Jupyter%20Notebooks%20Introduction.ipynb) | Zach | 1:00 |
 | 10:30 | Break | N/A | 0:10 |
 | 10:40 | [Introduction to Numpy](https://github.com/Unidata/python-workshop/blob/master/notebooks/NumPy/Numpy%20Basics.ipynb) | Ryan | 1:00 |
 | 11:40 | Lunch | N/A | 1:15 |

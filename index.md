@@ -28,6 +28,7 @@ to get a feel for what's in the workshop.
   is an excellent primer on Python before diving into this workshop
 - Jake VanderPlas' excellent [Whirlwind Tour of Python](http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb)
   is also a good place to look to get started
+- To learn more about conda and environments, please check out this [Carpentry-style tutorial](https://kaust-vislab.github.io/introduction-to-conda-for-data-scientists/)
 - Documentation for packages used:
   - [MetPy](https://unidata.github.io/MetPy/)
   - [Siphon](https://unidata.github.io/siphon/)
