@@ -26,13 +26,11 @@ isen_v = isen_v.squeeze()
 # Create Plot -- same as before
 fig = plt.figure(figsize=(14, 8))
 ax = fig.add_subplot(1, 1, 1, projection=ccrs.LambertConformal(central_longitude=-100))
-ax.coastlines()
-
 
 levels = np.arange(300, 1000, 25)
-cntr = ax.contour(lon, lat, isen_press, transform=ccrs.PlateCarree(),
+cntr = ax.contour(lon, lat, isen_press, transform=data_proj,
                   colors='black', levels=levels)
-ax.clabel(cntr, fmt='%d')
+cntr.clabel(fmt='%d')
 
 
 lon_slice = slice(None, None, 8)
@@ -40,12 +38,12 @@ lat_slice = slice(None, None, 8)
 ax.barbs(lon[lon_slice], lat[lat_slice],
          isen_u[lat_slice, lon_slice].to('knots').magnitude,
          isen_v[lat_slice, lon_slice].to('knots').magnitude,
-         transform=ccrs.PlateCarree(), zorder=2)
+         transform=data_proj, zorder=2)
 
 
 # Contourf the mixing ratio values
 mixing_levels = [0.001, 0.002, 0.004, 0.006, 0.010, 0.012, 0.014, 0.016, 0.020]
-ax.contourf(lon, lat, isen_mixing, transform=ccrs.PlateCarree(),
+ax.contourf(lon, lat, isen_mixing, transform=data_proj,
             levels=mixing_levels, cmap='YlGn')
 
 
@@ -56,4 +54,4 @@ ax.add_feature(cfeature.BORDERS, linewidth=2)
 ax.add_feature(cfeature.STATES, linestyle=':')
 
 
-ax.set_extent((-120, -70, 25, 55), crs=ccrs.PlateCarree())
+ax.set_extent((-120, -70, 25, 55), crs=data_proj)
