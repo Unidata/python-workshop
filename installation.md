@@ -64,3 +64,5 @@ on the Mac).
 * Run the command `conda env create` and wait for the installation to finish.
 * Run the command `conda activate unidata` to activate the unidata environment and
   verify that everything is ready.
+* For an in-depth tutorial on conda and environments, check out this 
+  [Carpentry-style tutorial](https://kaust-vislab.github.io/introduction-to-conda-for-data-scientists/).
