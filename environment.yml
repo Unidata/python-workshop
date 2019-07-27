@@ -11,7 +11,7 @@
    - netcdf4
    - owslib
    - metpy
-   - pint<=0.8.1
+   - pint
    - shapely
    - siphon
    - xarray
