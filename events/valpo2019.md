@@ -11,7 +11,7 @@ title:
 |  Time | Section                                      | Presenter   | Length |
 |-------|----------------------------------------------|-------------|--------|
 | 9:00 | Introductions and Overview | All | 0:10 |
-| 9:10 | Python Ecosystem | Zach | 0:20 |
+| 9:10 | [The Scientific Python Ecosystem](https://github.com/Unidata/python-workshop/blob/master/notebooks/Python_Ecosystem/Scientific_Python_Ecosystem_Overview.ipynb) | Zach | 0:20 |
 | 9:30 | [Introduction to Numpy](https://github.com/Unidata/python-workshop/blob/master/notebooks/NumPy/Numpy%20Basics.ipynb) | Ryan | 1:00 |
 | 10:30 | Break | N/A | 0:10 |
 | 10:40 | [Introduction to Pandas](https://github.com/Unidata/python-workshop/blob/master/notebooks/Pandas/Pandas%20Introduction.ipynb) | Zach | 1:15 |
