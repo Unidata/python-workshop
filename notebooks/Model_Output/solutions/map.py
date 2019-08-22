@@ -31,7 +31,7 @@ ax.contour(longitude, latitude, height_var[time_index].squeeze(), contours, colo
 ax.set_title(temp_var.metpy.time[time_index].values)
 
 # add some common geographic features
-ax.add_feature(cfeature.COASTLINES)
+ax.add_feature(cfeature.COASTLINE)
 ax.add_feature(cfeature.STATES, edgecolor='black')
 ax.add_feature(cfeature.BORDERS)
 
