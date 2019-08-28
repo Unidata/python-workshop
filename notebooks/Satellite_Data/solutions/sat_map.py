@@ -12,7 +12,7 @@ ax.add_feature(cfeature.BORDERS.with_scale('50m'), linewidth=2, edgecolor='black
 
 im = ax.imshow(dat, extent=(x.min(), x.max(), y.min(), y.max()), origin='upper')
 
-wv_cmap = registry.get_colortable('WVCIMSS_r')
+wv_cmap = colortables.get_colortable('WVCIMSS_r')
 im.set_cmap(wv_cmap)
 
 #Bonus
