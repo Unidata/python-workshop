@@ -3,7 +3,7 @@ fig=plt.figure(1, figsize=(15.,12.))
 # Upper-Left Panel
 ax=plt.subplot(111,projection=plotproj)
 ax.set_extent([-125.,-73,25.,50.],ccrs.PlateCarree())
-ax.coastlines('50m', linewidth=0.75)
+ax.add_feature(cfeature.COASTLINE, linewidth=0.5)
 ax.add_feature(cfeature.STATES,linewidth=0.5)
 
 # Contour #1
