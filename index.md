@@ -21,6 +21,7 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
+- [Texas Tech Intermediate Python Workshop](events/ttu2019.html) (23-25 October 2019 Lubbock, TX)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
