@@ -21,7 +21,6 @@ You can also just view the notebooks on
 to get a feel for what's in the workshop.
 
 ## Upcoming Events
-- [Regional Python Workshop at Valparaiso University](events/valpo2019.html) (12-14 August Valparaiso, IN)
 
 ## Documentation and Resources
 - New to Python? Unidata's [Online Python Training](https://unidata.github.io/online-python-training/)
@@ -55,6 +54,7 @@ to get a feel for what's in the workshop.
 
 ## Past Events
 ### 2019
+- [Regional Python Workshop at Valparaiso University](events/valpo2019.html) (12-14 August Valparaiso, IN)
 - [Regional Python Workshop at SUNY Albany](events/albany2019.html) (29-30 May Albany, NY)
 - [Python Workshop at Metropolitan State University](events/metro2019.html) (8 March 2019 Denver, CO)
 - [AMS 2019 Annual Meeting Short Course](events/ams2019.html) (6 January 2019 Phoenix, AZ)
