@@ -16,7 +16,7 @@ for col, var_names in enumerate(plot_variables):
         ax.plot(df.time, df[var_name], **style)
 
     ax.set_ylabel(title)
-    ax.set_title('Buoy 41056 {}'.format(title))
+    ax.set_title('Buoy 42039 {}'.format(title))
 
     ax.grid(True)
     ax.set_xlabel('Time')
