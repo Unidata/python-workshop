@@ -1,4 +1,4 @@
-xy = proj.transform_points(ccrs.PlateCarree(), tx_data['Long'].values, tx_data['Lat'].values)
+xy = proj.transform_points(ccrs.PlateCarree(), tx_one_time['Long'].values, tx_one_time['Lat'].values)
 tx_mask = mpcalc.reduce_point_density(xy, 50000)
 
 #Plot
@@ -18,8 +18,8 @@ stationplot.plot_parameter('SW', ok_dewpoint[ok_mask], color='green')
 stationplot.plot_barb(ok_u[ok_mask], ok_v[ok_mask])
 
 # Texas Data
-stationplot = StationPlot(ax, tx_data['Long'].values[tx_mask], tx_data['Lat'].values[tx_mask], transform=ccrs.PlateCarree(),
+stationplot = StationPlot(ax, tx_one_time['Long'].values[tx_mask], tx_one_time['Lat'].values[tx_mask], transform=ccrs.PlateCarree(),
                           fontsize=10)
-stationplot.plot_parameter('NW', tx_data['2m_temperature'][tx_mask], color='red')
-stationplot.plot_parameter('SW', tx_data['dewpoint'][tx_mask], color='green')
+stationplot.plot_parameter('NW', tx_one_time['2m_temperature'][tx_mask], color='red')
+stationplot.plot_parameter('SW', tx_one_time['dewpoint'][tx_mask], color='green')
 stationplot.plot_barb(tx_u[tx_mask], tx_v[tx_mask])
