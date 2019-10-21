@@ -1,3 +1,3 @@
-print(df.groupby('station').min())
-print(df.groupby('station').max())
-print(df.groupby('station').std())
+print(df.groupby('station').temperature.min())
+print(df.groupby('station').temperature.max())
+print(df.groupby('station').temperature.std())
